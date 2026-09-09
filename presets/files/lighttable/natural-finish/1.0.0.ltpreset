@@ -1,0 +1,43 @@
+{
+  "format": "LightTable Preset",
+  "version": 3,
+  "presets": [
+    {
+      "id": "lighttable/natural-finish",
+      "name": "Natural Finish",
+      "version": "1.0.0",
+      "source": "lighttable",
+      "presetType": "style",
+      "scope": "look",
+      "filmMode": "off",
+      "includeFilm": false,
+      "grade": {
+        "contrast": 0.08,
+        "highlights": -0.08,
+        "shadows": 0.05,
+        "vibrance": 0.08
+      },
+      "includedGrade": [
+        "contrast",
+        "highlights",
+        "shadows",
+        "vibrance"
+      ],
+      "params": {},
+      "includedFilm": [],
+      "description": "Gentle contrast and clear color for everyday photographs.",
+      "tags": [
+        "Everyday",
+        "Travel"
+      ],
+      "author": {
+        "name": "LightTable",
+        "url": "https://lighttable.app/"
+      },
+      "license": "CC0-1.0",
+      "masks": [],
+      "heals": [],
+      "optics": {}
+    }
+  ]
+}

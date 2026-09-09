@@ -1,0 +1,84 @@
+name: Submit or update a preset
+description: Share an original LightTable look and example photographs for review.
+title: 'Preset submission: '
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing a look. Submissions are reviewed before publication.
+        Your recipe uses CC0; photographs retain separate display rights. Do not include private metadata or original RAW files.
+  - type: input
+    id: name
+    attributes:
+      label: Preset name
+      description: For an update, keep the existing name and include its page below.
+    validations:
+      required: true
+  - type: input
+    id: existing
+    attributes:
+      label: Existing preset page or original preset credit
+      description: If updating or adapting a preset, link the current page and credit its creator.
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the look
+      description: What does it do, and which photographs does it work well on? Include suggested styles or subjects and any limitations.
+    validations:
+      required: true
+  - type: input
+    id: creator
+    attributes:
+      label: Creator name and optional public website
+      description: This credit will appear in the app and gallery.
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: LightTable version
+      description: The version used to create and test the preset.
+    validations:
+      required: true
+  - type: dropdown
+    id: film
+    attributes:
+      label: Film behavior
+      options:
+        - Enables Film
+        - Disables Film
+        - Keeps the existing Film setting
+    validations:
+      required: true
+  - type: textarea
+    id: files
+    attributes:
+      label: Preset and before-and-after examples
+      description: Attach one native .ltpreset file (inside a ZIP if GitHub requires it) and 1–3 matching before/after JPEG, PNG, or WebP pairs, up to 2 MB per image. Label each pair. Do not attach original RAW files.
+    validations:
+      required: true
+  - type: textarea
+    id: image-credit
+    attributes:
+      label: Photograph credit and permission
+      description: For every example, identify the photographer, source URL if available, and license. For your own photos, say that you own them and authorize LightTable to display and distribute these previews in the gallery and app with your credit. Ownership of your original photos remains yours.
+    validations:
+      required: true
+  - type: textarea
+    id: testing
+    attributes:
+      label: Testing
+      description: Describe the photographs and lighting where you tested the preset, and any known weaknesses.
+    validations:
+      required: true
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Publishing permissions
+      options:
+        - label: I created this recipe or have the right to release it under CC0, allowing use, changes, and redistribution.
+          required: true
+        - label: I own the example photographs or have permission for LightTable to display and distribute these previews in the website and app with the stated credit.
+          required: true
+        - label: I removed location, camera serial, and other private metadata, and have the necessary permission from identifiable people in my examples.
+          required: true

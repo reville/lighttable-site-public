@@ -1,0 +1,726 @@
+{
+  "schema": 1,
+  "defaultPlatform": "macos",
+  "platforms": {
+    "macos": {
+      "label": "macOS",
+      "images": {
+        "film-controls": {
+          "src": "screenshots/film-controls.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/film-controls-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/film-controls-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/film-controls-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "editor": {
+          "src": "screenshots/editor.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/editor-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/editor-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/editor-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "crop-and-rotate": {
+          "src": "screenshots/crop-and-rotate.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/crop-and-rotate-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/crop-and-rotate-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/crop-and-rotate-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "local-masks": {
+          "src": "screenshots/local-masks.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/local-masks-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/local-masks-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/local-masks-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "remove": {
+          "src": "screenshots/remove.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/remove-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/remove-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/remove-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "lens-and-geometry": {
+          "src": "screenshots/lens-and-geometry.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/lens-and-geometry-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/lens-and-geometry-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/lens-and-geometry-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "before-after": {
+          "src": "screenshots/before-after.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/before-after-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/before-after-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/before-after-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "photo-info": {
+          "src": "screenshots/photo-info.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/photo-info-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/photo-info-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/photo-info-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "history": {
+          "src": "screenshots/history.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/history-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/history-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/history-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "export-workflow": {
+          "src": "screenshots/export-workflow.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/export-workflow-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/export-workflow-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/export-workflow-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "hero-film": {
+          "src": "screenshots/hero-film.webp",
+          "width": 1660,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/hero-film-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/hero-film-1500w.webp",
+              "width": 1500
+            }
+          ]
+        },
+        "detail-film": {
+          "src": "screenshots/detail-film.webp",
+          "width": 632,
+          "height": 836,
+          "variants": []
+        },
+        "detail-masks": {
+          "src": "screenshots/detail-masks.webp",
+          "width": 632,
+          "height": 1096,
+          "variants": []
+        },
+        "detail-export": {
+          "src": "screenshots/detail-export.webp",
+          "width": 1104,
+          "height": 1444,
+          "variants": []
+        },
+        "detail-editor": {
+          "src": "screenshots/detail-editor.webp",
+          "width": 632,
+          "height": 996,
+          "variants": []
+        },
+        "detail-photo-info": {
+          "src": "screenshots/detail-photo-info.webp",
+          "width": 632,
+          "height": 724,
+          "variants": []
+        }
+      }
+    },
+    "windows": {
+      "label": "Windows",
+      "images": {
+        "film-controls": {
+          "src": "screenshots/windows/film-controls.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/windows/film-controls-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/windows/film-controls-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/windows/film-controls-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "editor": {
+          "src": "screenshots/windows/editor.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/windows/editor-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/windows/editor-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/windows/editor-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "crop-and-rotate": {
+          "src": "screenshots/windows/crop-and-rotate.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/windows/crop-and-rotate-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/windows/crop-and-rotate-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/windows/crop-and-rotate-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "local-masks": {
+          "src": "screenshots/windows/local-masks.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/windows/local-masks-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/windows/local-masks-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/windows/local-masks-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "remove": {
+          "src": "screenshots/windows/remove.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/windows/remove-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/windows/remove-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/windows/remove-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "lens-and-geometry": {
+          "src": "screenshots/windows/lens-and-geometry.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/windows/lens-and-geometry-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/windows/lens-and-geometry-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/windows/lens-and-geometry-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "before-after": {
+          "src": "screenshots/windows/before-after.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/windows/before-after-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/windows/before-after-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/windows/before-after-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "photo-info": {
+          "src": "screenshots/windows/photo-info.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/windows/photo-info-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/windows/photo-info-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/windows/photo-info-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "history": {
+          "src": "screenshots/windows/history.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/windows/history-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/windows/history-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/windows/history-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "export-workflow": {
+          "src": "screenshots/windows/export-workflow.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/windows/export-workflow-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/windows/export-workflow-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/windows/export-workflow-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "hero-film": {
+          "src": "screenshots/windows/hero-film.webp",
+          "width": 1660,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/windows/hero-film-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/windows/hero-film-1500w.webp",
+              "width": 1500
+            }
+          ]
+        },
+        "detail-film": {
+          "src": "screenshots/windows/detail-film.webp",
+          "width": 632,
+          "height": 920,
+          "variants": []
+        },
+        "detail-masks": {
+          "src": "screenshots/windows/detail-masks.webp",
+          "width": 632,
+          "height": 1300,
+          "variants": []
+        },
+        "detail-export": {
+          "src": "screenshots/windows/detail-export.webp",
+          "width": 1104,
+          "height": 1444,
+          "variants": []
+        },
+        "detail-editor": {
+          "src": "screenshots/windows/detail-editor.webp",
+          "width": 632,
+          "height": 1080,
+          "variants": []
+        },
+        "detail-photo-info": {
+          "src": "screenshots/windows/detail-photo-info.webp",
+          "width": 632,
+          "height": 908,
+          "variants": []
+        }
+      }
+    },
+    "linux": {
+      "label": "Linux",
+      "images": {
+        "film-controls": {
+          "src": "screenshots/linux/film-controls.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/linux/film-controls-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/linux/film-controls-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/linux/film-controls-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "editor": {
+          "src": "screenshots/linux/editor.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/linux/editor-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/linux/editor-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/linux/editor-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "crop-and-rotate": {
+          "src": "screenshots/linux/crop-and-rotate.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/linux/crop-and-rotate-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/linux/crop-and-rotate-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/linux/crop-and-rotate-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "local-masks": {
+          "src": "screenshots/linux/local-masks.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/linux/local-masks-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/linux/local-masks-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/linux/local-masks-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "remove": {
+          "src": "screenshots/linux/remove.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/linux/remove-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/linux/remove-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/linux/remove-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "lens-and-geometry": {
+          "src": "screenshots/linux/lens-and-geometry.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/linux/lens-and-geometry-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/linux/lens-and-geometry-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/linux/lens-and-geometry-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "before-after": {
+          "src": "screenshots/linux/before-after.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/linux/before-after-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/linux/before-after-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/linux/before-after-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "photo-info": {
+          "src": "screenshots/linux/photo-info.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/linux/photo-info-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/linux/photo-info-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/linux/photo-info-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "history": {
+          "src": "screenshots/linux/history.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/linux/history-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/linux/history-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/linux/history-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "export-workflow": {
+          "src": "screenshots/linux/export-workflow.webp",
+          "width": 3320,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/linux/export-workflow-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/linux/export-workflow-1500w.webp",
+              "width": 1500
+            },
+            {
+              "src": "screenshots/linux/export-workflow-3000w.webp",
+              "width": 3000
+            }
+          ]
+        },
+        "hero-film": {
+          "src": "screenshots/linux/hero-film.webp",
+          "width": 1660,
+          "height": 2000,
+          "variants": [
+            {
+              "src": "screenshots/linux/hero-film-750w.webp",
+              "width": 750
+            },
+            {
+              "src": "screenshots/linux/hero-film-1500w.webp",
+              "width": 1500
+            }
+          ]
+        },
+        "detail-film": {
+          "src": "screenshots/linux/detail-film.webp",
+          "width": 632,
+          "height": 828,
+          "variants": []
+        },
+        "detail-masks": {
+          "src": "screenshots/linux/detail-masks.webp",
+          "width": 632,
+          "height": 1096,
+          "variants": []
+        },
+        "detail-export": {
+          "src": "screenshots/linux/detail-export.webp",
+          "width": 1104,
+          "height": 1444,
+          "variants": []
+        },
+        "detail-editor": {
+          "src": "screenshots/linux/detail-editor.webp",
+          "width": 632,
+          "height": 1088,
+          "variants": []
+        },
+        "detail-photo-info": {
+          "src": "screenshots/linux/detail-photo-info.webp",
+          "width": 632,
+          "height": 840,
+          "variants": []
+        }
+      }
+    }
+  }
+}

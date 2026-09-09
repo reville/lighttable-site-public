@@ -1,0 +1,47 @@
+{
+  "format": "LightTable Preset",
+  "version": 3,
+  "presets": [
+    {
+      "id": "lighttable/crisp-landscape",
+      "name": "Crisp Landscape",
+      "version": "1.0.0",
+      "source": "lighttable",
+      "presetType": "style",
+      "scope": "look",
+      "filmMode": "off",
+      "includeFilm": false,
+      "grade": {
+        "contrast": 0.12,
+        "highlights": -0.1,
+        "shadows": 0.08,
+        "vibrance": 0.12,
+        "clarity": 0.08,
+        "dehaze": 0.06
+      },
+      "includedGrade": [
+        "contrast",
+        "highlights",
+        "shadows",
+        "vibrance",
+        "clarity",
+        "dehaze"
+      ],
+      "params": {},
+      "includedFilm": [],
+      "description": "Clear separation and controlled color for landscapes and architecture.",
+      "tags": [
+        "Landscape",
+        "Travel"
+      ],
+      "author": {
+        "name": "LightTable",
+        "url": "https://lighttable.app/"
+      },
+      "license": "CC0-1.0",
+      "masks": [],
+      "heals": [],
+      "optics": {}
+    }
+  ]
+}

@@ -1,0 +1,518 @@
+{
+  "schema": 2,
+  "appRevision": "624770ce309d51827071afda3ecf6a65f3b7cb49",
+  "sourceDirty": false,
+  "capturedAt": "2026-09-08T16:25:26.518527+00:00",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "capture": {
+    "count": 10,
+    "platform": "Linux",
+    "width": 3320,
+    "viewportWidth": 1660,
+    "viewportHeight": 1000,
+    "deviceScaleFactor": 2,
+    "previewWidth": 3000,
+    "responsiveWidths": [
+      750,
+      1500,
+      3000
+    ],
+    "settleSeconds": 1.25
+  },
+  "captureMethod": "Actual GTK/WebKitGTK Linux application windows, excluding window-manager decorations; X11/Xvfb with native GDK scale 2 and Adwaita dark theme; CPU/software graphics; lossless WebP masters with sRGB profile, no upscaling",
+  "captureHost": {
+    "distribution": {
+      "NAME": "Ubuntu",
+      "ID": "ubuntu",
+      "PRETTY_NAME": "Ubuntu 24.04.4 LTS",
+      "VERSION_ID": "24.04",
+      "VERSION": "24.04.4 LTS (Noble Numbat)",
+      "VERSION_CODENAME": "noble",
+      "ID_LIKE": "debian",
+      "HOME_URL": "https://www.ubuntu.com/",
+      "SUPPORT_URL": "https://help.ubuntu.com/",
+      "BUG_REPORT_URL": "https://bugs.launchpad.net/ubuntu/",
+      "PRIVACY_POLICY_URL": "https://www.ubuntu.com/legal/terms-and-policies/privacy-policy",
+      "UBUNTU_CODENAME": "noble",
+      "LOGO": "ubuntu-logo"
+    },
+    "architecture": "aarch64"
+  },
+  "sourceCollection": "LightTable CC0 RAW demo collection",
+  "shotCount": 10,
+  "build": {
+    "version": "0.1.0-website",
+    "source_revision": "624770ce309d51827071afda3ecf6a65f3b7cb49",
+    "source_dirty": false,
+    "architecture": "aarch64",
+    "experimental_architecture": true,
+    "platform": "linux",
+    "build_distribution": {
+      "NAME": "Ubuntu",
+      "ID": "ubuntu",
+      "PRETTY_NAME": "Ubuntu 24.04.4 LTS",
+      "VERSION_ID": "24.04",
+      "VERSION": "24.04.4 LTS (Noble Numbat)",
+      "VERSION_CODENAME": "noble",
+      "ID_LIKE": "debian",
+      "HOME_URL": "https://www.ubuntu.com/",
+      "SUPPORT_URL": "https://help.ubuntu.com/",
+      "BUG_REPORT_URL": "https://bugs.launchpad.net/ubuntu/",
+      "PRIVACY_POLICY_URL": "https://www.ubuntu.com/legal/terms-and-policies/privacy-policy",
+      "UBUNTU_CODENAME": "noble",
+      "LOGO": "ubuntu-logo"
+    },
+    "runtime": {
+      "python_version": "3.13.12",
+      "python_key": "cpython-3.13.12-linux-aarch64-gnu",
+      "uv_version": "0.11.28",
+      "rust_version": "1.88.0",
+      "target": "aarch64-unknown-linux-gnu",
+      "python_source_revision": "3bb2c2d2801ff68b92019cf1dbcbb133d60832bc",
+      "rust_source_revision": "9dd59b0380194b93686aaa230a8bb9680aa270a4"
+    },
+    "runtime_requirements_sha256": "ccffd55ae289fc3c80630b2f958ef87304fa4c8cf382d6af29530dde4675a447"
+  },
+  "shots": [
+    {
+      "id": "film-controls",
+      "source": "20-fujifilm-x-t30-iii-desert-rocks.RAF",
+      "subject": "desert rock formations",
+      "sourceSha256": "1910b95422240f97781fa3296d67a56cc8f62de63144ac11cbf4267a11278042",
+      "backend": "webgl",
+      "capturedAt": "2026-09-08T16:21:59.610561+00:00",
+      "nativeWindow": {
+        "toolkit": "GTK/WebKitGTK",
+        "display": "X11/Xvfb",
+        "gdkScale": 2,
+        "theme": "Adwaita:dark",
+        "windowOnly": true,
+        "windowManagerDecorations": false
+      },
+      "asset": "film-controls.webp",
+      "width": 3320,
+      "height": 2000,
+      "sha256": "dfed4a4f97d906ca65cf096282ee4eb6744b3ebc01ed07b821bc5d23fce31907",
+      "bytes": 4142060,
+      "variants": [
+        {
+          "asset": "film-controls-750w.webp",
+          "width": 750,
+          "height": 452,
+          "sha256": "a5e12bba9861d8f2b912fa594dafdd5d16bea1ee6d818ded33cf0674191fe978",
+          "bytes": 266476
+        },
+        {
+          "asset": "film-controls-1500w.webp",
+          "width": 1500,
+          "height": 904,
+          "sha256": "a0c342fdcecffb3cab171c42e7f7ad04a3ff91bad55316af92d6fe9b5256d003",
+          "bytes": 1058564
+        },
+        {
+          "asset": "film-controls-3000w.webp",
+          "width": 3000,
+          "height": 1807,
+          "sha256": "94416ba3383f563cbeaf0a446f1e484b8b3386378a2881483159c7016cbd891e",
+          "bytes": 3678314
+        }
+      ]
+    },
+    {
+      "id": "editor",
+      "source": "03-fujifilm-xq2-harbor-ferry.RAF",
+      "subject": "harbor ferry",
+      "sourceSha256": "4bce88593f5ae8fc45aeeec8a6dee9a84c773493cc6db9dabdc28744c8ac4b4d",
+      "backend": "webgl",
+      "capturedAt": "2026-09-08T16:22:32.073238+00:00",
+      "nativeWindow": {
+        "toolkit": "GTK/WebKitGTK",
+        "display": "X11/Xvfb",
+        "gdkScale": 2,
+        "theme": "Adwaita:dark",
+        "windowOnly": true,
+        "windowManagerDecorations": false
+      },
+      "asset": "editor.webp",
+      "width": 3320,
+      "height": 2000,
+      "sha256": "c9e5284beb41128cfbd4e596571636193e11add6c27ed893763a8bd89f38f32a",
+      "bytes": 3007318,
+      "variants": [
+        {
+          "asset": "editor-750w.webp",
+          "width": 750,
+          "height": 452,
+          "sha256": "355cb6f63e3e067961f2831f4b30fbf97e02f7fb97ba1840448800aae6b3e1f1",
+          "bytes": 233502
+        },
+        {
+          "asset": "editor-1500w.webp",
+          "width": 1500,
+          "height": 904,
+          "sha256": "9079e6c1ca1a875df664e94e25e3b0d45f603c403e9d11f241628981e943db5e",
+          "bytes": 837926
+        },
+        {
+          "asset": "editor-3000w.webp",
+          "width": 3000,
+          "height": 1807,
+          "sha256": "320ccc4790e4c2621a90fb27b823645376eccb0dea96f58b2d0a2b457d514d4c",
+          "bytes": 2724482
+        }
+      ]
+    },
+    {
+      "id": "crop-and-rotate",
+      "source": "13-fujifilm-x100vi-stone-church.RAF",
+      "subject": "stone church",
+      "sourceSha256": "7f19c7c5914542b91829ac2e41c8d4c10e414b28b0f7a793001e1a979c8c6056",
+      "backend": "webgl",
+      "capturedAt": "2026-09-08T16:22:48.528860+00:00",
+      "nativeWindow": {
+        "toolkit": "GTK/WebKitGTK",
+        "display": "X11/Xvfb",
+        "gdkScale": 2,
+        "theme": "Adwaita:dark",
+        "windowOnly": true,
+        "windowManagerDecorations": false
+      },
+      "asset": "crop-and-rotate.webp",
+      "width": 3320,
+      "height": 2000,
+      "sha256": "6d28f1d0f6a340a0ec49ecd9eb98c1e47f1efcdf764fcf8ee89b847ba5c33a5d",
+      "bytes": 1804992,
+      "variants": [
+        {
+          "asset": "crop-and-rotate-750w.webp",
+          "width": 750,
+          "height": 452,
+          "sha256": "a1ea106b2bfcf9b0512f5448ba33dfdf31425b084bd0a5f64c9b9380241c6472",
+          "bytes": 140816
+        },
+        {
+          "asset": "crop-and-rotate-1500w.webp",
+          "width": 1500,
+          "height": 904,
+          "sha256": "91e311a88b8cf2d59323461b09936469e0e1fb2be4a548c6ef356db11570f6c5",
+          "bytes": 494808
+        },
+        {
+          "asset": "crop-and-rotate-3000w.webp",
+          "width": 3000,
+          "height": 1807,
+          "sha256": "727293cedaae8f36bc414cf7531009a8a1a62e60d8c609774a49b20de242a22e",
+          "bytes": 1672442
+        }
+      ]
+    },
+    {
+      "id": "local-masks",
+      "source": "09-google-pixel-7-pro-succulents.DNG",
+      "subject": "succulent plants",
+      "sourceSha256": "6b921558944db5fdb4f1c63dc64919b6666ef700857a187e18500099c6e7c6c6",
+      "backend": "webgl",
+      "capturedAt": "2026-09-08T16:23:11.380422+00:00",
+      "nativeWindow": {
+        "toolkit": "GTK/WebKitGTK",
+        "display": "X11/Xvfb",
+        "gdkScale": 2,
+        "theme": "Adwaita:dark",
+        "windowOnly": true,
+        "windowManagerDecorations": false
+      },
+      "asset": "local-masks.webp",
+      "width": 3320,
+      "height": 2000,
+      "sha256": "af48c16302f5a4ea406a83c2b29790bc795c268b2249d8c2326d3fe0b18a64b5",
+      "bytes": 2045882,
+      "variants": [
+        {
+          "asset": "local-masks-750w.webp",
+          "width": 750,
+          "height": 452,
+          "sha256": "df23f0227886ae936e5d9dac6fb30f83ef1866863faff78bf4374fe9de85619c",
+          "bytes": 205968
+        },
+        {
+          "asset": "local-masks-1500w.webp",
+          "width": 1500,
+          "height": 904,
+          "sha256": "ee078fd524c88fd2a27a7d1daca10ad4ff550eaa3dc7ae1b64bd0a4e9ee0d0d8",
+          "bytes": 675020
+        },
+        {
+          "asset": "local-masks-3000w.webp",
+          "width": 3000,
+          "height": 1807,
+          "sha256": "0b7a7996b992fcd75f37f6e5d3caa49bcc2391f7a0828244b2fdb6cadfb1df80",
+          "bytes": 2053384
+        }
+      ]
+    },
+    {
+      "id": "remove",
+      "source": "06-nikon-z6-still-life-toys.NEF",
+      "subject": "toy still life",
+      "sourceSha256": "f0ab08da469ee205f2bc08efd9005778c64cdcb064893cee03768e32e5da1a36",
+      "backend": "webgl",
+      "capturedAt": "2026-09-08T16:23:27.537667+00:00",
+      "nativeWindow": {
+        "toolkit": "GTK/WebKitGTK",
+        "display": "X11/Xvfb",
+        "gdkScale": 2,
+        "theme": "Adwaita:dark",
+        "windowOnly": true,
+        "windowManagerDecorations": false
+      },
+      "asset": "remove.webp",
+      "width": 3320,
+      "height": 2000,
+      "sha256": "02db57b8e8ff92b4eecd3ad6d75a610cbf1e121ca1b07cd39422035b256d105f",
+      "bytes": 1960306,
+      "variants": [
+        {
+          "asset": "remove-750w.webp",
+          "width": 750,
+          "height": 452,
+          "sha256": "85c4f1ea7d7fd3ab1c2d4187f5f2bb85dbb90cea588a64fa0a2ab7d81eb7b0ce",
+          "bytes": 191524
+        },
+        {
+          "asset": "remove-1500w.webp",
+          "width": 1500,
+          "height": 904,
+          "sha256": "eca52ecea6f68626bc7dc9d27488009a3483f1a84761effa41171c0d34a08b51",
+          "bytes": 624382
+        },
+        {
+          "asset": "remove-3000w.webp",
+          "width": 3000,
+          "height": 1807,
+          "sha256": "ad77711eb4e4746cfbff4fc14ce1337a42ddbc97aa3b5475d9982ca5bd9be1ac",
+          "bytes": 1879278
+        }
+      ]
+    },
+    {
+      "id": "lens-and-geometry",
+      "source": "04-ricoh-gr-iii-coastal-dunes.DNG",
+      "subject": "coastal dunes",
+      "sourceSha256": "05513ee72f7cac4165534c9f64995412084f414a033c80c473c79fd94154292e",
+      "backend": "webgl",
+      "capturedAt": "2026-09-08T16:23:46.936758+00:00",
+      "nativeWindow": {
+        "toolkit": "GTK/WebKitGTK",
+        "display": "X11/Xvfb",
+        "gdkScale": 2,
+        "theme": "Adwaita:dark",
+        "windowOnly": true,
+        "windowManagerDecorations": false
+      },
+      "asset": "lens-and-geometry.webp",
+      "width": 3320,
+      "height": 2000,
+      "sha256": "6ba6dfb4c3c87cd2b528ab6def0262c8a8bb0904f56097d038b5f641c193aea4",
+      "bytes": 3498474,
+      "variants": [
+        {
+          "asset": "lens-and-geometry-750w.webp",
+          "width": 750,
+          "height": 452,
+          "sha256": "aefcd6d254335fb5b97c60e46dfca6e74712a14793efaf11b1eff1b0c50f118d",
+          "bytes": 251920
+        },
+        {
+          "asset": "lens-and-geometry-1500w.webp",
+          "width": 1500,
+          "height": 904,
+          "sha256": "5610a6f1c9c60e8f90edf3aebbf2974ccab84b58349521dc73960c196e8a6a11",
+          "bytes": 935588
+        },
+        {
+          "asset": "lens-and-geometry-3000w.webp",
+          "width": 3000,
+          "height": 1807,
+          "sha256": "63dc17d340a62ee762f6539f9be11da9d48c96620802ea20524f928cc7b4d6c8",
+          "bytes": 3155046
+        }
+      ]
+    },
+    {
+      "id": "before-after",
+      "source": "07-sony-a7c-autumn-leaf.ARW",
+      "subject": "autumn leaf close-up",
+      "sourceSha256": "6bfac3286f0e931e949b23e1bb236b737bb9e4117b8b42fa09e36f40f0fa8408",
+      "backend": "webgl",
+      "capturedAt": "2026-09-08T16:24:08.926885+00:00",
+      "nativeWindow": {
+        "toolkit": "GTK/WebKitGTK",
+        "display": "X11/Xvfb",
+        "gdkScale": 2,
+        "theme": "Adwaita:dark",
+        "windowOnly": true,
+        "windowManagerDecorations": false
+      },
+      "asset": "before-after.webp",
+      "width": 3320,
+      "height": 2000,
+      "sha256": "ac4bf81f2532acd5d63abbe8fbaf6bc47eae48074414cec2498a01bbe0ccaf48",
+      "bytes": 3176588,
+      "variants": [
+        {
+          "asset": "before-after-750w.webp",
+          "width": 750,
+          "height": 452,
+          "sha256": "4beca2a5da16bf89a10782911ece6fd32ca490814ce7fbb8154b792d68b6bbcd",
+          "bytes": 245756
+        },
+        {
+          "asset": "before-after-1500w.webp",
+          "width": 1500,
+          "height": 904,
+          "sha256": "cb900ec7006cc72d7821ba6e8e681f171fe3093b3a5116f59d0716be95ad1a01",
+          "bytes": 893896
+        },
+        {
+          "asset": "before-after-3000w.webp",
+          "width": 3000,
+          "height": 1807,
+          "sha256": "b80fe6cc97cdfb526615b5931d7ba0544d0b9336141a12f0978c7be05e790d2c",
+          "bytes": 2903466
+        }
+      ]
+    },
+    {
+      "id": "photo-info",
+      "source": "16-dji-mavic-3-pro-aerial-castle.DNG",
+      "subject": "aerial castle",
+      "sourceSha256": "f33ddaf2a7fa70b395abced251faccea11100d2ab7e54ae0a6adbff043d72027",
+      "backend": "webgl",
+      "capturedAt": "2026-09-08T16:24:41.140239+00:00",
+      "nativeWindow": {
+        "toolkit": "GTK/WebKitGTK",
+        "display": "X11/Xvfb",
+        "gdkScale": 2,
+        "theme": "Adwaita:dark",
+        "windowOnly": true,
+        "windowManagerDecorations": false
+      },
+      "asset": "photo-info.webp",
+      "width": 3320,
+      "height": 2000,
+      "sha256": "0d41ade04ef92813aeb958ffdc725296fb14f95e5e1b05a1d0c7c1171a0b568c",
+      "bytes": 2089204,
+      "variants": [
+        {
+          "asset": "photo-info-750w.webp",
+          "width": 750,
+          "height": 452,
+          "sha256": "7c53bee787ce6cd94a91e5be5d88381deba4c4d72e54de1939fad3e04fc08420",
+          "bytes": 200760
+        },
+        {
+          "asset": "photo-info-1500w.webp",
+          "width": 1500,
+          "height": 904,
+          "sha256": "58e28510f4342dd053efc261950763f94914b9ddfafa3546138ba56358383b2d",
+          "bytes": 677930
+        },
+        {
+          "asset": "photo-info-3000w.webp",
+          "width": 3000,
+          "height": 1807,
+          "sha256": "5007ee987c2fe49606586abdd9fc4bcb3907eb5874633efa9ac0d7d1945291b6",
+          "bytes": 2078486
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "source": "01-canon-eos-80d-city-tree.CR2",
+      "subject": "city street and large tree",
+      "sourceSha256": "f9c5404b57248c21e9b269721aa0d721c3b1281c94ebdee3c50bf32db42613a8",
+      "backend": "webgl",
+      "capturedAt": "2026-09-08T16:24:59.937780+00:00",
+      "nativeWindow": {
+        "toolkit": "GTK/WebKitGTK",
+        "display": "X11/Xvfb",
+        "gdkScale": 2,
+        "theme": "Adwaita:dark",
+        "windowOnly": true,
+        "windowManagerDecorations": false
+      },
+      "asset": "history.webp",
+      "width": 3320,
+      "height": 2000,
+      "sha256": "f937194d45d4399beeffc8da9787d588ad59894d9d05484f01df7d8fda223def",
+      "bytes": 3655416,
+      "variants": [
+        {
+          "asset": "history-750w.webp",
+          "width": 750,
+          "height": 452,
+          "sha256": "37c0a9a152af9bfaf3f00985eebf75343b1283b8a5a6267ed6b7206c36f5ddeb",
+          "bytes": 286462
+        },
+        {
+          "asset": "history-1500w.webp",
+          "width": 1500,
+          "height": 904,
+          "sha256": "23db278b06de2a4232a5df4fd56945bb675e5307cf50b9bf067a3b09b9872a67",
+          "bytes": 1012020
+        },
+        {
+          "asset": "history-3000w.webp",
+          "width": 3000,
+          "height": 1807,
+          "sha256": "b453ed07ad0934cfc298192bd02f1e3ffde41e98c35e0f9dbb303cee3d760e0f",
+          "bytes": 3259802
+        }
+      ]
+    },
+    {
+      "id": "export-workflow",
+      "source": "05-sony-rx100-vii-tropical-homestead.ARW",
+      "subject": "tropical homestead",
+      "sourceSha256": "815532f017b94e31990e8111791131647c95f6953aa28c571783c5e17eb36523",
+      "backend": "webgl",
+      "capturedAt": "2026-09-08T16:25:26.518527+00:00",
+      "nativeWindow": {
+        "toolkit": "GTK/WebKitGTK",
+        "display": "X11/Xvfb",
+        "gdkScale": 2,
+        "theme": "Adwaita:dark",
+        "windowOnly": true,
+        "windowManagerDecorations": false
+      },
+      "asset": "export-workflow.webp",
+      "width": 3320,
+      "height": 2000,
+      "sha256": "32c95d92400fbb88537af8a2084e3d6e00e0a650aafd87a387d56ce0f5c8b27f",
+      "bytes": 826414,
+      "variants": [
+        {
+          "asset": "export-workflow-750w.webp",
+          "width": 750,
+          "height": 452,
+          "sha256": "e36b1cb9a97a3a9be17626954966598e1268f034f6ff2a4caaa657a81c0e6b5f",
+          "bytes": 109212
+        },
+        {
+          "asset": "export-workflow-1500w.webp",
+          "width": 1500,
+          "height": 904,
+          "sha256": "b00c1fbc782ec52f7fe1760c6c5f24db52c24beb5f38e94fe94044372e13e625",
+          "bytes": 303844
+        },
+        {
+          "asset": "export-workflow-3000w.webp",
+          "width": 3000,
+          "height": 1807,
+          "sha256": "134b206b3d9bfca245360c04b50f831b2a87bf5982cc5510c402ad8028dcf1a4",
+          "bytes": 844138
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+name: Report or remove a preset
+description: Report a broken preset, incorrect credit, or rights issue.
+title: 'Preset report: '
+body:
+  - type: input
+    id: preset
+    attributes:
+      label: Preset page or ID
+    validations:
+      required: true
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Reason
+      options:
+        - Preset does not work
+        - Incorrect credit or description
+        - Copyright or permission issue
+        - Creator removal request
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Explain the issue and requested change. This issue is public; do not include private information.
+    validations:
+      required: true

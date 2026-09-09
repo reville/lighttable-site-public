@@ -1,0 +1,489 @@
+{
+  "schema": 2,
+  "appRevision": "826fdfb83ac7b669d2ccaf94c78d0a85291d67aa",
+  "sourceDirty": false,
+  "capturedAt": "2026-09-08T17:21:13.586283+00:00",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "capture": {
+    "count": 10,
+    "platform": "Windows",
+    "width": 3320,
+    "viewportWidth": 1660,
+    "viewportHeight": 1000,
+    "deviceScaleFactor": 2,
+    "previewWidth": 3000,
+    "responsiveWidths": [
+      750,
+      1500,
+      3000
+    ],
+    "settleSeconds": 1.25
+  },
+  "captureMethod": "Actual installed Win32/WebView2 Windows application windows with native caption controls; DWM frame bounds and physical CopyFromScreen capture at 192 DPI; lossless WebP masters with the Windows display ICC profile, no upscaling",
+  "captureHost": {
+    "os": "Windows Server 2022 Datacenter",
+    "architecture": "AMD64"
+  },
+  "sourceCollection": "LightTable CC0 RAW demo collection",
+  "shotCount": 10,
+  "build": {
+    "version": "0.1.0",
+    "architecture": "x64",
+    "authenticode_signed": false,
+    "source_revision": "826fdfb83ac7b669d2ccaf94c78d0a85291d67aa",
+    "python_version": "3.13.12",
+    "vc_runtime_version": "14.44.35211.0"
+  },
+  "shots": [
+    {
+      "id": "film-controls",
+      "source": "20-fujifilm-x-t30-iii-desert-rocks.RAF",
+      "subject": "desert rock formations",
+      "sourceSha256": "1910b95422240f97781fa3296d67a56cc8f62de63144ac11cbf4267a11278042",
+      "backend": "webgl",
+      "capturedAt": "2026-09-08T17:21:13.586283+00:00",
+      "nativeWindow": {
+        "toolkit": "Win32/WebView2",
+        "display": "Windows desktop",
+        "dpi": 192,
+        "windowOnly": true,
+        "nativeCaption": true,
+        "profile": "sRGB Color Space Profile.icm",
+        "profileSha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e"
+      },
+      "asset": "film-controls.webp",
+      "width": 3320,
+      "height": 2000,
+      "sha256": "f6c09fe1cc85c7a7e326e6a379acf46ffb4cff36a220c25055e2331b38908bf0",
+      "bytes": 4518680,
+      "variants": [
+        {
+          "asset": "film-controls-750w.webp",
+          "width": 750,
+          "height": 452,
+          "sha256": "977001fbf4a1bc64af9c8dfb2fee704329599b137a7b964c0318838cf6c97c84",
+          "bytes": 289636
+        },
+        {
+          "asset": "film-controls-1500w.webp",
+          "width": 1500,
+          "height": 904,
+          "sha256": "f65989d67983dc7cc13fd53a4ccb269dae82a64171ba3b893a003c939b26564d",
+          "bytes": 1148764
+        },
+        {
+          "asset": "film-controls-3000w.webp",
+          "width": 3000,
+          "height": 1807,
+          "sha256": "3d35f03875b4b606626d681c47e3b171c79172741cde9114f71d7004690b1430",
+          "bytes": 4022298
+        }
+      ]
+    },
+    {
+      "id": "editor",
+      "source": "03-fujifilm-xq2-harbor-ferry.RAF",
+      "subject": "harbor ferry",
+      "sourceSha256": "4bce88593f5ae8fc45aeeec8a6dee9a84c773493cc6db9dabdc28744c8ac4b4d",
+      "backend": "webgl",
+      "capturedAt": "2026-09-08T17:16:55.660171+00:00",
+      "nativeWindow": {
+        "toolkit": "Win32/WebView2",
+        "display": "Windows desktop",
+        "dpi": 192,
+        "windowOnly": true,
+        "nativeCaption": true,
+        "profile": "sRGB Color Space Profile.icm",
+        "profileSha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e"
+      },
+      "asset": "editor.webp",
+      "width": 3320,
+      "height": 2000,
+      "sha256": "9f060c5183a03837dc782398a5c4cc8b26ed41d7fa350977a2ae55d530db323b",
+      "bytes": 3047126,
+      "variants": [
+        {
+          "asset": "editor-750w.webp",
+          "width": 750,
+          "height": 452,
+          "sha256": "9f9acc2ee521e842fec1ef7623733c5d58b1650b983e8ba6706584f314518165",
+          "bytes": 242832
+        },
+        {
+          "asset": "editor-1500w.webp",
+          "width": 1500,
+          "height": 904,
+          "sha256": "6e87087ed3d8098de447ec61e8b2b057550041fce690655e06ae98b34daecf9b",
+          "bytes": 860372
+        },
+        {
+          "asset": "editor-3000w.webp",
+          "width": 3000,
+          "height": 1807,
+          "sha256": "6db666d67cb2ba03c8633919f9930cb3bdfa849ef148742771d791efecce5999",
+          "bytes": 2821612
+        }
+      ]
+    },
+    {
+      "id": "crop-and-rotate",
+      "source": "13-fujifilm-x100vi-stone-church.RAF",
+      "subject": "stone church",
+      "sourceSha256": "7f19c7c5914542b91829ac2e41c8d4c10e414b28b0f7a793001e1a979c8c6056",
+      "backend": "webgl",
+      "capturedAt": "2026-09-08T17:17:22.831258+00:00",
+      "nativeWindow": {
+        "toolkit": "Win32/WebView2",
+        "display": "Windows desktop",
+        "dpi": 192,
+        "windowOnly": true,
+        "nativeCaption": true,
+        "profile": "sRGB Color Space Profile.icm",
+        "profileSha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e"
+      },
+      "asset": "crop-and-rotate.webp",
+      "width": 3320,
+      "height": 2000,
+      "sha256": "8c722d4d4e691113ad9ad497044a359cf030ddec23547c1d240e075ee667861b",
+      "bytes": 1884078,
+      "variants": [
+        {
+          "asset": "crop-and-rotate-750w.webp",
+          "width": 750,
+          "height": 452,
+          "sha256": "fc4d190ae92e0e5fa0dbb7fb688ca8a98a1c0a15f4b63efa03e60fc3d1785e6c",
+          "bytes": 162896
+        },
+        {
+          "asset": "crop-and-rotate-1500w.webp",
+          "width": 1500,
+          "height": 904,
+          "sha256": "f84a947f9436f0fcec2315255374cf199bff2ee554bbcd0e23095cabd42fd8a8",
+          "bytes": 545670
+        },
+        {
+          "asset": "crop-and-rotate-3000w.webp",
+          "width": 3000,
+          "height": 1807,
+          "sha256": "23ed2dfdfb237fcd7a62ee7566bad8a6e6fe77072d443e14782c041952d243c8",
+          "bytes": 1826548
+        }
+      ]
+    },
+    {
+      "id": "local-masks",
+      "source": "09-google-pixel-7-pro-succulents.DNG",
+      "subject": "succulent plants",
+      "sourceSha256": "6b921558944db5fdb4f1c63dc64919b6666ef700857a187e18500099c6e7c6c6",
+      "backend": "webgl",
+      "capturedAt": "2026-09-08T17:17:46.762526+00:00",
+      "nativeWindow": {
+        "toolkit": "Win32/WebView2",
+        "display": "Windows desktop",
+        "dpi": 192,
+        "windowOnly": true,
+        "nativeCaption": true,
+        "profile": "sRGB Color Space Profile.icm",
+        "profileSha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e"
+      },
+      "asset": "local-masks.webp",
+      "width": 3320,
+      "height": 2000,
+      "sha256": "af8e67fd0917b934ed147378a1bb0170ab33259b6206cfd3204e8f83d0614d0b",
+      "bytes": 2159940,
+      "variants": [
+        {
+          "asset": "local-masks-750w.webp",
+          "width": 750,
+          "height": 452,
+          "sha256": "be319533cff8d13cd44b734e4ba6d393752795fc308151ea36d5ae3a9e4efff6",
+          "bytes": 219182
+        },
+        {
+          "asset": "local-masks-1500w.webp",
+          "width": 1500,
+          "height": 904,
+          "sha256": "8fc097fda2a09ddcbff59e2cf36b22d315f724be3d56d375cf7384ceb7b6c90e",
+          "bytes": 710348
+        },
+        {
+          "asset": "local-masks-3000w.webp",
+          "width": 3000,
+          "height": 1807,
+          "sha256": "4dd6e3da59e9e9b08790849e1138790709e590f960a84f3af52cc48ea649592a",
+          "bytes": 2163944
+        }
+      ]
+    },
+    {
+      "id": "remove",
+      "source": "06-nikon-z6-still-life-toys.NEF",
+      "subject": "toy still life",
+      "sourceSha256": "f0ab08da469ee205f2bc08efd9005778c64cdcb064893cee03768e32e5da1a36",
+      "backend": "webgl",
+      "capturedAt": "2026-09-08T17:18:11.931556+00:00",
+      "nativeWindow": {
+        "toolkit": "Win32/WebView2",
+        "display": "Windows desktop",
+        "dpi": 192,
+        "windowOnly": true,
+        "nativeCaption": true,
+        "profile": "sRGB Color Space Profile.icm",
+        "profileSha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e"
+      },
+      "asset": "remove.webp",
+      "width": 3320,
+      "height": 2000,
+      "sha256": "3993f68caee2004229a91b977f067bea004bece3a7f3ba0f3dcb91368f2f1e66",
+      "bytes": 2130456,
+      "variants": [
+        {
+          "asset": "remove-750w.webp",
+          "width": 750,
+          "height": 452,
+          "sha256": "302eafb5ac25ad3f79ae5d7604562126ae3e1c6a84b93cf704dcf971dd122b34",
+          "bytes": 212958
+        },
+        {
+          "asset": "remove-1500w.webp",
+          "width": 1500,
+          "height": 904,
+          "sha256": "c6391e05744f5100a86f0c23c067152dd90982f0ec3e38e50c0af7e42c2734b4",
+          "bytes": 687572
+        },
+        {
+          "asset": "remove-3000w.webp",
+          "width": 3000,
+          "height": 1807,
+          "sha256": "467efc984f7127530059a64210fc769cb1e52d26faa76501b91e611ce3927ded",
+          "bytes": 2077166
+        }
+      ]
+    },
+    {
+      "id": "lens-and-geometry",
+      "source": "04-ricoh-gr-iii-coastal-dunes.DNG",
+      "subject": "coastal dunes",
+      "sourceSha256": "05513ee72f7cac4165534c9f64995412084f414a033c80c473c79fd94154292e",
+      "backend": "webgl",
+      "capturedAt": "2026-09-08T17:18:34.054135+00:00",
+      "nativeWindow": {
+        "toolkit": "Win32/WebView2",
+        "display": "Windows desktop",
+        "dpi": 192,
+        "windowOnly": true,
+        "nativeCaption": true,
+        "profile": "sRGB Color Space Profile.icm",
+        "profileSha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e"
+      },
+      "asset": "lens-and-geometry.webp",
+      "width": 3320,
+      "height": 2000,
+      "sha256": "f0fd7d3d753d3098fb3bd56c7cb36531b82357175a009d18fd3fd758d7ee1bf0",
+      "bytes": 3710978,
+      "variants": [
+        {
+          "asset": "lens-and-geometry-750w.webp",
+          "width": 750,
+          "height": 452,
+          "sha256": "c4cbf0124eb11b0f8f7a9da8cb1056d404abce86ae3c829ba8721691e048db56",
+          "bytes": 277650
+        },
+        {
+          "asset": "lens-and-geometry-1500w.webp",
+          "width": 1500,
+          "height": 904,
+          "sha256": "b5e67b00c94f8e7c7af941b6c5458149dc281ea249aaf6b229c7ea85c1003d6c",
+          "bytes": 1008854
+        },
+        {
+          "asset": "lens-and-geometry-3000w.webp",
+          "width": 3000,
+          "height": 1807,
+          "sha256": "488d79e956e9f94e0ddae29a37029feb64742cb9c0f5228b27a7bf430097be06",
+          "bytes": 3402026
+        }
+      ]
+    },
+    {
+      "id": "before-after",
+      "source": "07-sony-a7c-autumn-leaf.ARW",
+      "subject": "autumn leaf close-up",
+      "sourceSha256": "6bfac3286f0e931e949b23e1bb236b737bb9e4117b8b42fa09e36f40f0fa8408",
+      "backend": "webgl",
+      "capturedAt": "2026-09-08T17:18:48.570182+00:00",
+      "nativeWindow": {
+        "toolkit": "Win32/WebView2",
+        "display": "Windows desktop",
+        "dpi": 192,
+        "windowOnly": true,
+        "nativeCaption": true,
+        "profile": "sRGB Color Space Profile.icm",
+        "profileSha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e"
+      },
+      "asset": "before-after.webp",
+      "width": 3320,
+      "height": 2000,
+      "sha256": "256cf11dfbbb2cf2b883099108378f40df92010193129337153a198930be1788",
+      "bytes": 3523648,
+      "variants": [
+        {
+          "asset": "before-after-750w.webp",
+          "width": 750,
+          "height": 452,
+          "sha256": "0c7075bd8860a6939a972a4f6625d2d1979f6b06df28bd3f7a0cc4637f810625",
+          "bytes": 263404
+        },
+        {
+          "asset": "before-after-1500w.webp",
+          "width": 1500,
+          "height": 904,
+          "sha256": "08845ce580cbd84ad07ab38fd7b6842a11bf9fe911e8a6e92862742e092d09e8",
+          "bytes": 956332
+        },
+        {
+          "asset": "before-after-3000w.webp",
+          "width": 3000,
+          "height": 1807,
+          "sha256": "c3e96d72bab38475371e10bb6ac3d38909deb444b412dd44d94c10626ad11d11",
+          "bytes": 3122280
+        }
+      ]
+    },
+    {
+      "id": "photo-info",
+      "source": "16-dji-mavic-3-pro-aerial-castle.DNG",
+      "subject": "aerial castle",
+      "sourceSha256": "f33ddaf2a7fa70b395abced251faccea11100d2ab7e54ae0a6adbff043d72027",
+      "backend": "webgl",
+      "capturedAt": "2026-09-08T17:19:16.472052+00:00",
+      "nativeWindow": {
+        "toolkit": "Win32/WebView2",
+        "display": "Windows desktop",
+        "dpi": 192,
+        "windowOnly": true,
+        "nativeCaption": true,
+        "profile": "sRGB Color Space Profile.icm",
+        "profileSha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e"
+      },
+      "asset": "photo-info.webp",
+      "width": 3320,
+      "height": 2000,
+      "sha256": "7657597b00c94d34c810c2514b56bf781734ef6ceb941df6f1630bf2d469ac88",
+      "bytes": 2154018,
+      "variants": [
+        {
+          "asset": "photo-info-750w.webp",
+          "width": 750,
+          "height": 452,
+          "sha256": "c5f49e423c1b9a31c51e48e7af741a4ec8d31733c7461bf503daf5cdd3c5935c",
+          "bytes": 210972
+        },
+        {
+          "asset": "photo-info-1500w.webp",
+          "width": 1500,
+          "height": 904,
+          "sha256": "b06dc8d7b46d186e13e096feebd6bcee67f0b3bebdae84424185550f85bc21fc",
+          "bytes": 703314
+        },
+        {
+          "asset": "photo-info-3000w.webp",
+          "width": 3000,
+          "height": 1807,
+          "sha256": "8ef04caf1b7ad02acbfea623af37ebe84e93e0a88375d41054d1ab7468404cff",
+          "bytes": 2159682
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "source": "01-canon-eos-80d-city-tree.CR2",
+      "subject": "city street and large tree",
+      "sourceSha256": "f9c5404b57248c21e9b269721aa0d721c3b1281c94ebdee3c50bf32db42613a8",
+      "backend": "webgl",
+      "capturedAt": "2026-09-08T17:19:34.320496+00:00",
+      "nativeWindow": {
+        "toolkit": "Win32/WebView2",
+        "display": "Windows desktop",
+        "dpi": 192,
+        "windowOnly": true,
+        "nativeCaption": true,
+        "profile": "sRGB Color Space Profile.icm",
+        "profileSha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e"
+      },
+      "asset": "history.webp",
+      "width": 3320,
+      "height": 2000,
+      "sha256": "95c31220ac9d683d0e1963a1ae48343f2433508da21e55d3dd3a01e1ed6ef3e9",
+      "bytes": 3846676,
+      "variants": [
+        {
+          "asset": "history-750w.webp",
+          "width": 750,
+          "height": 452,
+          "sha256": "0ba3643a30a5ad9814c75f045b3f7234116b640034182932bd3130765a2b23e6",
+          "bytes": 306648
+        },
+        {
+          "asset": "history-1500w.webp",
+          "width": 1500,
+          "height": 904,
+          "sha256": "aebe15261d5a718e8fb3520e84b57fa6b409bf7cfeaf447ee5b12c9facdad4a7",
+          "bytes": 1074038
+        },
+        {
+          "asset": "history-3000w.webp",
+          "width": 3000,
+          "height": 1807,
+          "sha256": "acbd55eb5fc11e95c61a989d90559e2a2f43bee17ccc1bb21c971a72800df766",
+          "bytes": 3385638
+        }
+      ]
+    },
+    {
+      "id": "export-workflow",
+      "source": "05-sony-rx100-vii-tropical-homestead.ARW",
+      "subject": "tropical homestead",
+      "sourceSha256": "815532f017b94e31990e8111791131647c95f6953aa28c571783c5e17eb36523",
+      "backend": "webgl",
+      "capturedAt": "2026-09-08T17:19:53.160970+00:00",
+      "nativeWindow": {
+        "toolkit": "Win32/WebView2",
+        "display": "Windows desktop",
+        "dpi": 192,
+        "windowOnly": true,
+        "nativeCaption": true,
+        "profile": "sRGB Color Space Profile.icm",
+        "profileSha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e"
+      },
+      "asset": "export-workflow.webp",
+      "width": 3320,
+      "height": 2000,
+      "sha256": "5c66588f2944c0f22d2a5b509f81680d65028e7a840c437d9a84eddfa6b526e5",
+      "bytes": 666436,
+      "variants": [
+        {
+          "asset": "export-workflow-750w.webp",
+          "width": 750,
+          "height": 452,
+          "sha256": "4c84270b68c5119755e0ad45153070f62656899c1c3b72c08735a65b2c1f9d34",
+          "bytes": 92640
+        },
+        {
+          "asset": "export-workflow-1500w.webp",
+          "width": 1500,
+          "height": 904,
+          "sha256": "1af579c243b5c1db5c5558ebf7123513dcdb0f21a8f44b71d1c4fa128b8bc58f",
+          "bytes": 236138
+        },
+        {
+          "asset": "export-workflow-3000w.webp",
+          "width": 3000,
+          "height": 1807,
+          "sha256": "c0f04efe2763a348d2e933afd8bdeaeab15c74dc55bd7a6c4be01ac83fdd7a5c",
+          "bytes": 666198
+        }
+      ]
+    }
+  ]
+}

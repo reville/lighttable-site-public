@@ -1,0 +1,610 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-08",
+  "presets": [
+    {
+      "id": "lighttable/cinematic-color",
+      "name": "Cinematic Color",
+      "version": "1.0.0",
+      "description": "Gentle warm highlights and cooler shadows for street and travel photographs.",
+      "tags": [
+        "Cinematic",
+        "Film",
+        "Travel"
+      ],
+      "author": {
+        "name": "LightTable",
+        "url": "https://lighttable.app/"
+      },
+      "license": "CC0-1.0",
+      "filmMode": "on",
+      "schemaVersion": 3,
+      "capabilities": [
+        "look-v1"
+      ],
+      "file": {
+        "url": "/presets/files/lighttable/cinematic-color/1.0.0.ltpreset",
+        "sha256": "85f93cb85e761ddf2eea377744590e60b2d40c1e38a49f0ff072e078789c2c03",
+        "bytes": 3076
+      },
+      "previews": [
+        {
+          "label": "Field",
+          "before": "/presets/images/c92f6909fd02ac65daee9a93.webp",
+          "after": "/presets/images/8a661330fce04b68d88c9cc2.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://raw.pixls.us/getfile.php/1835/nice/Nikon%20-%20D850%20-%2012bit%2012bit%20compressed%20%28Lossless%29%20%283%3A2%29.NEF",
+            "license": "CC0-1.0"
+          }
+        },
+        {
+          "label": "Still Life",
+          "before": "/presets/images/58a25d21508086aecc7e0569.webp",
+          "after": "/presets/images/6b469c2d9ed0393161134ffd.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://raw.pixls.us/getfile.php/3587/nice/Nikon%20-%20Z%206%20-%2012bit%2012bit%20compressed%20%283%3A2%29.NEF",
+            "license": "CC0-1.0"
+          }
+        },
+        {
+          "label": "Portrait",
+          "before": "/presets/images/7fad07ace84950a816f15636.webp",
+          "after": "/presets/images/9a11e3a0948ab3cce9c07915.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://www.oneraw.co.uk/01/",
+            "license": "CC0-1.0"
+          }
+        }
+      ],
+      "pageUrl": "https://lighttable.app/presets/lighttable/cinematic-color/",
+      "publishedAt": "2026-09-08",
+      "featured": true
+    },
+    {
+      "id": "lighttable/classic-bw",
+      "name": "Classic B&W",
+      "version": "1.0.0",
+      "description": "Firm monochrome contrast and film texture for street and documentary photographs.",
+      "tags": [
+        "B&W",
+        "Film"
+      ],
+      "author": {
+        "name": "LightTable",
+        "url": "https://lighttable.app/"
+      },
+      "license": "CC0-1.0",
+      "filmMode": "on",
+      "schemaVersion": 3,
+      "capabilities": [
+        "look-v1"
+      ],
+      "file": {
+        "url": "/presets/files/lighttable/classic-bw/1.0.0.ltpreset",
+        "sha256": "f0d34b8070c255c22cf0d9ef5287e7636c233a93105d2d6c2b3d1a606372c308",
+        "bytes": 2440
+      },
+      "previews": [
+        {
+          "label": "Field",
+          "before": "/presets/images/c92f6909fd02ac65daee9a93.webp",
+          "after": "/presets/images/45cf8b5e56491102d31c2594.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://raw.pixls.us/getfile.php/1835/nice/Nikon%20-%20D850%20-%2012bit%2012bit%20compressed%20%28Lossless%29%20%283%3A2%29.NEF",
+            "license": "CC0-1.0"
+          }
+        },
+        {
+          "label": "Still Life",
+          "before": "/presets/images/58a25d21508086aecc7e0569.webp",
+          "after": "/presets/images/4ab4357b69c31fe4d40c4102.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://raw.pixls.us/getfile.php/3587/nice/Nikon%20-%20Z%206%20-%2012bit%2012bit%20compressed%20%283%3A2%29.NEF",
+            "license": "CC0-1.0"
+          }
+        },
+        {
+          "label": "Portrait",
+          "before": "/presets/images/7fad07ace84950a816f15636.webp",
+          "after": "/presets/images/98bb2ab3cbe57a1bd2ba2e42.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://www.oneraw.co.uk/01/",
+            "license": "CC0-1.0"
+          }
+        }
+      ],
+      "pageUrl": "https://lighttable.app/presets/lighttable/classic-bw/",
+      "publishedAt": "2026-09-08",
+      "featured": true
+    },
+    {
+      "id": "lighttable/crisp-landscape",
+      "name": "Crisp Landscape",
+      "version": "1.0.0",
+      "description": "Clear separation and controlled color for landscapes and architecture.",
+      "tags": [
+        "Landscape",
+        "Travel"
+      ],
+      "author": {
+        "name": "LightTable",
+        "url": "https://lighttable.app/"
+      },
+      "license": "CC0-1.0",
+      "filmMode": "off",
+      "schemaVersion": 3,
+      "capabilities": [
+        "look-v1"
+      ],
+      "file": {
+        "url": "/presets/files/lighttable/crisp-landscape/1.0.0.ltpreset",
+        "sha256": "c00c3f3a5a2d0f0a5d3f9e9ee5ac6fd419646b51dc41c56759af99124e6319c2",
+        "bytes": 1037
+      },
+      "previews": [
+        {
+          "label": "Field",
+          "before": "/presets/images/c92f6909fd02ac65daee9a93.webp",
+          "after": "/presets/images/e8e3e6241e59161dea58216f.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://raw.pixls.us/getfile.php/1835/nice/Nikon%20-%20D850%20-%2012bit%2012bit%20compressed%20%28Lossless%29%20%283%3A2%29.NEF",
+            "license": "CC0-1.0"
+          }
+        },
+        {
+          "label": "Still Life",
+          "before": "/presets/images/58a25d21508086aecc7e0569.webp",
+          "after": "/presets/images/f468a574e6a030eca65d0812.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://raw.pixls.us/getfile.php/3587/nice/Nikon%20-%20Z%206%20-%2012bit%2012bit%20compressed%20%283%3A2%29.NEF",
+            "license": "CC0-1.0"
+          }
+        },
+        {
+          "label": "Portrait",
+          "before": "/presets/images/7fad07ace84950a816f15636.webp",
+          "after": "/presets/images/7ee80ecf2b597297c7842f37.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://www.oneraw.co.uk/01/",
+            "license": "CC0-1.0"
+          }
+        }
+      ],
+      "pageUrl": "https://lighttable.app/presets/lighttable/crisp-landscape/",
+      "publishedAt": "2026-09-08",
+      "featured": true
+    },
+    {
+      "id": "lighttable/faded-print",
+      "name": "Faded Print",
+      "version": "1.0.0",
+      "description": "Muted color and lifted blacks for a faded print look.",
+      "tags": [
+        "Vintage",
+        "Muted"
+      ],
+      "author": {
+        "name": "LightTable",
+        "url": "https://lighttable.app/"
+      },
+      "license": "CC0-1.0",
+      "filmMode": "off",
+      "schemaVersion": 3,
+      "capabilities": [
+        "look-v1"
+      ],
+      "file": {
+        "url": "/presets/files/lighttable/faded-print/1.0.0.ltpreset",
+        "sha256": "5df9aeb10a5460ac993d4030fa5d5770d8399f192580ca47bc2e0e605f46ae5d",
+        "bytes": 6587
+      },
+      "previews": [
+        {
+          "label": "Field",
+          "before": "/presets/images/c92f6909fd02ac65daee9a93.webp",
+          "after": "/presets/images/bcbd1b2706f52aa27aaf4608.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://raw.pixls.us/getfile.php/1835/nice/Nikon%20-%20D850%20-%2012bit%2012bit%20compressed%20%28Lossless%29%20%283%3A2%29.NEF",
+            "license": "CC0-1.0"
+          }
+        },
+        {
+          "label": "Still Life",
+          "before": "/presets/images/58a25d21508086aecc7e0569.webp",
+          "after": "/presets/images/ef49693a20b3634db3524d7b.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://raw.pixls.us/getfile.php/3587/nice/Nikon%20-%20Z%206%20-%2012bit%2012bit%20compressed%20%283%3A2%29.NEF",
+            "license": "CC0-1.0"
+          }
+        },
+        {
+          "label": "Portrait",
+          "before": "/presets/images/7fad07ace84950a816f15636.webp",
+          "after": "/presets/images/6eeb118ca5765691241b8380.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://www.oneraw.co.uk/01/",
+            "license": "CC0-1.0"
+          }
+        }
+      ],
+      "pageUrl": "https://lighttable.app/presets/lighttable/faded-print/",
+      "publishedAt": "2026-09-08",
+      "featured": true
+    },
+    {
+      "id": "lighttable/golden-hour",
+      "name": "Golden Hour",
+      "version": "1.0.0",
+      "description": "Warm highlights with balanced shadows, leaving your white balance alone.",
+      "tags": [
+        "Warm",
+        "Portrait",
+        "Travel"
+      ],
+      "author": {
+        "name": "LightTable",
+        "url": "https://lighttable.app/"
+      },
+      "license": "CC0-1.0",
+      "filmMode": "off",
+      "schemaVersion": 3,
+      "capabilities": [
+        "look-v1"
+      ],
+      "file": {
+        "url": "/presets/files/lighttable/golden-hour/1.0.0.ltpreset",
+        "sha256": "be62afa2e453dba430e536c1b15fa80df6020d8e284a715eb74014337975b0e9",
+        "bytes": 1472
+      },
+      "previews": [
+        {
+          "label": "Portrait",
+          "before": "/presets/images/7fad07ace84950a816f15636.webp",
+          "after": "/presets/images/06015d841c8c1a8588d41547.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://www.oneraw.co.uk/01/",
+            "license": "CC0-1.0"
+          }
+        },
+        {
+          "label": "Field",
+          "before": "/presets/images/c92f6909fd02ac65daee9a93.webp",
+          "after": "/presets/images/7acc9bde3f3994cd76f886a0.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://raw.pixls.us/getfile.php/1835/nice/Nikon%20-%20D850%20-%2012bit%2012bit%20compressed%20%28Lossless%29%20%283%3A2%29.NEF",
+            "license": "CC0-1.0"
+          }
+        },
+        {
+          "label": "Still Life",
+          "before": "/presets/images/58a25d21508086aecc7e0569.webp",
+          "after": "/presets/images/744d1b6fa09cae1e5a10cf09.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://raw.pixls.us/getfile.php/3587/nice/Nikon%20-%20Z%206%20-%2012bit%2012bit%20compressed%20%283%3A2%29.NEF",
+            "license": "CC0-1.0"
+          }
+        }
+      ],
+      "pageUrl": "https://lighttable.app/presets/lighttable/golden-hour/",
+      "publishedAt": "2026-09-08",
+      "featured": true
+    },
+    {
+      "id": "lighttable/natural-finish",
+      "name": "Natural Finish",
+      "version": "1.0.0",
+      "description": "Gentle contrast and clear color for everyday photographs.",
+      "tags": [
+        "Everyday",
+        "Travel"
+      ],
+      "author": {
+        "name": "LightTable",
+        "url": "https://lighttable.app/"
+      },
+      "license": "CC0-1.0",
+      "filmMode": "off",
+      "schemaVersion": 3,
+      "capabilities": [
+        "look-v1"
+      ],
+      "file": {
+        "url": "/presets/files/lighttable/natural-finish/1.0.0.ltpreset",
+        "sha256": "3805df0e56d30259193ef082593e7c9b79ae5f7bc856d12ddc87b31564970621",
+        "bytes": 936
+      },
+      "previews": [
+        {
+          "label": "Field",
+          "before": "/presets/images/c92f6909fd02ac65daee9a93.webp",
+          "after": "/presets/images/fce0fec2eef4cce75349ab54.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://raw.pixls.us/getfile.php/1835/nice/Nikon%20-%20D850%20-%2012bit%2012bit%20compressed%20%28Lossless%29%20%283%3A2%29.NEF",
+            "license": "CC0-1.0"
+          }
+        },
+        {
+          "label": "Still Life",
+          "before": "/presets/images/58a25d21508086aecc7e0569.webp",
+          "after": "/presets/images/7d5d3279b6d5b63a1ff66706.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://raw.pixls.us/getfile.php/3587/nice/Nikon%20-%20Z%206%20-%2012bit%2012bit%20compressed%20%283%3A2%29.NEF",
+            "license": "CC0-1.0"
+          }
+        },
+        {
+          "label": "Portrait",
+          "before": "/presets/images/7fad07ace84950a816f15636.webp",
+          "after": "/presets/images/1437416dde231c3773c29bd2.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://www.oneraw.co.uk/01/",
+            "license": "CC0-1.0"
+          }
+        }
+      ],
+      "pageUrl": "https://lighttable.app/presets/lighttable/natural-finish/",
+      "publishedAt": "2026-09-08",
+      "featured": true
+    },
+    {
+      "id": "lighttable/night-film",
+      "name": "Night Film",
+      "version": "1.0.0",
+      "description": "Tungsten film color, grain, and restrained glow for night and indoor scenes.",
+      "tags": [
+        "Night",
+        "Film",
+        "Cinematic"
+      ],
+      "author": {
+        "name": "LightTable",
+        "url": "https://lighttable.app/"
+      },
+      "license": "CC0-1.0",
+      "filmMode": "on",
+      "schemaVersion": 3,
+      "capabilities": [
+        "look-v1"
+      ],
+      "file": {
+        "url": "/presets/files/lighttable/night-film/1.0.0.ltpreset",
+        "sha256": "113769bb1e262f10f816cd5be81dc59fc09906a802a40961d9631aa7b09b3731",
+        "bytes": 2505
+      },
+      "previews": [
+        {
+          "label": "Field",
+          "before": "/presets/images/c92f6909fd02ac65daee9a93.webp",
+          "after": "/presets/images/a2ad2841316bd190e3a92cf9.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://raw.pixls.us/getfile.php/1835/nice/Nikon%20-%20D850%20-%2012bit%2012bit%20compressed%20%28Lossless%29%20%283%3A2%29.NEF",
+            "license": "CC0-1.0"
+          }
+        },
+        {
+          "label": "Still Life",
+          "before": "/presets/images/58a25d21508086aecc7e0569.webp",
+          "after": "/presets/images/5d5ed6b8c22e0aed1240e488.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://raw.pixls.us/getfile.php/3587/nice/Nikon%20-%20Z%206%20-%2012bit%2012bit%20compressed%20%283%3A2%29.NEF",
+            "license": "CC0-1.0"
+          }
+        },
+        {
+          "label": "Portrait",
+          "before": "/presets/images/7fad07ace84950a816f15636.webp",
+          "after": "/presets/images/87f60dff0b005713247dda99.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://www.oneraw.co.uk/01/",
+            "license": "CC0-1.0"
+          }
+        }
+      ],
+      "pageUrl": "https://lighttable.app/presets/lighttable/night-film/",
+      "publishedAt": "2026-09-08",
+      "featured": true
+    },
+    {
+      "id": "lighttable/soft-bw",
+      "name": "Soft B&W",
+      "version": "1.0.0",
+      "description": "Gentle monochrome contrast and open shadows for portraits and everyday photographs.",
+      "tags": [
+        "B&W",
+        "Portrait"
+      ],
+      "author": {
+        "name": "LightTable",
+        "url": "https://lighttable.app/"
+      },
+      "license": "CC0-1.0",
+      "filmMode": "off",
+      "schemaVersion": 3,
+      "capabilities": [
+        "look-v1"
+      ],
+      "file": {
+        "url": "/presets/files/lighttable/soft-bw/1.0.0.ltpreset",
+        "sha256": "005dc3bdea6ba4a8dd2c2dd9e4c6637e264d735364015146903ec2e69525390a",
+        "bytes": 994
+      },
+      "previews": [
+        {
+          "label": "Portrait",
+          "before": "/presets/images/7fad07ace84950a816f15636.webp",
+          "after": "/presets/images/4b6b41b5748166dd5fd95191.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://www.oneraw.co.uk/01/",
+            "license": "CC0-1.0"
+          }
+        },
+        {
+          "label": "Field",
+          "before": "/presets/images/c92f6909fd02ac65daee9a93.webp",
+          "after": "/presets/images/b4d1da0d873cb7568205a13d.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://raw.pixls.us/getfile.php/1835/nice/Nikon%20-%20D850%20-%2012bit%2012bit%20compressed%20%28Lossless%29%20%283%3A2%29.NEF",
+            "license": "CC0-1.0"
+          }
+        },
+        {
+          "label": "Still Life",
+          "before": "/presets/images/58a25d21508086aecc7e0569.webp",
+          "after": "/presets/images/c42486d9c4c508056d56b578.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://raw.pixls.us/getfile.php/3587/nice/Nikon%20-%20Z%206%20-%2012bit%2012bit%20compressed%20%283%3A2%29.NEF",
+            "license": "CC0-1.0"
+          }
+        }
+      ],
+      "pageUrl": "https://lighttable.app/presets/lighttable/soft-bw/",
+      "publishedAt": "2026-09-08",
+      "featured": true
+    },
+    {
+      "id": "lighttable/soft-portrait",
+      "name": "Soft Portrait",
+      "version": "1.0.0",
+      "description": "Soft highlights and restrained color for people in natural light.",
+      "tags": [
+        "Portrait",
+        "Film"
+      ],
+      "author": {
+        "name": "LightTable",
+        "url": "https://lighttable.app/"
+      },
+      "license": "CC0-1.0",
+      "filmMode": "on",
+      "schemaVersion": 3,
+      "capabilities": [
+        "look-v1"
+      ],
+      "file": {
+        "url": "/presets/files/lighttable/soft-portrait/1.0.0.ltpreset",
+        "sha256": "cb28b0533c311a19984bfd57876f366ac173a6dcc008105226bcffc9bc75028f",
+        "bytes": 2544
+      },
+      "previews": [
+        {
+          "label": "Portrait",
+          "before": "/presets/images/7fad07ace84950a816f15636.webp",
+          "after": "/presets/images/3b4974580f641402edbfc83f.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://www.oneraw.co.uk/01/",
+            "license": "CC0-1.0"
+          }
+        },
+        {
+          "label": "Field",
+          "before": "/presets/images/c92f6909fd02ac65daee9a93.webp",
+          "after": "/presets/images/2a1a75fc6d9823b5efd35358.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://raw.pixls.us/getfile.php/1835/nice/Nikon%20-%20D850%20-%2012bit%2012bit%20compressed%20%28Lossless%29%20%283%3A2%29.NEF",
+            "license": "CC0-1.0"
+          }
+        },
+        {
+          "label": "Still Life",
+          "before": "/presets/images/58a25d21508086aecc7e0569.webp",
+          "after": "/presets/images/9f866b082dc3336840d81f79.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://raw.pixls.us/getfile.php/3587/nice/Nikon%20-%20Z%206%20-%2012bit%2012bit%20compressed%20%283%3A2%29.NEF",
+            "license": "CC0-1.0"
+          }
+        }
+      ],
+      "pageUrl": "https://lighttable.app/presets/lighttable/soft-portrait/",
+      "publishedAt": "2026-09-08",
+      "featured": true
+    },
+    {
+      "id": "lighttable/warm-film",
+      "name": "Warm Film",
+      "version": "1.0.0",
+      "description": "Warm color-negative character for snapshots and travel.",
+      "tags": [
+        "Film",
+        "Warm",
+        "Travel"
+      ],
+      "author": {
+        "name": "LightTable",
+        "url": "https://lighttable.app/"
+      },
+      "license": "CC0-1.0",
+      "filmMode": "on",
+      "schemaVersion": 3,
+      "capabilities": [
+        "look-v1"
+      ],
+      "file": {
+        "url": "/presets/files/lighttable/warm-film/1.0.0.ltpreset",
+        "sha256": "81dcc656f4dd9d9e71fc9b071258e1b21dfabd78b71de2da2cb108057fdd9045",
+        "bytes": 2437
+      },
+      "previews": [
+        {
+          "label": "Field",
+          "before": "/presets/images/c92f6909fd02ac65daee9a93.webp",
+          "after": "/presets/images/8660928bc482c90235bbe0eb.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://raw.pixls.us/getfile.php/1835/nice/Nikon%20-%20D850%20-%2012bit%2012bit%20compressed%20%28Lossless%29%20%283%3A2%29.NEF",
+            "license": "CC0-1.0"
+          }
+        },
+        {
+          "label": "Still Life",
+          "before": "/presets/images/58a25d21508086aecc7e0569.webp",
+          "after": "/presets/images/6fbabada6411d20b738845f4.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://raw.pixls.us/getfile.php/3587/nice/Nikon%20-%20Z%206%20-%2012bit%2012bit%20compressed%20%283%3A2%29.NEF",
+            "license": "CC0-1.0"
+          }
+        },
+        {
+          "label": "Portrait",
+          "before": "/presets/images/7fad07ace84950a816f15636.webp",
+          "after": "/presets/images/e37276170630dc1f5f9a68d5.webp",
+          "credit": {
+            "name": "CC0 photograph",
+            "url": "https://www.oneraw.co.uk/01/",
+            "license": "CC0-1.0"
+          }
+        }
+      ],
+      "pageUrl": "https://lighttable.app/presets/lighttable/warm-film/",
+      "publishedAt": "2026-09-08",
+      "featured": true
+    }
+  ]
+}

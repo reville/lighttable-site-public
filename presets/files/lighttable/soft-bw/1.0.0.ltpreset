@@ -1,0 +1,45 @@
+{
+  "format": "LightTable Preset",
+  "version": 3,
+  "presets": [
+    {
+      "id": "lighttable/soft-bw",
+      "name": "Soft B&W",
+      "version": "1.0.0",
+      "source": "lighttable",
+      "presetType": "style",
+      "scope": "look",
+      "filmMode": "off",
+      "includeFilm": false,
+      "grade": {
+        "contrast": -0.04,
+        "highlights": -0.12,
+        "shadows": 0.13,
+        "blacks": 0.035,
+        "saturation": -1.0
+      },
+      "includedGrade": [
+        "contrast",
+        "highlights",
+        "shadows",
+        "blacks",
+        "saturation"
+      ],
+      "params": {},
+      "includedFilm": [],
+      "description": "Gentle monochrome contrast and open shadows for portraits and everyday photographs.",
+      "tags": [
+        "B&W",
+        "Portrait"
+      ],
+      "author": {
+        "name": "LightTable",
+        "url": "https://lighttable.app/"
+      },
+      "license": "CC0-1.0",
+      "masks": [],
+      "heals": [],
+      "optics": {}
+    }
+  ]
+}

@@ -1,0 +1,437 @@
+{
+  "renderer": "LightTable program_render_image",
+  "sourceRevision": "f783b819c3236b6442cb1d044ef45675045309fa",
+  "sourceDirty": true,
+  "engineSha256": "4091d23b3c22dff78f4809297927a93b7ef1cc71069429be9c96e2612e071d3d",
+  "recipeSha256": "24a73a309880abc3602d77a8cb376e17fca90ce3098df19c1c0f065f42882f50",
+  "sources": [
+    {
+      "file": "field.jpg",
+      "sha256": "876ff6c2a3338dd19ddadafde642fe72feec4766dc812b2ad6d8b9465294dc6b",
+      "original": "02-nikon-d850-green-field.NEF",
+      "original_sha256": "31b7fe298a5c91694c6ca8b3284a0a016e572a02c3964b502d4732e8e9283da8",
+      "source_url": "https://raw.pixls.us/getfile.php/1835/nice/Nikon%20-%20D850%20-%2012bit%2012bit%20compressed%20%28Lossless%29%20%283%3A2%29.NEF",
+      "license": "Creative Commons Zero 1.0 - Public Domain",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "extraction": "Unmodified embedded camera JPEG preview"
+    },
+    {
+      "file": "still-life.jpg",
+      "sha256": "ae778522be870827599b09e14e8393a012052d963a91b514b011b5fde89b00d5",
+      "original": "06-nikon-z6-still-life-toys.NEF",
+      "original_sha256": "f0ab08da469ee205f2bc08efd9005778c64cdcb064893cee03768e32e5da1a36",
+      "source_url": "https://raw.pixls.us/getfile.php/3587/nice/Nikon%20-%20Z%206%20-%2012bit%2012bit%20compressed%20%283%3A2%29.NEF",
+      "license": "Creative Commons Zero 1.0 - Public Domain",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "extraction": "Unmodified embedded camera JPEG preview"
+    },
+    {
+      "file": "portrait.jpg",
+      "sha256": "3508f782dd0d1b87160edc5114cfd9d53f3495415acb46d7400fc74a6db66611",
+      "original": "31-nikon-d7100-woman-natural-light-portrait.NEF",
+      "original_sha256": "c00ff1aa7737d6fc2ec8af2e8decc4598d31b85089d5739ad286786ea6fbbec3",
+      "source_url": "https://www.oneraw.co.uk/01/",
+      "license": "Creative Commons Zero 1.0 - Public Domain",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "extraction": "Unmodified embedded camera JPEG preview"
+    }
+  ],
+  "images": [
+    {
+      "path": "presets/images/c92f6909fd02ac65daee9a93.webp",
+      "sha256": "c92f6909fd02ac65daee9a93088eb27675cb02398df64b49e624d949e99f0b68",
+      "width": 960,
+      "height": 640,
+      "label": "Original \u00b7 field.jpg",
+      "meanRGB": [
+        54.44,
+        67.65,
+        57.6
+      ]
+    },
+    {
+      "path": "presets/images/58a25d21508086aecc7e0569.webp",
+      "sha256": "58a25d21508086aecc7e056925c8e33544646d8c15b271f88abc649975e84dae",
+      "width": 960,
+      "height": 640,
+      "label": "Original \u00b7 still-life.jpg",
+      "meanRGB": [
+        142.46,
+        113.58,
+        95.0
+      ]
+    },
+    {
+      "path": "presets/images/7fad07ace84950a816f15636.webp",
+      "sha256": "7fad07ace84950a816f156368cf22a8504cf7dc2e9f51d87836a9a12c60d38c7",
+      "width": 960,
+      "height": 640,
+      "label": "Original \u00b7 portrait.jpg",
+      "meanRGB": [
+        206.53,
+        200.82,
+        201.6
+      ]
+    },
+    {
+      "path": "presets/images/fce0fec2eef4cce75349ab54.webp",
+      "sha256": "fce0fec2eef4cce75349ab54e2c469fafa0a748506966799ba6927ab20d2e590",
+      "width": 960,
+      "height": 640,
+      "label": "Natural Finish \u00b7 field.jpg",
+      "meanRGB": [
+        53.95,
+        68.09,
+        57.91
+      ]
+    },
+    {
+      "path": "presets/images/7d5d3279b6d5b63a1ff66706.webp",
+      "sha256": "7d5d3279b6d5b63a1ff66706cda98909fc0d0b37d772f37e84fc4093ab96f5ca",
+      "width": 960,
+      "height": 640,
+      "label": "Natural Finish \u00b7 still-life.jpg",
+      "meanRGB": [
+        144.85,
+        114.15,
+        94.17
+      ]
+    },
+    {
+      "path": "presets/images/1437416dde231c3773c29bd2.webp",
+      "sha256": "1437416dde231c3773c29bd2968b8f2912b5017abef86d6a09be55601a13550a",
+      "width": 960,
+      "height": 640,
+      "label": "Natural Finish \u00b7 portrait.jpg",
+      "meanRGB": [
+        204.27,
+        198.03,
+        198.69
+      ]
+    },
+    {
+      "path": "presets/images/2a1a75fc6d9823b5efd35358.webp",
+      "sha256": "2a1a75fc6d9823b5efd353587cb6bff90bcef0f7095d835456ce17cfc008691b",
+      "width": 960,
+      "height": 640,
+      "label": "Soft Portrait \u00b7 field.jpg",
+      "meanRGB": [
+        101.97,
+        102.82,
+        79.19
+      ]
+    },
+    {
+      "path": "presets/images/9f866b082dc3336840d81f79.webp",
+      "sha256": "9f866b082dc3336840d81f7943ab566f5047cc9e97f418e500537a3a4a48ccd5",
+      "width": 960,
+      "height": 640,
+      "label": "Soft Portrait \u00b7 still-life.jpg",
+      "meanRGB": [
+        130.69,
+        110.7,
+        97.36
+      ]
+    },
+    {
+      "path": "presets/images/3b4974580f641402edbfc83f.webp",
+      "sha256": "3b4974580f641402edbfc83fd96b1b6503091d6b19f12135e3eb06d97277001a",
+      "width": 960,
+      "height": 640,
+      "label": "Soft Portrait \u00b7 portrait.jpg",
+      "meanRGB": [
+        124.95,
+        123.45,
+        123.35
+      ]
+    },
+    {
+      "path": "presets/images/8660928bc482c90235bbe0eb.webp",
+      "sha256": "8660928bc482c90235bbe0eb7a5711107dc4a1fb28380b94e28542205f5b218a",
+      "width": 960,
+      "height": 640,
+      "label": "Warm Film \u00b7 field.jpg",
+      "meanRGB": [
+        93.59,
+        99.23,
+        74.04
+      ]
+    },
+    {
+      "path": "presets/images/6fbabada6411d20b738845f4.webp",
+      "sha256": "6fbabada6411d20b738845f40685300029a98c5e62f7c46a9d8aad711f900c7a",
+      "width": 960,
+      "height": 640,
+      "label": "Warm Film \u00b7 still-life.jpg",
+      "meanRGB": [
+        130.72,
+        107.09,
+        91.48
+      ]
+    },
+    {
+      "path": "presets/images/e37276170630dc1f5f9a68d5.webp",
+      "sha256": "e37276170630dc1f5f9a68d543a4a9de1d628b67868dabd467771de7e3d99a9f",
+      "width": 960,
+      "height": 640,
+      "label": "Warm Film \u00b7 portrait.jpg",
+      "meanRGB": [
+        123.35,
+        120.34,
+        120.58
+      ]
+    },
+    {
+      "path": "presets/images/7acc9bde3f3994cd76f886a0.webp",
+      "sha256": "7acc9bde3f3994cd76f886a085bbe30886b1c093b523d670ff5ca2f0eb730760",
+      "width": 960,
+      "height": 640,
+      "label": "Golden Hour \u00b7 field.jpg",
+      "meanRGB": [
+        55.06,
+        68.9,
+        58.52
+      ]
+    },
+    {
+      "path": "presets/images/744d1b6fa09cae1e5a10cf09.webp",
+      "sha256": "744d1b6fa09cae1e5a10cf09ddd96dc94cee92b48f708143faa43f36a97ff834",
+      "width": 960,
+      "height": 640,
+      "label": "Golden Hour \u00b7 still-life.jpg",
+      "meanRGB": [
+        144.09,
+        114.56,
+        94.63
+      ]
+    },
+    {
+      "path": "presets/images/06015d841c8c1a8588d41547.webp",
+      "sha256": "06015d841c8c1a8588d415476037f618983746bc645446d448c7aa4c45a52edc",
+      "width": 960,
+      "height": 640,
+      "label": "Golden Hour \u00b7 portrait.jpg",
+      "meanRGB": [
+        206.91,
+        198.19,
+        192.25
+      ]
+    },
+    {
+      "path": "presets/images/e8e3e6241e59161dea58216f.webp",
+      "sha256": "e8e3e6241e59161dea58216ff3d77a3f26c23a90017a4da589478d66137b5d84",
+      "width": 960,
+      "height": 640,
+      "label": "Crisp Landscape \u00b7 field.jpg",
+      "meanRGB": [
+        52.2,
+        66.93,
+        56.84
+      ]
+    },
+    {
+      "path": "presets/images/f468a574e6a030eca65d0812.webp",
+      "sha256": "f468a574e6a030eca65d0812009697c9cef934a32791d312a45a5632a13195e3",
+      "width": 960,
+      "height": 640,
+      "label": "Crisp Landscape \u00b7 still-life.jpg",
+      "meanRGB": [
+        145.81,
+        113.5,
+        92.67
+      ]
+    },
+    {
+      "path": "presets/images/7ee80ecf2b597297c7842f37.webp",
+      "sha256": "7ee80ecf2b597297c7842f37d733da7047ce1b2cea911ac1a2736f8a95ee8c1b",
+      "width": 960,
+      "height": 640,
+      "label": "Crisp Landscape \u00b7 portrait.jpg",
+      "meanRGB": [
+        203.9,
+        197.29,
+        197.88
+      ]
+    },
+    {
+      "path": "presets/images/bcbd1b2706f52aa27aaf4608.webp",
+      "sha256": "bcbd1b2706f52aa27aaf4608139f889f364e9852591a3b4263b6af966f16cab0",
+      "width": 960,
+      "height": 640,
+      "label": "Faded Print \u00b7 field.jpg",
+      "meanRGB": [
+        66.03,
+        76.19,
+        70.28
+      ]
+    },
+    {
+      "path": "presets/images/ef49693a20b3634db3524d7b.webp",
+      "sha256": "ef49693a20b3634db3524d7ba1a015deb26674521eb600aec8347fcebce6ecf6",
+      "width": 960,
+      "height": 640,
+      "label": "Faded Print \u00b7 still-life.jpg",
+      "meanRGB": [
+        138.62,
+        117.58,
+        103.74
+      ]
+    },
+    {
+      "path": "presets/images/6eeb118ca5765691241b8380.webp",
+      "sha256": "6eeb118ca5765691241b83800dcbd8cb8b3a0f5c270ef17058f380199b8f7f69",
+      "width": 960,
+      "height": 640,
+      "label": "Faded Print \u00b7 portrait.jpg",
+      "meanRGB": [
+        197.77,
+        193.09,
+        191.89
+      ]
+    },
+    {
+      "path": "presets/images/8a661330fce04b68d88c9cc2.webp",
+      "sha256": "8a661330fce04b68d88c9cc2e288663bbfd1f2782340829b96a6f25bf8915d66",
+      "width": 960,
+      "height": 640,
+      "label": "Cinematic Color \u00b7 field.jpg",
+      "meanRGB": [
+        90.1,
+        97.85,
+        70.76
+      ]
+    },
+    {
+      "path": "presets/images/6b469c2d9ed0393161134ffd.webp",
+      "sha256": "6b469c2d9ed0393161134ffd5ca4a0eb4e4bbd65f0c8d53462381e966282f2cf",
+      "width": 960,
+      "height": 640,
+      "label": "Cinematic Color \u00b7 still-life.jpg",
+      "meanRGB": [
+        123.2,
+        106.33,
+        91.51
+      ]
+    },
+    {
+      "path": "presets/images/9a11e3a0948ab3cce9c07915.webp",
+      "sha256": "9a11e3a0948ab3cce9c07915cdb56dea75a448af84c22cf7b9fffb1386120c73",
+      "width": 960,
+      "height": 640,
+      "label": "Cinematic Color \u00b7 portrait.jpg",
+      "meanRGB": [
+        119.97,
+        117.95,
+        116.83
+      ]
+    },
+    {
+      "path": "presets/images/a2ad2841316bd190e3a92cf9.webp",
+      "sha256": "a2ad2841316bd190e3a92cf9cb410d37da80f8c60f840e6fac373e7601fb202e",
+      "width": 960,
+      "height": 640,
+      "label": "Night Film \u00b7 field.jpg",
+      "meanRGB": [
+        95.66,
+        98.34,
+        66.78
+      ]
+    },
+    {
+      "path": "presets/images/5d5ed6b8c22e0aed1240e488.webp",
+      "sha256": "5d5ed6b8c22e0aed1240e4886bef8aa2e33f9bafa64b79ca9cca8f13aef555c7",
+      "width": 960,
+      "height": 640,
+      "label": "Night Film \u00b7 still-life.jpg",
+      "meanRGB": [
+        123.57,
+        106.98,
+        90.08
+      ]
+    },
+    {
+      "path": "presets/images/87f60dff0b005713247dda99.webp",
+      "sha256": "87f60dff0b005713247dda99c7ecb19e67a781ab40b3a46bf95cc58e66e13d41",
+      "width": 960,
+      "height": 640,
+      "label": "Night Film \u00b7 portrait.jpg",
+      "meanRGB": [
+        121.67,
+        119.95,
+        118.15
+      ]
+    },
+    {
+      "path": "presets/images/45cf8b5e56491102d31c2594.webp",
+      "sha256": "45cf8b5e56491102d31c25947bf4f184f7026bcc8cd52815decb374311aa88bd",
+      "width": 960,
+      "height": 640,
+      "label": "Classic B&W \u00b7 field.jpg",
+      "meanRGB": [
+        86.66,
+        86.66,
+        86.66
+      ]
+    },
+    {
+      "path": "presets/images/4ab4357b69c31fe4d40c4102.webp",
+      "sha256": "4ab4357b69c31fe4d40c4102fbe8eec92220a763c7ff6651ecd4121ace08652c",
+      "width": 960,
+      "height": 640,
+      "label": "Classic B&W \u00b7 still-life.jpg",
+      "meanRGB": [
+        162.33,
+        162.33,
+        162.33
+      ]
+    },
+    {
+      "path": "presets/images/98bb2ab3cbe57a1bd2ba2e42.webp",
+      "sha256": "98bb2ab3cbe57a1bd2ba2e42ecfc3df9b4a7e248af9bf62dd00c4fc347ff0f92",
+      "width": 960,
+      "height": 640,
+      "label": "Classic B&W \u00b7 portrait.jpg",
+      "meanRGB": [
+        161.93,
+        161.93,
+        161.93
+      ]
+    },
+    {
+      "path": "presets/images/b4d1da0d873cb7568205a13d.webp",
+      "sha256": "b4d1da0d873cb7568205a13d166643ea8f6406a4931f7b3ca65f494d51b3dc29",
+      "width": 960,
+      "height": 640,
+      "label": "Soft B&W \u00b7 field.jpg",
+      "meanRGB": [
+        70.52,
+        70.52,
+        70.52
+      ]
+    },
+    {
+      "path": "presets/images/c42486d9c4c508056d56b578.webp",
+      "sha256": "c42486d9c4c508056d56b5780bdb518434d7923d4f27dff481095f8d6e66bc8d",
+      "width": 960,
+      "height": 640,
+      "label": "Soft B&W \u00b7 still-life.jpg",
+      "meanRGB": [
+        122.45,
+        122.45,
+        122.45
+      ]
+    },
+    {
+      "path": "presets/images/4b6b41b5748166dd5fd95191.webp",
+      "sha256": "4b6b41b5748166dd5fd9519106d379e30df7217bc37bb6b6d6b89f2451ebdb1e",
+      "width": 960,
+      "height": 640,
+      "label": "Soft B&W \u00b7 portrait.jpg",
+      "meanRGB": [
+        195.62,
+        195.62,
+        195.62
+      ]
+    }
+  ]
+}

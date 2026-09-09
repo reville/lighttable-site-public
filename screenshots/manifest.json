@@ -1,0 +1,457 @@
+{
+  "appRevision": "5bad45b4d313f2618328f7d495b6a8cbf046601f",
+  "capture": {
+    "count": 10,
+    "deviceScaleFactor": 2,
+    "platform": "macOS",
+    "previewWidth": 3000,
+    "responsiveWidths": [
+      750,
+      1500,
+      3000
+    ],
+    "settleSeconds": 1.25,
+    "viewportHeight": 1000,
+    "viewportWidth": 1660,
+    "width": 3320
+  },
+  "captureMethod": "Real macOS AppKit window with native Metal preview at 2x Retina; window-only capture, transparent rounded corners, no shadow; lossless WebP masters",
+  "capturedAt": "2026-09-07T21:51:31.843861+00:00",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "schema": 2,
+  "shotCount": 10,
+  "shots": [
+    {
+      "asset": "film-controls.webp",
+      "backend": "native-metal",
+      "bytes": 5167566,
+      "height": 2000,
+      "id": "film-controls",
+      "nativeWindow": {
+        "shadowPadding": false,
+        "trafficLights": {
+          "green": 608,
+          "red": 584,
+          "yellow": 600
+        },
+        "transparentCorners": true
+      },
+      "sha256": "43d234d40b4d780848f4b7ea56a57ef6c79b472fec4132f9707a406600a913bd",
+      "source": "20-fujifilm-x-t30-iii-desert-rocks.RAF",
+      "subject": "desert rock formations",
+      "variants": [
+        {
+          "asset": "film-controls-750w.webp",
+          "bytes": 254776,
+          "height": 452,
+          "sha256": "ef17aae28c00e1ea1102ea23e79d72480a47325cb7becd1a2541bff200b0df71",
+          "width": 750
+        },
+        {
+          "asset": "film-controls-1500w.webp",
+          "bytes": 1029736,
+          "height": 904,
+          "sha256": "8e0bba80115d5a01b37a28f95332556769bb71989e4594086b9ca6868de306c3",
+          "width": 1500
+        },
+        {
+          "asset": "film-controls-3000w.webp",
+          "bytes": 3950792,
+          "height": 1808,
+          "sha256": "98309ddedb353823a5e34281004ea2ecf2698daa4be11f90599353d9ce2d13b2",
+          "width": 3000
+        }
+      ],
+      "width": 3320
+    },
+    {
+      "asset": "editor.webp",
+      "backend": "native-metal",
+      "bytes": 3720894,
+      "height": 2000,
+      "id": "editor",
+      "nativeWindow": {
+        "shadowPadding": false,
+        "trafficLights": {
+          "green": 608,
+          "red": 584,
+          "yellow": 600
+        },
+        "transparentCorners": true
+      },
+      "sha256": "340229a2ea3d3f6400297d56d3604a4e96ab407b3ac983196d796d797bd14ec8",
+      "source": "03-fujifilm-xq2-harbor-ferry.RAF",
+      "subject": "harbor ferry",
+      "variants": [
+        {
+          "asset": "editor-750w.webp",
+          "bytes": 228554,
+          "height": 452,
+          "sha256": "62e17204d0776bcdb5624e61b0ac7fdf9546dc5b45c9e0ebd0005bad55a522c8",
+          "width": 750
+        },
+        {
+          "asset": "editor-1500w.webp",
+          "bytes": 853334,
+          "height": 904,
+          "sha256": "47038ff114b9206ec4192d00704b3f838b6677b2ee27f0268646e781bea22fe4",
+          "width": 1500
+        },
+        {
+          "asset": "editor-3000w.webp",
+          "bytes": 2987436,
+          "height": 1808,
+          "sha256": "e4dea45ee6bdd94668e8b97eb19cb26169acf54a30f9eaf8c8f8d8a78d126c67",
+          "width": 3000
+        }
+      ],
+      "width": 3320
+    },
+    {
+      "asset": "crop-and-rotate.webp",
+      "backend": "native-metal",
+      "bytes": 2264542,
+      "height": 2000,
+      "id": "crop-and-rotate",
+      "nativeWindow": {
+        "shadowPadding": false,
+        "trafficLights": {
+          "green": 608,
+          "red": 584,
+          "yellow": 600
+        },
+        "transparentCorners": true
+      },
+      "sha256": "3e2f27d2f9bd390406fc68c59f1c1af68997a4f13e837e304c3a2acf9bb54734",
+      "source": "13-fujifilm-x100vi-stone-church.RAF",
+      "subject": "stone church",
+      "variants": [
+        {
+          "asset": "crop-and-rotate-750w.webp",
+          "bytes": 154246,
+          "height": 452,
+          "sha256": "27452afd9540f0452c6ef92344770e6d4f3104fe16fa2c5eec75772ba8428e04",
+          "width": 750
+        },
+        {
+          "asset": "crop-and-rotate-1500w.webp",
+          "bytes": 555142,
+          "height": 904,
+          "sha256": "7ef9c9d12f9df71f8056c2719ba86dfafb7cdb24388f92c5ae83406c556c24a3",
+          "width": 1500
+        },
+        {
+          "asset": "crop-and-rotate-3000w.webp",
+          "bytes": 1942874,
+          "height": 1808,
+          "sha256": "c9efb1289fc4640310c6a78ee0b6b941ce53638183ddb13c1e48d9833c3b5f75",
+          "width": 3000
+        }
+      ],
+      "width": 3320
+    },
+    {
+      "asset": "local-masks.webp",
+      "backend": "native-metal",
+      "bytes": 2628140,
+      "height": 2000,
+      "id": "local-masks",
+      "nativeWindow": {
+        "shadowPadding": false,
+        "trafficLights": {
+          "green": 608,
+          "red": 584,
+          "yellow": 600
+        },
+        "transparentCorners": true
+      },
+      "sha256": "6048393e88653a0d5622cbe2975980bd738100c5f028861b1da1f24108395657",
+      "source": "09-google-pixel-7-pro-succulents.DNG",
+      "subject": "succulent plants",
+      "variants": [
+        {
+          "asset": "local-masks-750w.webp",
+          "bytes": 202246,
+          "height": 452,
+          "sha256": "65c697b780abb70917321d60f2801aa2aae5ce250570c5ab2d4cc7e53abbc373",
+          "width": 750
+        },
+        {
+          "asset": "local-masks-1500w.webp",
+          "bytes": 704576,
+          "height": 904,
+          "sha256": "498c9d819e59de94e0d1f3b4828b81629ef3a9d23af061b19f8d31049e6b62c2",
+          "width": 1500
+        },
+        {
+          "asset": "local-masks-3000w.webp",
+          "bytes": 2415514,
+          "height": 1808,
+          "sha256": "e5a11a55f7cff4645ec33e014e7d99f5a97d1489c79bf6800a155da909037e43",
+          "width": 3000
+        }
+      ],
+      "width": 3320
+    },
+    {
+      "asset": "remove.webp",
+      "backend": "native-metal",
+      "bytes": 2032350,
+      "height": 2000,
+      "id": "remove",
+      "nativeWindow": {
+        "shadowPadding": false,
+        "trafficLights": {
+          "green": 608,
+          "red": 584,
+          "yellow": 600
+        },
+        "transparentCorners": true
+      },
+      "sha256": "249fa6d2eedf67745655f7382a9b766ce38804c591e686d01858c1f5ee422f02",
+      "source": "06-nikon-z6-still-life-toys.NEF",
+      "subject": "toy still life",
+      "variants": [
+        {
+          "asset": "remove-750w.webp",
+          "bytes": 183892,
+          "height": 452,
+          "sha256": "6425fbb0e4b245f83c8b406d03c5362d50fc07e9d7cb79827133e7966463701d",
+          "width": 750
+        },
+        {
+          "asset": "remove-1500w.webp",
+          "bytes": 605954,
+          "height": 904,
+          "sha256": "4f6e780c18994ef805cc3d2288c52f47a4cc364c8f9ec9532a092bd2c995fb54",
+          "width": 1500
+        },
+        {
+          "asset": "remove-3000w.webp",
+          "bytes": 2024492,
+          "height": 1808,
+          "sha256": "11c8e1957b8afc0580dd4ec41c2b4223e0e407e5cdfb15faee1e784625cfbd6b",
+          "width": 3000
+        }
+      ],
+      "width": 3320
+    },
+    {
+      "asset": "lens-and-geometry.webp",
+      "backend": "native-metal",
+      "bytes": 4491520,
+      "height": 2000,
+      "id": "lens-and-geometry",
+      "nativeWindow": {
+        "shadowPadding": false,
+        "trafficLights": {
+          "green": 608,
+          "red": 584,
+          "yellow": 600
+        },
+        "transparentCorners": true
+      },
+      "sha256": "a4535aad4c6f02525179b9638ffbe53a8402873877099a6b39ba03c8d11d649a",
+      "source": "04-ricoh-gr-iii-coastal-dunes.DNG",
+      "subject": "coastal dunes",
+      "variants": [
+        {
+          "asset": "lens-and-geometry-750w.webp",
+          "bytes": 247586,
+          "height": 452,
+          "sha256": "61859c1b62162a95bcdf693fe7c9c3f8bd5cc6e882611951408393e127abec57",
+          "width": 750
+        },
+        {
+          "asset": "lens-and-geometry-1500w.webp",
+          "bytes": 958966,
+          "height": 904,
+          "sha256": "ab2112c7022d3cb4ea1ffca3771f9ae0cfb1fc498967937f2002ea14ee3ae720",
+          "width": 1500
+        },
+        {
+          "asset": "lens-and-geometry-3000w.webp",
+          "bytes": 3566210,
+          "height": 1808,
+          "sha256": "84a9de105d4b7ad49e70c1d224811454ee5f8b57784eeab8bb339456d1eb84a5",
+          "width": 3000
+        }
+      ],
+      "width": 3320
+    },
+    {
+      "asset": "before-after.webp",
+      "backend": "native-metal",
+      "bytes": 3248050,
+      "height": 2000,
+      "id": "before-after",
+      "nativeWindow": {
+        "shadowPadding": false,
+        "trafficLights": {
+          "green": 608,
+          "red": 584,
+          "yellow": 600
+        },
+        "transparentCorners": true
+      },
+      "sha256": "0feb9aebf1321020b535652b204aee3e43772a5d6c0acd8eb18607ecac8e0a1d",
+      "source": "07-sony-a7c-autumn-leaf.ARW",
+      "subject": "autumn leaf close-up",
+      "variants": [
+        {
+          "asset": "before-after-750w.webp",
+          "bytes": 218122,
+          "height": 452,
+          "sha256": "959f37264bd05f093f72599d44d4e76423e8841845d81c6b1b175ed40f932ada",
+          "width": 750
+        },
+        {
+          "asset": "before-after-1500w.webp",
+          "bytes": 771840,
+          "height": 904,
+          "sha256": "10218fd555c80567268b85ea96e31f7e651ea2aee569989c182ad158ecd494e5",
+          "width": 1500
+        },
+        {
+          "asset": "before-after-3000w.webp",
+          "bytes": 2783624,
+          "height": 1808,
+          "sha256": "19b3193e5429233a2d7a75107652b7333c11f30a4133e233c006853dbe671f5e",
+          "width": 3000
+        }
+      ],
+      "width": 3320
+    },
+    {
+      "asset": "photo-info.webp",
+      "backend": "native-metal",
+      "bytes": 2497910,
+      "height": 2000,
+      "id": "photo-info",
+      "nativeWindow": {
+        "shadowPadding": false,
+        "trafficLights": {
+          "green": 608,
+          "red": 584,
+          "yellow": 600
+        },
+        "transparentCorners": true
+      },
+      "sha256": "30972708a13b10c84546b72fab57cb7725efae0969969393c3756a34e834ae4b",
+      "source": "16-dji-mavic-3-pro-aerial-castle.DNG",
+      "subject": "aerial castle",
+      "variants": [
+        {
+          "asset": "photo-info-750w.webp",
+          "bytes": 194496,
+          "height": 452,
+          "sha256": "1517e59f3946d5dbbf6ca4c17746fc9f1256bee386443c82ca4a102202e9bbc0",
+          "width": 750
+        },
+        {
+          "asset": "photo-info-1500w.webp",
+          "bytes": 682884,
+          "height": 904,
+          "sha256": "78593ca7b0d103b2486eb5050b21ee8368be48da500bda83c3857495b3bcb766",
+          "width": 1500
+        },
+        {
+          "asset": "photo-info-3000w.webp",
+          "bytes": 2357676,
+          "height": 1808,
+          "sha256": "f914760a97d7b9de6b2826a08329d25f8755cff3cbd6b8fd350469adcb87cabd",
+          "width": 3000
+        }
+      ],
+      "width": 3320
+    },
+    {
+      "asset": "history.webp",
+      "backend": "native-metal",
+      "bytes": 3920592,
+      "height": 2000,
+      "id": "history",
+      "nativeWindow": {
+        "shadowPadding": false,
+        "trafficLights": {
+          "green": 608,
+          "red": 584,
+          "yellow": 600
+        },
+        "transparentCorners": true
+      },
+      "sha256": "c30a83c2c37f3f19ff8a4f08857706ae91efdd79cdb6db7f7aa9a07696957ac7",
+      "source": "01-canon-eos-80d-city-tree.CR2",
+      "subject": "city street and large tree",
+      "variants": [
+        {
+          "asset": "history-750w.webp",
+          "bytes": 276042,
+          "height": 452,
+          "sha256": "e50800f925b3efd0231ce6f8d47dd1b424079c5dde761ef4f10935640d4ba428",
+          "width": 750
+        },
+        {
+          "asset": "history-1500w.webp",
+          "bytes": 984970,
+          "height": 904,
+          "sha256": "f811ac7ceae64cc6838e9405df8118fcfd1c799390a44625d92d91e614573c90",
+          "width": 1500
+        },
+        {
+          "asset": "history-3000w.webp",
+          "bytes": 3262678,
+          "height": 1808,
+          "sha256": "cdf4e99bf57f974abff2f7213e68c9aa64c82391d33ac53dedb0f8a67e92de09",
+          "width": 3000
+        }
+      ],
+      "width": 3320
+    },
+    {
+      "asset": "export-workflow.webp",
+      "backend": "native-metal",
+      "bytes": 684996,
+      "height": 2000,
+      "id": "export-workflow",
+      "nativeWindow": {
+        "shadowPadding": false,
+        "trafficLights": {
+          "green": 592,
+          "red": 584,
+          "yellow": 592
+        },
+        "transparentCorners": true
+      },
+      "sha256": "289c6348885140204146a1deb1128c5db3f2061271bae2e4079defb84f1aa7f6",
+      "source": "05-sony-rx100-vii-tropical-homestead.ARW",
+      "subject": "tropical homestead",
+      "variants": [
+        {
+          "asset": "export-workflow-750w.webp",
+          "bytes": 91138,
+          "height": 452,
+          "sha256": "a15b91a73ce6bbd04daf350316072baffb95ef177290d9263fd5d355b08a211c",
+          "width": 750
+        },
+        {
+          "asset": "export-workflow-1500w.webp",
+          "bytes": 247754,
+          "height": 904,
+          "sha256": "d46c420bd7ade843996d78ef26feed02710e6334552b0d4490d8fd87f7c0e909",
+          "width": 1500
+        },
+        {
+          "asset": "export-workflow-3000w.webp",
+          "bytes": 748642,
+          "height": 1808,
+          "sha256": "a4cfc3bd58417fb78ec3a705806fa5fc4afea8e47990e237d11e5bf3bce49164",
+          "width": 3000
+        }
+      ],
+      "width": 3320
+    }
+  ],
+  "sourceCollection": "LightTable CC0 RAW demo collection",
+  "sourceDirty": false
+}

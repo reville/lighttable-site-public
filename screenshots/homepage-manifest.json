@@ -1,0 +1,177 @@
+{
+  "appRevision": "5bad45b4d313f2618328f7d495b6a8cbf046601f",
+  "images": [
+    {
+      "asset": "hero-film.webp",
+      "bytes": 2870694,
+      "crop": [
+        0,
+        0,
+        1660,
+        2000
+      ],
+      "height": 2000,
+      "id": "hero-film",
+      "responsiveWidths": [
+        750,
+        1500
+      ],
+      "sha256": "0112aab9698da6c672507aefbc9125a95cfd0ff153c16ce2c752d502641d75f7",
+      "sourceAsset": "film-controls.webp",
+      "sourceSha256": "43d234d40b4d780848f4b7ea56a57ef6c79b472fec4132f9707a406600a913bd",
+      "sourceShot": "film-controls",
+      "variants": [
+        {
+          "asset": "hero-film-750w.webp",
+          "bytes": 560054,
+          "height": 904,
+          "sha256": "4f04770cc82d5d9d2d1321f4843d5ca52a706a5ebf24f3860c7b7ee56f114d3a",
+          "width": 750
+        },
+        {
+          "asset": "hero-film-1500w.webp",
+          "bytes": 2152158,
+          "height": 1808,
+          "sha256": "af95029b69233943ea3b649c3c877ee484afab49c3d73cb326ca6d04b98f4e56",
+          "width": 1500
+        }
+      ],
+      "viewportCrop": [
+        0,
+        0,
+        830,
+        1000
+      ],
+      "width": 1660
+    },
+    {
+      "asset": "detail-film.webp",
+      "bytes": 21780,
+      "crop": [
+        2576,
+        224,
+        632,
+        836
+      ],
+      "height": 836,
+      "id": "detail-film",
+      "responsiveWidths": [],
+      "sha256": "f557fdad27a1fc157a48e496ca281b8d229452014d07c0ebc6f72a24ac46fe47",
+      "sourceAsset": "film-controls.webp",
+      "sourceSha256": "43d234d40b4d780848f4b7ea56a57ef6c79b472fec4132f9707a406600a913bd",
+      "sourceShot": "film-controls",
+      "variants": [],
+      "viewportCrop": [
+        1288,
+        112,
+        316,
+        418
+      ],
+      "width": 632
+    },
+    {
+      "asset": "detail-masks.webp",
+      "bytes": 32480,
+      "crop": [
+        2576,
+        304,
+        632,
+        1096
+      ],
+      "height": 1096,
+      "id": "detail-masks",
+      "responsiveWidths": [],
+      "sha256": "0609fec9a3bad419f2a959cec15cebfd4c2e5d400a0860fbb6150291fd21f25b",
+      "sourceAsset": "local-masks.webp",
+      "sourceSha256": "6048393e88653a0d5622cbe2975980bd738100c5f028861b1da1f24108395657",
+      "sourceShot": "local-masks",
+      "variants": [],
+      "viewportCrop": [
+        1288,
+        152,
+        316,
+        548
+      ],
+      "width": 632
+    },
+    {
+      "asset": "detail-export.webp",
+      "bytes": 70214,
+      "crop": [
+        1108,
+        278,
+        1104,
+        1444
+      ],
+      "height": 1444,
+      "id": "detail-export",
+      "responsiveWidths": [],
+      "sha256": "891cf950afb7c7fcb9ed50f90b0bfe8b907ccad1398a25f645adc4a4e6c661c8",
+      "sourceAsset": "export-workflow.webp",
+      "sourceSha256": "289c6348885140204146a1deb1128c5db3f2061271bae2e4079defb84f1aa7f6",
+      "sourceShot": "export-workflow",
+      "variants": [],
+      "viewportCrop": [
+        554,
+        139,
+        552,
+        722
+      ],
+      "width": 1104
+    },
+    {
+      "asset": "detail-editor.webp",
+      "bytes": 48014,
+      "crop": [
+        2576,
+        224,
+        632,
+        996
+      ],
+      "height": 996,
+      "id": "detail-editor",
+      "responsiveWidths": [],
+      "sha256": "358ade4382609da18c8bc685a340da426101b6a971f098d4cd19136ad74eca87",
+      "sourceAsset": "editor.webp",
+      "sourceSha256": "340229a2ea3d3f6400297d56d3604a4e96ab407b3ac983196d796d797bd14ec8",
+      "sourceShot": "editor",
+      "variants": [],
+      "viewportCrop": [
+        1288,
+        112,
+        316,
+        498
+      ],
+      "width": 632
+    },
+    {
+      "asset": "detail-photo-info.webp",
+      "bytes": 20158,
+      "crop": [
+        2576,
+        224,
+        632,
+        724
+      ],
+      "height": 724,
+      "id": "detail-photo-info",
+      "responsiveWidths": [],
+      "sha256": "b07c33ac56aec9c8565f03ea30e8f97e901601259aec8e07d87f2f4f1bad7955",
+      "sourceAsset": "photo-info.webp",
+      "sourceSha256": "30972708a13b10c84546b72fab57cb7725efae0969969393c3756a34e834ae4b",
+      "sourceShot": "photo-info",
+      "variants": [],
+      "viewportCrop": [
+        1288,
+        112,
+        316,
+        362
+      ],
+      "width": 632
+    }
+  ],
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "method": "Lossless crops of actual macOS windows at 2x Retina; viewport coordinates mapped to device pixels; no upscaling",
+  "schema": 1,
+  "sourceCapturedAt": "2026-09-07T21:51:31.843861+00:00"
+}

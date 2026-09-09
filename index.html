@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="LightTable - Highly performant digital darkroom with realistic film stock effects."
+    />
+    <meta property="og:title" content="LightTable - Highly performant digital darkroom" />
+    <meta
+      property="og:description"
+      content="A desktop editor for macOS, Windows, and Linux with a Rust and GPU-driven core and realistic film stock effects."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lighttable.app/" />
+    <meta property="og:image" content="https://lighttable.app/og.png?v=20260908-revised-icon" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="LightTable’s current icon and wordmark beside the real Film workspace, with a desert photograph and the library sidebar." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://lighttable.app/og.png?v=20260908-revised-icon" />
+    <meta name="twitter:image:alt" content="LightTable’s current icon and wordmark beside the real Film workspace, with a desert photograph and the library sidebar." />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png?v=20260908-revised-icon" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png?v=20260908-revised-icon" />
+    <link rel="apple-touch-icon" href="app-icon.png?v=20260908-revised-icon" />
+    <link rel="preload" href="assets/fonts/geist-latin-variable.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="assets/fonts/jetbrains-mono-latin-variable.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="homepage.css?v=20260909-mac-release-note" />
+    <title>LightTable - Highly performant digital darkroom</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="./" aria-label="LightTable home">
+        <img src="app-icon-64.png?v=20260908-revised-icon" alt="" width="30" height="30" />
+        <span>LightTable</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="screenshots.html">Screenshots</a>
+        <a href="features.html">Features</a>
+        <a href="presets/">Presets</a>
+        <a href="https://github.com/reville/lighttable-digital-darkroom">GitHub <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="hero-copy">
+          <h1 class="reveal">
+            <span>LightTable</span>
+            <small>Highly performant digital darkroom with realistic film stock effects. Free and open-source.</small>
+          </h1>
+
+          <ul class="feature-list reveal">
+            <li data-platform-copy="hero-renderer">Rust core with GPU-driven rendering.</li>
+            <li data-platform-copy="hero-app">Beautiful desktop app for macOS, Windows, and Linux.</li>
+            <li>Built to be fully and effortless controllable by Claude Code / Codex via comprehensive CLI.</li>
+            <li>
+              Ultra-realistic film simulation, beyond Lightroom, built on
+              <a href="https://github.com/andreavolpato/agx-emulsion">spektrafilm</a>.
+              <ul>
+                <li>23 film stocks, with optional LightTable tuned Portra versions</li>
+                <li>Physical grain scaled by stock and film format</li>
+                <li>Capture exposure, white balance, and development controls</li>
+                <li>Print paper, exposure, preflash, and Y/M filtration</li>
+                <li>Halation, diffusion, glare, scan softness, and sharpening</li>
+              </ul>
+            </li>
+            <li>Easy migration from Lightroom, with XMP and legacy <code>.lrtemplate</code> preset compatibility.</li>
+          </ul>
+
+          <div class="actions reveal">
+            <a
+              class="button button-primary"
+              id="release-download"
+              href="https://github.com/reville/lighttable-digital-darkroom/releases"
+            >View releases</a>
+            <p class="install-status mac-release-note" id="mac-compatibility-note" data-platform-only="macos" hidden>LightTable for Mac only works on Apple silicon. Intel Macs aren’t supported.</p>
+            <p class="install-status mac-release-note" data-platform-only="macos" hidden>Signed download and Mac App Store versions coming soon.</p>
+            <div class="install-option" data-platform-only="macos" hidden>
+              <div class="install-command">
+                <code id="install-command">brew install --cask reville/lighttable/lighttable</code>
+                <button class="copy-command" type="button" aria-label="Copy Homebrew install command" aria-describedby="install-status" title="Copy command" hidden>
+                  <svg class="copy-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                    <rect x="7" y="7" width="9" height="10" rx="2" />
+                    <path d="M12 7V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2" />
+                  </svg>
+                  <svg class="copied-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                    <path d="m4 10 4 4 8-8" />
+                  </svg>
+                </button>
+              </div>
+              <p class="install-status" id="install-status" role="status"></p>
+            </div>
+            <p class="install-option" data-platform-copy="install-guide"><a href="https://github.com/reville/lighttable-digital-darkroom#readme">Installation instructions</a></p>
+            <a class="button button-secondary" href="https://github.com/reville/lighttable-digital-darkroom">View on GitHub</a>
+            <a class="text-link" data-linux-install-link href="linux.html">Linux installation</a>
+          </div>
+
+        </div>
+
+        <!-- BEGIN HOMEPAGE HERO -->
+        <div class="hero-preview">
+          <a class="product-shot reveal" href="screenshots.html" aria-label="View LightTable screenshots">
+            <img src="screenshots/hero-film.webp" data-screenshot="hero-film" srcset="screenshots/hero-film-750w.webp 750w, screenshots/hero-film-1500w.webp 1500w, screenshots/hero-film.webp 1660w" sizes="(max-width: 570px) calc(100vw - 40px), (max-width: 760px) 530px, (max-width: 1000px) 480px, 650px" alt="The left half of LightTable’s Film workspace, with the library sidebar beside a desert photograph" width="1660" height="2000" fetchpriority="high" />
+          </a>
+          <a class="screenshot-link reveal" href="screenshots.html">View screenshots of the app <span aria-hidden="true">→</span></a>
+          <p class="screenshot-platform-note" data-screenshot-notice hidden></p>
+        </div>
+        <!-- END HOMEPAGE HERO -->
+      </section>
+
+      <div class="feature-columns">
+      <section class="nerdery" id="features" aria-labelledby="nerdery-title">
+        <header class="nerdery-intro reveal">
+          <h2 id="nerdery-title">What makes LightTable good?</h2>
+          <p>(Not sure if it's actually good? Ask your favorite AI tool to check out the project, code, and features.)</p>
+        </header>
+
+        <div class="nerdery-levels">
+          <section class="nerdery-level reveal">
+            <h3 class="nerdery-level-title">Level 0 Nerdery</h3>
+            <div class="nerdery-copy">
+              <ul>
+                <li><strong>It's free</strong></li>
+                <li><strong>It's well designed</strong></li>
+                <li><strong>It's super easy to try out and switch from Lightroom (and it doesn't leave a mess if you try it and then decide not to switch).</strong></li>
+                <li><strong>It can do more accurate and beautiful film simulation than Lightroom and other paid apps.</strong></li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="nerdery-level reveal">
+            <h3 class="nerdery-level-title">Level 1 Nerdery</h3>
+            <div class="nerdery-copy">
+              <ul>
+                <li><strong>It's open-source, you can help improve it</strong></li>
+                <li>
+                  <strong>The film simulation tools are built on <a href="https://github.com/andreavolpato/agx-emulsion">Spektrafilm</a>, which carefully simulates film exposure, development, printing, and scanning.</strong>
+                </li>
+                <li><strong>On Mac, it has optional AI subject recognition, which is helpful for organizing. All the AI uses local models, so it's totally private.</strong></li>
+                <li>
+                  <strong>You can import your Lightroom Classic catalog and Lightroom presets.</strong>
+                  <ul>
+                    <li>Ratings, keywords, collections, and supported edits come with the catalog.</li>
+                    <li>For cloud-based Lightroom, export your originals to files first.</li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>It tells you which imported settings it converted and which it skipped.</strong>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="nerdery-level reveal">
+            <h3 class="nerdery-level-title">Level 2 Nerdery</h3>
+            <div class="nerdery-copy">
+              <ul>
+                <li><strong>Its processing engine is built in Rust and uses GPU acceleration for speed.</strong></li>
+                <li>
+                  <strong>It has curves, color grading, masks, healing, and cloning.</strong>
+                </li>
+                <li><strong>You can also merge photos into HDR images, panoramas, and focus stacks.</strong></li>
+                <li>
+                  <strong>Film stocks have their own color response, grain, and halation.</strong>
+                  <ul>
+                    <li>You can change the film format, exposure, and development.</li>
+                    <li>You can choose print paper and adjust filtration, preflash, and scanning.</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="nerdery-level reveal">
+            <h3 class="nerdery-level-title">Level 3 Photo nerdy</h3>
+            <div class="nerdery-copy">
+              <ul>
+                <li>
+                  <strong>It can automatically correct lens distortion, chromatic aberration, and vignetting.</strong>
+                  <ul>
+                    <li>Automatic correction uses matching Lensfun profiles. Manual controls are available when your lens isn't covered.</li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>It supports RAW files from 1,275 cameras.</strong>
+                  <ul>
+                    <li>You can choose how RAW files are demosaiced and how highlights are recovered.</li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>You can export in sRGB, Display P3, or ProPhoto RGB.</strong>
+                  <ul>
+                    <li data-platform-copy="export-formats">Export 16-bit TIFFs, or 8-bit JPEG and PNG files. HEIF export is available on macOS.</li>
+                    <li>You can soft-proof images for screens and print.</li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>Preview and export use the same curves and color grading.</strong>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <!-- BEGIN HOMEPAGE DETAILS -->
+      <section class="ui-details" aria-label="Editing workflows">
+        <figure class="ui-detail reveal" data-detail="detail-film">
+          <figcaption>Ultra realistic film simulation</figcaption>
+          <div class="ui-detail-visual">
+            <a class="ui-detail-overview" href="screenshots.html" aria-label="See the full Film workspace">
+              <img src="screenshots/film-controls.webp" data-screenshot="film-controls" srcset="screenshots/film-controls-750w.webp 750w, screenshots/film-controls-1500w.webp 1500w, screenshots/film-controls-3000w.webp 3000w, screenshots/film-controls.webp 3320w" sizes="(max-width: 960px) calc(100vw - 40px), 520px" alt="LightTable Film workspace showing a desert landscape with film stock, format, output, and print exposure controls" width="3320" height="2000" loading="lazy" />
+            </a>
+            <a class="ui-detail-inset" href="screenshots/detail-film.webp" aria-label="Enlarge Ultra realistic film simulation controls">
+              <img src="screenshots/detail-film.webp" data-screenshot="detail-film" alt="Closeup of Film controls for Kodak Portra 400 stock, 35 mm format, output, camera exposure, and print exposure" width="632" height="836" loading="lazy" />
+            </a>
+          </div>
+        </figure>
+
+        <figure class="ui-detail reveal" data-detail="detail-masks">
+          <figcaption>Local masking</figcaption>
+          <div class="ui-detail-visual">
+            <a class="ui-detail-overview" href="screenshots.html" aria-label="See the full Local masks">
+              <img src="screenshots/local-masks.webp" data-screenshot="local-masks" srcset="screenshots/local-masks-750w.webp 750w, screenshots/local-masks-1500w.webp 1500w, screenshots/local-masks-3000w.webp 3000w, screenshots/local-masks.webp 3320w" sizes="(max-width: 960px) calc(100vw - 40px), 520px" alt="LightTable Masking workspace showing succulent plants with a radial mask overlay and local adjustment controls" width="3320" height="2000" loading="lazy" />
+            </a>
+            <a class="ui-detail-inset" href="screenshots/detail-masks.webp" aria-label="Enlarge Local masking controls">
+              <img src="screenshots/detail-masks.webp" data-screenshot="detail-masks" alt="Closeup of a radial mask’s selection, overlay, exposure, and texture controls" width="632" height="1096" loading="lazy" />
+            </a>
+          </div>
+        </figure>
+
+        <figure class="ui-detail reveal" data-detail="detail-export">
+          <figcaption>Export</figcaption>
+          <div class="ui-detail-visual">
+            <a class="ui-detail-overview" href="screenshots.html" aria-label="See the full Full-resolution export">
+              <img src="screenshots/export-workflow.webp" data-screenshot="export-workflow" srcset="screenshots/export-workflow-750w.webp 750w, screenshots/export-workflow-1500w.webp 1500w, screenshots/export-workflow-3000w.webp 3000w, screenshots/export-workflow.webp 3320w" sizes="(max-width: 960px) calc(100vw - 40px), 520px" alt="LightTable Export workspace showing a tropical homestead with recipe, format, size, color space, and naming controls" width="3320" height="2000" loading="lazy" />
+            </a>
+            <a class="ui-detail-inset" href="screenshots/detail-export.webp" aria-label="Enlarge Export controls">
+              <img src="screenshots/detail-export.webp" data-screenshot="detail-export" alt="Closeup of the Export dialog with presets, file type, dimensions, color space, quality, destination, and filename preview" width="1104" height="1444" loading="lazy" />
+            </a>
+          </div>
+        </figure>
+
+        <figure class="ui-detail reveal" data-detail="detail-editor">
+          <figcaption>Light and color editing</figcaption>
+          <div class="ui-detail-visual">
+            <a class="ui-detail-overview" href="screenshots.html" aria-label="See the full Editing workspace">
+              <img src="screenshots/editor.webp" data-screenshot="editor" srcset="screenshots/editor-750w.webp 750w, screenshots/editor-1500w.webp 1500w, screenshots/editor-3000w.webp 3000w, screenshots/editor.webp 3320w" sizes="(max-width: 960px) calc(100vw - 40px), 520px" alt="LightTable Edit workspace showing a harbor ferry with light, curve, and color controls" width="3320" height="2000" loading="lazy" />
+            </a>
+            <a class="ui-detail-inset" href="screenshots/detail-editor.webp" aria-label="Enlarge Light and color editing controls">
+              <img src="screenshots/detail-editor.webp" data-screenshot="detail-editor" alt="Closeup of the histogram, exposure, contrast, highlights, shadows, and color editing controls" width="632" height="996" loading="lazy" />
+            </a>
+          </div>
+        </figure>
+
+        <figure class="ui-detail reveal" data-detail="detail-photo-info">
+          <figcaption>Ratings and keywords</figcaption>
+          <div class="ui-detail-visual">
+            <a class="ui-detail-overview" href="screenshots.html" aria-label="See the full Photo info &amp; keywords">
+              <img src="screenshots/photo-info.webp" data-screenshot="photo-info" srcset="screenshots/photo-info-750w.webp 750w, screenshots/photo-info-1500w.webp 1500w, screenshots/photo-info-3000w.webp 3000w, screenshots/photo-info.webp 3320w" sizes="(max-width: 960px) calc(100vw - 40px), 520px" alt="LightTable Info workspace showing an aerial castle photograph with rating, keyword, EXIF, and render provenance controls" width="3320" height="2000" loading="lazy" />
+            </a>
+            <a class="ui-detail-inset" href="screenshots/detail-photo-info.webp" aria-label="Enlarge Ratings and keywords controls">
+              <img src="screenshots/detail-photo-info.webp" data-screenshot="detail-photo-info" alt="Closeup of star ratings, pick and reject flags, color labels, and photo keywords" width="632" height="724" loading="lazy" />
+            </a>
+          </div>
+        </figure>
+      </section>
+      <!-- END HOMEPAGE DETAILS -->
+
+      </div>
+    </main>
+
+    <footer>
+      <span>LightTable</span>
+      <div>
+        <span data-platform-copy="footer">Local, non-destructive digital darkroom for macOS, Windows, and Linux.</span>
+        <p id="contact">
+          <a href="https://github.com/reville/lighttable-digital-darkroom/issues">GitHub Issues</a>: bug reports and feature requests.<br />
+          <a href="https://github.com/reville/lighttable-digital-darkroom/discussions">GitHub Discussions</a>: general questions and community conversation.<br />
+          <a href="mailto:hello@lighttable.app">hello@lighttable.app</a>: private questions, collaboration, press, or just getting in touch.
+        </p>
+      </div>
+    </footer>
+
+    <script type="module" src="screenshot-platforms.mjs?v=20260908-platform-text"></script>
+    <script type="module" src="script.js?v=20260909-intel-mac-note"></script>
+  </body>
+</html>

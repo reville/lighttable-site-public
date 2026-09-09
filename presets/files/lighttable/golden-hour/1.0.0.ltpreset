@@ -1,0 +1,65 @@
+{
+  "format": "LightTable Preset",
+  "version": 3,
+  "presets": [
+    {
+      "id": "lighttable/golden-hour",
+      "name": "Golden Hour",
+      "version": "1.0.0",
+      "source": "lighttable",
+      "presetType": "style",
+      "scope": "look",
+      "filmMode": "off",
+      "includeFilm": false,
+      "grade": {
+        "highlights": -0.06,
+        "shadows": 0.05,
+        "colorGrading": {
+          "shadows": {
+            "hue": 215.0,
+            "saturation": 0.035,
+            "luminance": 0.0
+          },
+          "midtones": {
+            "hue": 0.0,
+            "saturation": 0.0,
+            "luminance": 0.0
+          },
+          "highlights": {
+            "hue": 42.0,
+            "saturation": 0.22,
+            "luminance": 0.0
+          },
+          "global": {
+            "hue": 0.0,
+            "saturation": 0.0,
+            "luminance": 0.0
+          },
+          "balance": 0.15,
+          "blending": 0.5
+        }
+      },
+      "includedGrade": [
+        "highlights",
+        "shadows",
+        "colorGrading"
+      ],
+      "params": {},
+      "includedFilm": [],
+      "description": "Warm highlights with balanced shadows, leaving your white balance alone.",
+      "tags": [
+        "Warm",
+        "Portrait",
+        "Travel"
+      ],
+      "author": {
+        "name": "LightTable",
+        "url": "https://lighttable.app/"
+      },
+      "license": "CC0-1.0",
+      "masks": [],
+      "heals": [],
+      "optics": {}
+    }
+  ]
+}

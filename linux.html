@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Install LightTable on Linux: direct downloads, Omarchy and Arch Linux guidance, and availability of Flathub, AUR, and Snap packages." />
+    <link rel="canonical" href="https://lighttable.app/linux.html" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png?v=20260908-revised-icon" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png?v=20260908-revised-icon" />
+    <link rel="preload" href="assets/fonts/geist-latin-variable.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="assets/fonts/jetbrains-mono-latin-variable.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="homepage.css?v=20260908-static-nerdery" />
+    <link rel="stylesheet" href="pages.css?v=20260908-linux-install" />
+    <title>Install LightTable on Linux</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="./?platform=linux" aria-label="LightTable home">
+        <img src="app-icon-64.png?v=20260908-revised-icon" alt="" width="30" height="30" />
+        <span>LightTable</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="screenshots.html?platform=linux">Screenshots</a>
+        <a href="features.html?platform=linux">Features</a>
+        <a href="presets/">Presets</a>
+        <a href="https://github.com/reville/lighttable-digital-darkroom">GitHub <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+    <main class="linux-main" id="main">
+      <section class="linux-intro" aria-labelledby="linux-title">
+        <div>
+          <a class="back-link" href="./?platform=linux">← Back to LightTable</a>
+          <h1 id="linux-title">LightTable for Linux</h1>
+          <p>Choose how to install LightTable on your Linux desktop. This first Linux release is experimental.</p>
+          <p class="linux-version">Preparing version <span data-planned-version>0.5</span>. Download links appear when a compatible release is published.</p>
+          <a href="screenshots.html?platform=linux">See the Linux app →</a>
+        </div>
+        <a href="screenshots.html?platform=linux" aria-label="View real Linux app screenshots">
+          <img src="screenshots/linux/film-controls-1500w.webp" srcset="screenshots/linux/film-controls-750w.webp 750w, screenshots/linux/film-controls-1500w.webp 1500w, screenshots/linux/film-controls-3000w.webp 3000w, screenshots/linux/film-controls.webp 3320w" sizes="(max-width: 900px) calc(100vw - 40px), 600px" width="3320" height="2000" alt="The native Linux LightTable Film workspace showing a desert photograph and film controls" />
+        </a>
+      </section>
+      <div id="linux-install">
+        <section class="linux-choice" aria-labelledby="choose-title">
+          <h2 id="choose-title">Choose your system</h2>
+          <div class="linux-choices">
+            <div>
+              <label for="linux-distribution">Distribution</label>
+              <select id="linux-distribution" aria-describedby="distribution-help">
+                <option value="">Choose your distribution</option>
+                <option value="omarchy">Omarchy</option>
+                <option value="arch">Arch Linux</option>
+                <option value="ubuntu">Ubuntu 24.04 or later</option>
+                <option value="other">Another distribution</option>
+              </select>
+            </div>
+            <div>
+              <label for="linux-architecture">Processor</label>
+              <select id="linux-architecture" aria-describedby="architecture-help">
+                <option value="">Choose your processor</option>
+                <option value="x86_64">Intel / AMD 64-bit — x86_64</option>
+              </select>
+            </div>
+          </div>
+          <p id="distribution-help">Browsers cannot reliably identify your distribution. Choose it here for the right instructions.</p>
+          <p id="architecture-help">If unsure, run <code>uname -m</code> in a terminal. ARM64 appears only when an experimental ARM64 release is available.</p>
+          <noscript><p>Enable JavaScript to check available builds and see matching instructions, or view the <a href="https://github.com/reville/lighttable-digital-darkroom/releases">published releases</a>. Store packages below are not published yet.</p></noscript>
+        </section>
+        <section class="linux-direct" id="linux-arch-package" aria-labelledby="arch-package-title" hidden>
+          <h2 id="arch-package-title">Arch &amp; Omarchy package</h2>
+          <p>Install the x86_64 package with pacman. It installs the desktop libraries, application menu entry, and commands. Keep your desktop’s portal backend and GPU driver installed.</p>
+          <div class="linux-download-actions">
+            <a class="button button-primary" id="arch-package-download">Download Arch package</a>
+            <a id="arch-package-checksum">Download SHA-256 checksum</a>
+          </div>
+          <p>Save both files in the same folder, open a terminal there, and run:</p>
+          <pre><code id="arch-package-install"></code></pre>
+          <p>If switching from the portable archive, run its <code>uninstall.sh</code> first so its per-user launcher does not shadow the package. Open LightTable from your application menu after installation.</p>
+          <details>
+            <summary>Update or remove the Arch package</summary>
+            <p>Close LightTable before updating. Download the new package and matching checksum, verify it, and install with <code>pacman -U</code> again. Pacman manages this installation; the portable in-app updater stays disabled.</p>
+            <pre><code id="arch-package-uninstall"></code></pre>
+            <p>Removing the package preserves your photos, catalog, settings, and caches.</p>
+          </details>
+        </section>
+        <section class="linux-direct" aria-labelledby="direct-title">
+          <h2 id="direct-title">Direct download</h2>
+          <p>The archive includes LightTable, Python, and the film engines. The desktop libraries come from your distribution.</p>
+          <p id="linux-release-status" role="status" aria-live="polite">See published releases for available Linux builds.</p>
+          <div class="linux-download-actions">
+            <a class="button button-primary" id="linux-archive-download" hidden>Download LightTable</a>
+            <a id="linux-checksum-download" hidden>Download SHA-256 checksum</a>
+            <a href="https://github.com/reville/lighttable-digital-darkroom/releases">View published releases</a>
+          </div>
+          <div id="linux-archive-instructions" hidden>
+            <div id="linux-dependencies">
+              <h3>1. Install desktop libraries</h3>
+              <p id="dependency-help">Choose your distribution above for its package command. The archive needs compatible GTK 3 and WebKitGTK 4.1 desktop libraries.</p>
+              <pre><code id="dependency-command"></code></pre>
+            </div>
+            <p>Keep the portal backend supplied by your desktop. Omarchy uses the Hyprland portal, with a file-picker backend. Install your distribution’s Vulkan driver for your GPU.</p>
+            <h3>2. Install the archive</h3>
+            <p id="archive-download-help">Save the archive and its checksum in the same folder. Open a terminal there and run:</p>
+            <pre><code id="archive-install-command"></code></pre>
+            <p>Keep this application folder in place. The installer creates a desktop launcher and commands in <code>~/.local/bin</code>. Open LightTable from your app menu.</p>
+            <details>
+              <summary>Upgrade or remove a direct installation</summary>
+              <p>To upgrade, close LightTable, extract the new archive into a new permanent folder, and run its <code>install.sh</code>. The installer retargets its existing launchers and keeps your data.</p>
+              <p>To remove the desktop launcher and command links, close LightTable and run the active version’s uninstaller:</p>
+              <pre><code id="archive-uninstall-command"></code></pre>
+              <p>You can then delete that extracted application folder. Photos, catalogs, settings, caches, and sidecars remain. An older bundle cannot uninstall a newer bundle’s launchers.</p>
+            </details>
+          </div>
+        </section>
+        <section class="linux-stores" aria-labelledby="stores-title">
+          <h2 id="stores-title">Package channels</h2>
+          <p>Each channel will show its installation and update instructions after its listing is published.</p>
+          <div class="linux-channel-grid">
+            <article data-channel="flathub">
+              <h3>Flathub</h3><p class="channel-status" data-channel-status>Not published yet</p>
+              <p data-channel-description>The planned Flatpak route for Linux desktops. There is no LightTable Flathub listing to install yet.</p>
+              <a data-channel-link hidden>Open LightTable on Flathub</a>
+              <dl data-channel-commands hidden><dt>Install</dt><dd><pre><code data-command="install"></code></pre></dd><dt>Update</dt><dd><pre><code data-command="update"></code></pre></dd><dt>Uninstall</dt><dd><pre><code data-command="uninstall"></code></pre></dd></dl>
+            </article>
+            <article data-channel="aur">
+              <h3>Arch &amp; Omarchy</h3><p class="channel-status" data-channel-status>Not published yet</p>
+              <p data-channel-description>The AUR package is being prepared. Until it is published, use an available direct archive.</p>
+              <a data-channel-link hidden>Open LightTable in the AUR</a>
+              <dl data-channel-commands hidden><dt>Install</dt><dd><pre><code data-command="install"></code></pre></dd><dt>Update</dt><dd><pre><code data-command="update"></code></pre></dd><dt>Uninstall</dt><dd><pre><code data-command="uninstall"></code></pre></dd></dl>
+            </article>
+            <article data-channel="snap">
+              <h3>Snap</h3><p class="channel-status" data-channel-status>Planned for later</p>
+              <p data-channel-description>Snap packaging and store publication will follow the initial Linux release. No Snap install is available yet.</p>
+              <a data-channel-link hidden>Open LightTable in the Snap Store</a>
+              <dl data-channel-commands hidden><dt>Install</dt><dd><pre><code data-command="install"></code></pre></dd><dt>Update</dt><dd><pre><code data-command="update"></code></pre></dd><dt>Uninstall</dt><dd><pre><code data-command="uninstall"></code></pre></dd></dl>
+            </article>
+          </div>
+        </section>
+        <section class="linux-data" aria-labelledby="data-title">
+          <h2 id="data-title">Your photos and edits</h2>
+          <p>Direct and Arch installations keep your catalog and presets in <code>~/.local/share/lighttable</code>, settings in <code>~/.config/lighttable</code>, and caches in <code>~/.cache/lighttable</code>. Removing the application preserves your photos and editing data.</p>
+          <p>When changing installation channels, quit LightTable and remove the old channel’s launcher first. Keep your catalog and photos. Follow that channel’s migration instructions before opening an existing catalog in a sandboxed installation.</p>
+        </section>
+      </div>
+    </main>
+    <footer><span>LightTable</span><a href="https://github.com/reville/lighttable-digital-darkroom/blob/main/LINUX.md">Linux documentation on GitHub</a></footer>
+    <script type="module" src="linux-install.mjs?v=20260908-linux-install"></script>
+    <script type="module" src="script.js?v=20260908-linux-install-platforms"></script>
+  </body>
+</html>
