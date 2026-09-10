@@ -63,7 +63,7 @@ const platformCopy = {
     "linux": "Which Linux distributions and hardware?"
   },
   "requirements-answer": {
-    "macos": "LightTable requires macOS 13 Ventura or later on an Apple silicon Mac. The main editor does not require Apple Intelligence. Optional image descriptions require macOS 27 or later, Apple Intelligence, and the optional bridge. LightTable has not published a minimum RAM figure yet.",
+    "macos": "LightTable requires macOS 14 Sonoma or later on an Apple silicon Mac. The main editor does not require Apple Intelligence. Optional image descriptions require macOS 27 or later, Apple Intelligence, and the optional bridge. LightTable has not published a minimum RAM figure yet.",
     "windows": "LightTable targets Windows 10/11 on x64 hardware and uses the Microsoft Edge WebView2 Runtime. The installer sets up WebView2 if it is missing; portable ZIP users install it separately. GPU rendering uses DirectX 12, with a CPU fallback. LightTable has not published a minimum RAM figure yet.",
     "linux": "The initial target is x86-64 Ubuntu 24.04 or newer and current Arch Linux, including Omarchy. Install the GTK 3, WebKitGTK, and desktop libraries listed in the Linux instructions. GPU rendering uses Vulkan, with a CPU fallback. Linux support is experimental. LightTable has not published a minimum RAM figure yet."
   },

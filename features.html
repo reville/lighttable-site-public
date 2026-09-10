@@ -82,7 +82,7 @@
           </div>
           <div class="reveal">
             <dt data-platform-copy="requirements-question">What operating system and hardware?</dt>
-            <dd data-platform-copy="requirements-answer">macOS requires version 13 Ventura or later and Apple silicon. Windows targets Windows 10/11 x64. Linux targets Ubuntu 24.04 or newer and current Arch Linux, including Omarchy; Linux support is experimental. See the installation instructions for your platform. LightTable has not published a minimum RAM figure yet.</dd>
+            <dd data-platform-copy="requirements-answer">macOS requires version 14 Sonoma or later and Apple silicon. Windows targets Windows 10/11 x64. Linux targets Ubuntu 24.04 or newer and current Arch Linux, including Omarchy; Linux support is experimental. See the installation instructions for your platform. LightTable has not published a minimum RAM figure yet.</dd>
           </div>
           <div class="reveal">
             <dt>Which RAW files, cameras, and lenses?</dt>
@@ -216,7 +216,7 @@
               <li data-feature><strong>Film and Develop workspaces</strong><span>Switch Film off for a neutral RAW edit or leave it on and grade after the physical film pipeline.</span></li>
               <li data-feature><strong>Standard and Linear profiles</strong><span>Use a neutral base curve with protected middle gray or the bare scene-referred render.</span></li>
               <li data-feature><strong>Progressive RAW preview</strong><span>RAW photos use LightTable’s accurate rendering from the first frame. Switching photos while zoomed in reuses matching cached previews, then loads sharper detail in the background.</span></li>
-              <li data-feature><strong>Capture white balance</strong><span>Choose as-shot, daylight, tungsten, or custom white balance before film exposure.</span></li>
+              <li data-feature><strong>Capture white balance</strong><span>Choose as-shot, automatic, daylight, cloudy, shade, tungsten, fluorescent, flash, or custom white balance before film exposure.</span></li>
               <li data-feature><strong>Demosaic profiles</strong><span>Choose camera-native, fine-detail, or smooth-color RAW conversion.</span></li>
               <li data-feature><strong>Highlight recovery</strong><span>Blend clipped channels or reconstruct highlight color during RAW development.</span></li>
               <li data-feature><strong>Sensor-stage noise reduction</strong><span>Apply light or full noise reduction before the rest of the edit.</span></li>
@@ -224,7 +224,8 @@
               <li data-feature><strong>Presence and finish</strong><span>Control texture, clarity, dehaze, and vignette. Adjust vignette size and feather to shape the edge treatment.</span></li>
               <li data-feature><strong>Detail controls</strong><span>Set sharpening amount, radius, detail, edge masking, luminance noise reduction, and color noise reduction.</span></li>
               <li data-feature><strong>Learned denoising</strong><span>Run a bundled Core ML denoiser for sensor noise; builds without the model say it is unavailable instead of passing pixels through.</span></li>
-              <li data-feature><strong>RGB and channel curves</strong><span>Draw a point curve for RGB or an individual channel; preview and export use the same 256-entry table.</span></li>
+              <li data-feature><strong>RGB and channel curves</strong><span>Draw a point curve for RGB or an individual channel, or shape highlights, lights, darks, and shadows with parametric controls.</span></li>
+              <li data-feature><strong>Black-and-white treatment</strong><span>Switch to monochrome and shape brightness with an eight-band B&amp;W mixer.</span></li>
               <li data-feature><strong>Eight-band color mixer</strong><span>Adjust hue, saturation, and luminance across eight hue bands.</span></li>
               <li data-feature><strong>Point Color</strong><span>Sample up to eight source hues, set their affected range, and adjust or even out hue, saturation, and luminance.</span></li>
               <li data-feature><strong>Four-way Color Grading</strong><span>Grade shadows, midtones, highlights, and the whole image with separate wheels, blending, and balance.</span></li>
@@ -312,6 +313,7 @@
               <li data-feature><strong>Non-destructive recipes</strong><span>Film, grade, geometry, masks, healing, and lens settings are stored separately from the source.</span></li>
               <li data-feature><strong>Undo and redo</strong><span>Reverse local edits and visible commands, including changes made through agent control.</span></li>
               <li data-feature><strong>Copy and paste</strong><span>Copy settings to a selection, every visible photograph, or one target with clear success and disabled states.</span></li>
+              <li data-feature><strong>Previous settings</strong><span>Apply the previous photograph’s edit to the current photograph.</span></li>
               <li data-feature><strong>Full styles</strong><span>Replace the current edit with a complete preset.</span></li>
               <li data-feature><strong>Tool presets</strong><span>Layer only the controls included in a preset and leave everything else alone.</span></li>
               <li data-feature><strong>Film-aware presets</strong><span>Include the physical Film pipeline, add a grade after Film, or switch Film off for Develop.</span></li>

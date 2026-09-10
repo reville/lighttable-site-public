@@ -47,7 +47,7 @@ if (releaseButton) {
     releaseButton.textContent = 'Install on Linux';
   } else if (platform) {
     if (platform === 'macos') {
-      releaseButton.href = 'https://github.com/reville/lighttable-digital-darkroom/releases/tag/macos-v0.5.0-beta.1';
+      releaseButton.href = 'https://github.com/reville/lighttable-digital-darkroom/releases/tag/macos-v0.6.0-beta.1';
       releaseButton.textContent = 'Download macOS beta';
     }
     const architectureResult = detectArchitecture().then(architecture => {
