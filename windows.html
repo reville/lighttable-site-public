@@ -35,8 +35,8 @@
         <div>
           <a class="back-link" href="./?platform=windows">← Back to LightTable</a>
           <h1 id="linux-title">LightTable for Windows</h1>
-          <p>A free digital darkroom for 64-bit Intel and AMD PCs. This first Windows release is experimental.</p>
-          <p class="linux-version"><!-- release:windows-version -->Windows 0.6.0 is being validated. A download appears below when it is published.<!-- /release:windows-version --></p>
+          <p>A free digital darkroom for Windows PCs. This first Windows release is experimental.</p>
+          <p class="linux-version"><!-- release:windows-version -->Windows 0.6.1 is available. Choose your processor below.<!-- /release:windows-version --></p>
           <a href="screenshots.html?platform=windows">See the Windows app →</a>
         </div>
         <a href="screenshots.html?platform=windows" aria-label="View real Windows app screenshots">
@@ -47,7 +47,7 @@
         <h2 id="processor-title">Choose your processor</h2>
         <div class="linux-choices"><div>
           <label for="windows-architecture">Windows PC</label>
-          <select id="windows-architecture"><option value="">Choose a processor</option><option value="x86_64">Intel or AMD — 64-bit (x64)</option><option value="arm64">ARM — including Snapdragon</option></select>
+          <select id="windows-architecture"><option value="">Choose a processor</option><option value="x86_64">Intel or AMD — 64-bit (x64)</option><option value="arm64">ARM — Windows 11 (x64 emulation)</option></select>
           <p>Check Settings → System → About → System type. A native ARM64 package is not available.</p>
         </div></div>
       </section>
@@ -61,23 +61,23 @@
         </div>
         <ol><li>Save the installer and matching checksum file in the same folder.</li><li>Open the installer’s Properties → Digital Signatures. The release certificate identifies Nicholas Reville; the app publisher metadata is Chonkers LLC.</li><li>Run the installer, then open LightTable from the Start menu. It installs for your Windows user account.</li></ol>
         <p>The installer includes Microsoft WebView2. You do not need a separate Python or Node installation.</p>
-        <details><summary>Verify the download with PowerShell</summary><p>Open PowerShell in your Downloads folder and replace the filename below with the installer you downloaded. Compare the result with the matching checksum file.</p><pre><code><!-- release:windows-checksum -->Get-FileHash .\LightTable-0.6.0-windows-x64-setup.exe -Algorithm SHA256<!-- /release:windows-checksum --></code></pre></details>
+        <details><summary>Verify the download with PowerShell</summary><p>Open PowerShell in your Downloads folder and replace the filename below with the installer you downloaded. Compare the result with the SHA-256 beside your installer’s filename in the checksum file.</p><pre><code><!-- release:windows-checksum -->Get-FileHash .\LightTable-0.6.1-windows-x64-setup.exe -Algorithm SHA256<!-- /release:windows-checksum --></code></pre></details>
       </section>
       <section class="linux-data" aria-labelledby="data-title">
         <h2 id="data-title">Your photos and saved edits</h2>
-        <p>LightTable keeps your originals in their existing folders. To update, close LightTable and run the new installer. To remove the application, use Windows Settings → Apps → Installed apps → LightTable → Uninstall. Removing the app preserves photos, catalogs, preferences and caches.</p>
+        <p>LightTable keeps your originals in their existing folders. Direct installer installations can use the in-app update check, or you can close LightTable and run a newer installer. Portable ZIP installations update by replacing the extracted application. To remove the application, use Windows Settings → Apps → Installed apps → LightTable → Uninstall. Removing the app preserves photos, catalogs, preferences and caches.</p>
         <p>For managed installations, the installer and uninstaller accept <code>/S</code> for silent operation. Close LightTable before either operation.</p>
       </section>
       <section class="linux-data" aria-labelledby="support-title">
         <h2 id="support-title">Experimental Windows support</h2>
-        <p>The x64 build targets Windows 10 and 11 and requires a working DirectX 12 graphics driver. The signed 0.6.0 candidate passed offline installation and native editing, 16-bit TIFF export and reopening on Windows 10 and Windows 11 test VMs. Windows 10 also passed installation with WebView2 initially absent; Windows 11 was tested with its preinstalled runtime.</p>
-        <p>The same candidate passed installation, repair, removal and native editing/export checks under x64 emulation on Windows 11 ARM. This does not establish native ARM64 support or physical GPU/display validation.</p>
-        <p>Windows downloads remain pending while the remaining prerequisite and release-verification checks are resolved. <a href="https://github.com/reville/lighttable-digital-darkroom/blob/main/docs/windows-client-acceptance.md">Read the test results and remaining checks</a>.</p>
+        <p>The x64 build targets Windows 10 and 11 and requires a working DirectX 12 graphics driver. The signed 0.6.1 release passed offline installation and native editing, 16-bit TIFF export and reopening on Windows 10 and Windows 11 test VMs. Windows 10 also passed installation with WebView2 initially absent; Windows 11 was tested with its preinstalled runtime.</p>
+        <p>The same release passed installation, repair, removal and native editing/export checks under x64 emulation on Windows 11 ARM. This does not establish native ARM64 support or physical GPU/display validation.</p>
+        <p>The installer and portable ZIP are available from the verified Windows release. <a href="https://github.com/reville/lighttable-digital-darkroom/blob/main/docs/windows-client-acceptance.md">Read the test results and coverage limits</a>.</p>
         <p>Microsoft Store submission is in preparation. The website installer is a separate download.</p>
         <p><a href="https://github.com/reville/lighttable-digital-darkroom/issues">Report a problem</a> · <a href="mailto:hello@lighttable.app">Contact support</a> · <a href="https://github.com/reville/lighttable-digital-darkroom/blob/main/WINDOWS.md">Technical Windows documentation</a></p>
       </section>
     </main>
     <footer><a href="/">LightTable</a><span class="analytics-links"><a href="/privacy.html">Privacy</a><button type="button" class="analytics-settings" data-analytics-settings hidden>Analytics settings</button></span></footer>
-    <script type="module" src="windows-install.mjs?release=088206050e971c97"></script>
+    <script type="module" src="windows-install.mjs?release=b20e9474fd30ae9c"></script>
   </body>
 </html>

@@ -69,7 +69,9 @@ export function selectDownload(releases, platform, architecture) {
       { version: tag[1], tagName: release.tag_name });
     if (!selected) continue;
     const checksum = release.assets.find(asset => asset.name === `${selected.asset.name}.sha256`
-      && validReleaseAsset(asset, release.tag_name));
+      && validReleaseAsset(asset, release.tag_name)) || (platform === 'windows'
+      ? release.assets.find(asset => asset.name === `LightTable-${tag[1]}-windows-x64-SHA256SUMS`
+        && validReleaseAsset(asset, release.tag_name)) : null);
     candidates.push({ ...selected, release, checksum: checksum || null, architecture, versionParts,
       experimental: platform === 'linux' && architecture === 'arm64' });
   }
