@@ -1,4 +1,5 @@
-import { detectArchitecture, fetchReleases, selectDownload } from './downloads.mjs';
+import { manifestReleases } from "./release-downloads.mjs?release=c2822d51ef1752bb";
+import { detectArchitecture, selectDownload } from './downloads.mjs';
 
 const choice = document.querySelector('#windows-architecture');
 const status = document.querySelector('#windows-release-status');
@@ -23,4 +24,4 @@ function refresh() {
 }
 choice.addEventListener('change', refresh);
 detectArchitecture().then(value => { if (!choice.value && value) choice.value = value; refresh(); });
-fetchReleases(fetch, { signal: AbortSignal.timeout(12000) }).then(value => { releases = value; refresh(); }).catch(() => { loadFailed = true; refresh(); });
+Promise.resolve(manifestReleases()).then(value => { releases = value; refresh(); }).catch(() => { loadFailed = true; refresh(); });

@@ -1,6 +1,8 @@
 import { platformLabels } from "./platform.mjs?v=20260908-text";
-import { applyPlatformContent } from "./platform-content.mjs?v=20260910-homebrew-beta";
-import { detectArchitecture, fetchReleases, selectDownload } from "./downloads.mjs";
+import { applyPlatformContent } from "./platform-content.mjs?release=c2822d51ef1752bb";
+import { detectArchitecture } from "./downloads.mjs";
+
+import { manifestDownload, releaseManifest } from "./release-downloads.mjs?release=c2822d51ef1752bb";
 
 const platform = applyPlatformContent();
 
@@ -47,8 +49,9 @@ if (releaseButton) {
     releaseButton.textContent = 'Install on Linux';
   } else if (platform) {
     if (platform === 'macos') {
-      releaseButton.href = 'https://github.com/reville/lighttable-digital-darkroom/releases/tag/macos-v0.6.0-beta.1';
-      releaseButton.textContent = 'Download macOS beta';
+      const mac = releaseManifest.platforms['macos-arm64'];
+      releaseButton.href = mac.state === 'published' ? `https://github.com/reville/lighttable-digital-darkroom/releases/tag/${mac.version.includes('-') ? 'macos-' : ''}v${mac.version}` : 'https://github.com/reville/lighttable-digital-darkroom/releases';
+      releaseButton.textContent = mac.state === 'published' ? (mac.channel === 'beta' ? 'Download macOS beta' : 'Download for macOS') : 'View macOS releases';
     }
     const architectureResult = detectArchitecture().then(architecture => {
       const compatibilityNote = document.querySelector('#mac-compatibility-note');
@@ -59,9 +62,9 @@ if (releaseButton) {
       }
       return architecture;
     });
-    Promise.all([architectureResult, fetchReleases(fetch, { signal: AbortSignal.timeout(12000) })])
-      .then(([architecture, releases]) => {
-        const download = selectDownload(releases, platform, architecture);
+    architectureResult
+      .then(architecture => {
+        const download = manifestDownload(platform, architecture);
         if (!download) return;
         releaseButton.href = download.asset.browser_download_url;
         releaseButton.textContent = `Download for ${platformLabels[platform]}`;

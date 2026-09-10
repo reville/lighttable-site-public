@@ -4,8 +4,19 @@
   "packageVersion": "0.6.0",
   "displayVersion": "0.6",
   "channels": {
-    "flathub": { "status": "pending", "url": null },
-    "aur": { "status": "pending", "url": null, "package": "lighttable-bin" },
-    "snap": { "status": "pending", "url": null, "package": "lighttable" }
+    "flathub": {
+      "status": "pending",
+      "url": null
+    },
+    "aur": {
+      "status": "pending",
+      "url": null,
+      "package": "lighttable-bin"
+    },
+    "snap": {
+      "status": "pending",
+      "url": null,
+      "package": "lighttable"
+    }
   }
 }

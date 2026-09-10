@@ -1,4 +1,5 @@
-import { detectArchitecture, fetchReleases, selectDownload } from './downloads.mjs';
+import { manifestReleases, releaseManifest } from "./release-downloads.mjs?release=c2822d51ef1752bb";
+import { detectArchitecture, selectDownload } from './downloads.mjs';
 import { detectPlatform } from './platform.mjs';
 
 const listings = {
@@ -103,6 +104,8 @@ export async function applyLinuxInstall(page = document, device = navigator, fet
     const response = await fetcher(new URL('./linux-channels.json', import.meta.url), { cache: 'no-cache' });
     if (!response.ok) throw new Error();
     config = validateConfig(await response.json());
+    config.packageVersion = releaseManifest.platforms['linux-x86_64']?.version || config.packageVersion;
+    config.displayVersion = config.packageVersion.replace(/\.0$/, '');
   } catch {
     status.textContent = 'Installation information could not be loaded. Check the published releases or try again.';
     return;
@@ -127,7 +130,7 @@ export async function applyLinuxInstall(page = document, device = navigator, fet
   if (Object.hasOwn(distributions, query.get('distro'))) distro.value = query.get('distro');
   let releases = [], releaseError = false;
   const [releaseResult, architectureResult] = await Promise.allSettled([
-    fetchReleases(fetcher, { signal: AbortSignal.timeout(12000) }),
+    Promise.resolve(manifestReleases()),
     detectPlatform(device) === 'linux' ? detectArchitecture(device) : Promise.resolve(null),
   ]);
   if (releaseResult.status === 'fulfilled') releases = releaseResult.value;
