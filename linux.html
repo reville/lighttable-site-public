@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Install LightTable on Linux: direct downloads, Omarchy and Arch Linux guidance, and availability of Flathub, AUR, and Snap packages." />
+    <meta name="description" content="Install LightTable on Linux from your terminal, with manual downloads as a fallback. Instructions for Ubuntu, Omarchy, and Arch Linux." />
     <link rel="canonical" href="https://lighttable.app/linux.html" />
     <meta name="theme-color" content="#ffffff" />
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png?v=20260908-revised-icon" />
@@ -67,8 +67,17 @@
           <p id="architecture-help">If unsure, run <code>uname -m</code> in a terminal. ARM64 appears only when an experimental ARM64 release is available.</p>
           <noscript><p>Enable JavaScript to check available builds and see matching instructions, or view the <a href="https://github.com/reville/lighttable-digital-darkroom/releases">published releases</a>. Store packages below are not published yet.</p></noscript>
         </section>
+        <section class="linux-direct" aria-labelledby="terminal-title">
+          <h2 id="terminal-title">Install from terminal</h2>
+          <p id="linux-terminal-help">Choose your distribution and processor above to see commands for an available release.</p>
+          <p id="linux-release-status" role="status" aria-live="polite">See published releases for available Linux builds.</p>
+          <div id="linux-terminal-instructions" hidden>
+            <pre><code id="terminal-install-command"></code></pre>
+            <p>Open LightTable from your application menu after installation.</p>
+          </div>
+        </section>
         <section class="linux-direct" id="linux-arch-package" aria-labelledby="arch-package-title" hidden>
-          <h2 id="arch-package-title">Arch &amp; Omarchy package</h2>
+          <h2 id="arch-package-title">Download and install manually: Arch &amp; Omarchy</h2>
           <p>Install the x86_64 package with pacman. It installs the desktop libraries, application menu entry, and commands. Keep your desktop’s portal backend and GPU driver installed.</p>
           <div class="linux-download-actions">
             <a class="button button-primary" id="arch-package-download">Download Arch package</a>
@@ -85,9 +94,8 @@
           </details>
         </section>
         <section class="linux-direct" aria-labelledby="direct-title">
-          <h2 id="direct-title">Direct download</h2>
+          <h2 id="direct-title">Download and install manually: portable archive</h2>
           <p>The archive includes LightTable, Python, and the film engines. The desktop libraries come from your distribution.</p>
-          <p id="linux-release-status" role="status" aria-live="polite">See published releases for available Linux builds.</p>
           <div class="linux-download-actions">
             <a class="button button-primary" id="linux-archive-download" hidden>Download LightTable</a>
             <a id="linux-checksum-download" hidden>Download SHA-256 checksum</a>
@@ -145,7 +153,7 @@
       </div>
     </main>
     <footer><span>LightTable</span><a href="https://github.com/reville/lighttable-digital-darkroom/blob/main/LINUX.md">Linux documentation on GitHub</a></footer>
-    <script type="module" src="linux-install.mjs?v=20260908-linux-install"></script>
+    <script type="module" src="linux-install.mjs?v=20260909-terminal-install"></script>
     <script type="module" src="script.js?v=20260908-linux-install-platforms"></script>
   </body>
 </html>

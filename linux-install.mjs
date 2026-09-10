@@ -57,6 +57,41 @@ export function archInstructions(download) {
     uninstall: 'sudo pacman -R lighttable-bin' };
 }
 
+export function terminalInstructions(config, distro, download, archDownload) {
+  const family = distributions[distro]?.family;
+  if (!family) return null;
+  const channel = family === 'arch' && config.channels.aur.status === 'available' ? 'aur'
+    : config.channels.flathub.status === 'available' ? 'flathub'
+      : config.channels.snap.status === 'available' ? 'snap' : null;
+  if (channel) return {
+    install: channelInstructions(config, channel).install,
+    help: `Install with ${names[channel]}. Set up ${channel === 'aur' ? 'the yay AUR helper' : channel === 'flathub' ? 'Flatpak and the Flathub remote' : 'Snap'} first if needed. Use this channel for updates and removal.`,
+  };
+  const useArch = family === 'arch' && archDownload?.checksum;
+  const selected = useArch ? archDownload : download;
+  if (!selected?.checksum) return null;
+  const commands = useArch ? archInstructions(selected) : archiveInstructions(selected);
+  const prerequisites = useArch ? 'sudo pacman -S --needed curl'
+    : dependencies[family]?.replace('install ', 'install curl ').replace('--needed ', '--needed curl ');
+  const quote = value => `'${value.replaceAll("'", "'\\''")}'`;
+  const steps = [
+    ...(prerequisites ? [prerequisites] : []),
+    'download_dir="$(mktemp -d)"',
+    'trap \'rm -rf "$download_dir"\' EXIT',
+    'cd "$download_dir"',
+    ...[selected.asset, selected.checksum].map(asset => `curl --fail --location --output ${quote(asset.name)} \\\n  ${quote(asset.browser_download_url)}`),
+    commands.install,
+  ];
+  return {
+    install: `(\nset -e\n${steps.join('\n')}\n)`,
+    help: useArch
+      ? 'Paste this block into your terminal to download, verify, and install the Arch package with pacman. If switching from the portable archive, run its uninstall.sh first. Keep your desktop’s portal backend and GPU driver installed.'
+      : family === 'other'
+        ? 'First install curl and compatible GTK 3, WebKitGTK 4.1, and other desktop libraries for your distribution (see the manual instructions below). Then paste this block to download, verify, and install the archive.'
+        : 'Paste this block into your terminal to install the desktop libraries, then download, verify, and install LightTable. Keep your desktop’s portal backend and GPU driver installed.',
+  };
+}
+
 function setCode(page, selector, text) { page.querySelector(selector).textContent = text; }
 
 export async function applyLinuxInstall(page = document, device = navigator, fetcher = fetch) {
@@ -112,7 +147,15 @@ export async function applyLinuxInstall(page = document, device = navigator, fet
     const selected = distributions[distro.value];
     const download = selectDownload(releases, 'linux', architecture.value);
     const archDownload = selectDownload(releases, 'arch', architecture.value);
+    const terminal = terminalInstructions(config, distro.value, download, archDownload);
+    page.querySelector('#linux-terminal-instructions').hidden = !terminal;
+    page.querySelector('#linux-terminal-help').textContent = terminal?.help
+      || 'Choose your distribution and processor above to see commands for an available release.';
+    setCode(page, '#terminal-install-command', terminal?.install || '');
     const archCommands = archInstructions(archDownload);
+    const primaryDownload = selected?.family === 'arch' && archCommands ? archDownload : download;
+    const primaryStatus = primaryDownload
+      ? `${primaryDownload.asset.name}${primaryDownload.experimental ? ' — experimental ARM64 build' : ''}` : '';
     const archSection = page.querySelector('#linux-arch-package');
     archSection.hidden = selected?.family !== 'arch' || !archCommands;
     if (config.channels.aur.status === 'pending') {
@@ -151,7 +194,7 @@ export async function applyLinuxInstall(page = document, device = navigator, fet
       link.removeAttribute('href'); checksum.removeAttribute('href');
       setCode(page, '#archive-install-command', '');
       setCode(page, '#archive-uninstall-command', '');
-      status.textContent = releaseError ? 'Published downloads could not be checked. You can view the releases on GitHub.'
+      status.textContent = terminal ? primaryStatus : releaseError ? 'Published downloads could not be checked. You can view the releases on GitHub.'
         : !architecture.value ? 'Choose your processor to check for a compatible download.'
         : 'No compatible Linux release is published yet. Download links will appear here after publication.';
       return;
@@ -162,14 +205,14 @@ export async function applyLinuxInstall(page = document, device = navigator, fet
       checksum.removeAttribute('href');
       setCode(page, '#archive-install-command', '');
       setCode(page, '#archive-uninstall-command', '');
-      status.textContent = `${download.asset.name} — the SHA-256 checksum is not published yet. Installation instructions will appear when the matching checksum is available.`;
+      status.textContent = terminal ? primaryStatus : `${download.asset.name} — the SHA-256 checksum is not published yet. Installation instructions will appear when the matching checksum is available.`;
       return;
     }
     checksum.href = download.checksum.browser_download_url;
     const commands = archiveInstructions(download);
     setCode(page, '#archive-install-command', commands.install);
     setCode(page, '#archive-uninstall-command', commands.uninstall);
-    status.textContent = `${download.asset.name}${download.experimental ? ' — experimental ARM64 build' : ''}`;
+    status.textContent = primaryStatus;
   }
   distro.addEventListener('change', update);
   architecture.addEventListener('change', update);
