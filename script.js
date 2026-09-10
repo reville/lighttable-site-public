@@ -1,8 +1,8 @@
 import { platformLabels } from "./platform.mjs?v=20260908-text";
-import { applyPlatformContent } from "./platform-content.mjs?release=c2822d51ef1752bb";
+import { applyPlatformContent } from "./platform-content.mjs?release=088206050e971c97";
 import { detectArchitecture } from "./downloads.mjs";
 
-import { manifestDownload, releaseManifest } from "./release-downloads.mjs?release=c2822d51ef1752bb";
+import { manifestDownload, releaseManifest } from "./release-downloads.mjs?release=088206050e971c97";
 
 const platform = applyPlatformContent();
 

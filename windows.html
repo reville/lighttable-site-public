@@ -70,12 +70,14 @@
       </section>
       <section class="linux-data" aria-labelledby="support-title">
         <h2 id="support-title">Experimental Windows support</h2>
-        <p>The x64 build targets Windows 10 and 11 and requires a working DirectX 12 graphics driver. Native startup, editing, 16-bit TIFF export, restart, installation and removal have been exercised on Windows Server 2022 CI. Clean offline Windows 10/11 installation and physical GPU/display validation are still pending.</p>
+        <p>The x64 build targets Windows 10 and 11 and requires a working DirectX 12 graphics driver. The signed 0.6.0 candidate passed offline installation and native editing, 16-bit TIFF export and reopening on Windows 10 and Windows 11 test VMs. Windows 10 also passed installation with WebView2 initially absent; Windows 11 was tested with its preinstalled runtime.</p>
+        <p>The same candidate passed installation, repair, removal and native editing/export checks under x64 emulation on Windows 11 ARM. This does not establish native ARM64 support or physical GPU/display validation.</p>
+        <p>Windows downloads remain pending while the remaining prerequisite and release-verification checks are resolved. <a href="https://github.com/reville/lighttable-digital-darkroom/blob/main/docs/windows-client-acceptance.md">Read the test results and remaining checks</a>.</p>
         <p>Microsoft Store submission is in preparation. The website installer is a separate download.</p>
         <p><a href="https://github.com/reville/lighttable-digital-darkroom/issues">Report a problem</a> · <a href="mailto:hello@lighttable.app">Contact support</a> · <a href="https://github.com/reville/lighttable-digital-darkroom/blob/main/WINDOWS.md">Technical Windows documentation</a></p>
       </section>
     </main>
     <footer><a href="/">LightTable</a><span class="analytics-links"><a href="/privacy.html">Privacy</a><button type="button" class="analytics-settings" data-analytics-settings hidden>Analytics settings</button></span></footer>
-    <script type="module" src="windows-install.mjs?release=c2822d51ef1752bb"></script>
+    <script type="module" src="windows-install.mjs?release=088206050e971c97"></script>
   </body>
 </html>

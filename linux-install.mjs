@@ -1,4 +1,4 @@
-import { manifestReleases, releaseManifest } from "./release-downloads.mjs?release=c2822d51ef1752bb";
+import { manifestReleases, releaseManifest } from "./release-downloads.mjs?release=088206050e971c97";
 import { detectArchitecture, selectDownload } from './downloads.mjs';
 import { detectPlatform } from './platform.mjs';
 

@@ -1,4 +1,4 @@
-import { manifestReleases } from "./release-downloads.mjs?release=c2822d51ef1752bb";
+import { manifestReleases } from "./release-downloads.mjs?release=088206050e971c97";
 import { detectArchitecture, selectDownload } from './downloads.mjs';
 
 const choice = document.querySelector('#windows-architecture');
@@ -12,7 +12,7 @@ function refresh() {
   installer.removeAttribute('href');
   checksum.removeAttribute('href');
   if (!choice.value) { status.textContent = 'Choose your processor to check published Windows releases.'; return; }
-  if (choice.value === 'arm64') { status.textContent = 'A native Windows ARM64 package is not available. The x64 installer is not offered for this processor.'; return; }
+  if (choice.value === 'arm64') { status.textContent = 'The x64 candidate passed testing under emulation on Windows 11 ARM. A native ARM64 package and public Windows download are not available yet.'; return; }
   if (loadFailed) { status.textContent = 'Release lookup is unavailable. Use View published releases to check manually.'; return; }
   if (!releases) { status.textContent = 'Checking published Windows releases…'; return; }
   const download = selectDownload(releases, 'windows', choice.value);
