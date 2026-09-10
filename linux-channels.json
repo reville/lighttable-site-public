@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "appId": "app.lighttable.LightTable",
-  "packageVersion": "0.6.0",
-  "displayVersion": "0.6",
+  "packageVersion": "0.6.1",
+  "displayVersion": "0.6.1",
   "channels": {
     "flathub": {
       "status": "pending",
