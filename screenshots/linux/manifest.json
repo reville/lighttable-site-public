@@ -1,9 +1,9 @@
 {
   "schema": 2,
-  "appRevision": "624770ce309d51827071afda3ecf6a65f3b7cb49",
+  "appRevision": "be537f2f3e2e431ae6b42af716c2a8b365f57bab",
   "sourceDirty": false,
-  "capturedAt": "2026-09-08T16:25:26.518527+00:00",
-  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "capturedAt": "2026-09-10T02:11:06.333472+00:00",
+  "license": "https://www.pexels.com/license/",
   "capture": {
     "count": 10,
     "platform": "Linux",
@@ -36,16 +36,16 @@
       "UBUNTU_CODENAME": "noble",
       "LOGO": "ubuntu-logo"
     },
-    "architecture": "aarch64"
+    "architecture": "x86_64"
   },
-  "sourceCollection": "LightTable CC0 RAW demo collection",
+  "sourceCollection": "Pexels screenshot collection",
   "shotCount": 10,
   "build": {
-    "version": "0.1.0-website",
-    "source_revision": "624770ce309d51827071afda3ecf6a65f3b7cb49",
+    "version": "0.5.0",
+    "source_revision": "be537f2f3e2e431ae6b42af716c2a8b365f57bab",
     "source_dirty": false,
-    "architecture": "aarch64",
-    "experimental_architecture": true,
+    "architecture": "x86_64",
+    "experimental_architecture": false,
     "platform": "linux",
     "build_distribution": {
       "NAME": "Ubuntu",
@@ -64,23 +64,24 @@
     },
     "runtime": {
       "python_version": "3.13.12",
-      "python_key": "cpython-3.13.12-linux-aarch64-gnu",
+      "python_key": "cpython-3.13.12-linux-x86_64-gnu",
       "uv_version": "0.11.28",
       "rust_version": "1.88.0",
-      "target": "aarch64-unknown-linux-gnu",
+      "target": "x86_64-unknown-linux-gnu",
       "python_source_revision": "3bb2c2d2801ff68b92019cf1dbcbb133d60832bc",
       "rust_source_revision": "9dd59b0380194b93686aaa230a8bb9680aa270a4"
     },
-    "runtime_requirements_sha256": "ccffd55ae289fc3c80630b2f958ef87304fa4c8cf382d6af29530dde4675a447"
+    "runtime_requirements_sha256": "4412442c807f8a8d9b02a942d54aed9dad921a96f76b0e67dd24d277798246de",
+    "runtime_linux_requirements_sha256": "57a4953b00815805dad8e2e0ce1bfbc022fc08a4672aa02f7196622d66b994c6"
   },
   "shots": [
     {
       "id": "film-controls",
-      "source": "20-fujifilm-x-t30-iii-desert-rocks.RAF",
-      "subject": "desert rock formations",
-      "sourceSha256": "1910b95422240f97781fa3296d67a56cc8f62de63144ac11cbf4267a11278042",
+      "source": "pexels-auspiciousajay-19848350.jpg",
+      "subject": "lantern-lit restaurant alley",
+      "sourceSha256": "b768b0a48b4e9bd4c262841c92370f85859af1b001fdd860a7c9625ba21a123f",
       "backend": "webgl",
-      "capturedAt": "2026-09-08T16:21:59.610561+00:00",
+      "capturedAt": "2026-09-10T02:02:51.811374+00:00",
       "nativeWindow": {
         "toolkit": "GTK/WebKitGTK",
         "display": "X11/Xvfb",
@@ -92,39 +93,39 @@
       "asset": "film-controls.webp",
       "width": 3320,
       "height": 2000,
-      "sha256": "dfed4a4f97d906ca65cf096282ee4eb6744b3ebc01ed07b821bc5d23fce31907",
-      "bytes": 4142060,
+      "sha256": "be9fca879c8822124b3782bb065242a016de84ba74fb665897785288fcf793c7",
+      "bytes": 4026028,
       "variants": [
         {
           "asset": "film-controls-750w.webp",
           "width": 750,
           "height": 452,
-          "sha256": "a5e12bba9861d8f2b912fa594dafdd5d16bea1ee6d818ded33cf0674191fe978",
-          "bytes": 266476
+          "sha256": "70a3845ed3e86cab0c645d9bfd7ff3a98c2e1e6cf776dd183382f17c52b5e0a4",
+          "bytes": 292746
         },
         {
           "asset": "film-controls-1500w.webp",
           "width": 1500,
           "height": 904,
-          "sha256": "a0c342fdcecffb3cab171c42e7f7ad04a3ff91bad55316af92d6fe9b5256d003",
-          "bytes": 1058564
+          "sha256": "6458c7db8ae0f0c2a210fbdc148b6c391311aa261ea69f1905d3e4ac50b299af",
+          "bytes": 1078310
         },
         {
           "asset": "film-controls-3000w.webp",
           "width": 3000,
           "height": 1807,
-          "sha256": "94416ba3383f563cbeaf0a446f1e484b8b3386378a2881483159c7016cbd891e",
-          "bytes": 3678314
+          "sha256": "46befeb303be8ab859d9b4facd517df60a0b1ee6fc1ffc049d56ac9d66d53cf4",
+          "bytes": 3580728
         }
       ]
     },
     {
       "id": "editor",
-      "source": "03-fujifilm-xq2-harbor-ferry.RAF",
-      "subject": "harbor ferry",
-      "sourceSha256": "4bce88593f5ae8fc45aeeec8a6dee9a84c773493cc6db9dabdc28744c8ac4b4d",
+      "source": "pexels-harry-cooke-6805929.jpg",
+      "subject": "green fields beneath a pastel sky",
+      "sourceSha256": "2a4a3343dc740d0e0319479e4092675f82202e5a082027561a4c6e1a15d3cc1d",
       "backend": "webgl",
-      "capturedAt": "2026-09-08T16:22:32.073238+00:00",
+      "capturedAt": "2026-09-10T02:03:05.737228+00:00",
       "nativeWindow": {
         "toolkit": "GTK/WebKitGTK",
         "display": "X11/Xvfb",
@@ -136,39 +137,39 @@
       "asset": "editor.webp",
       "width": 3320,
       "height": 2000,
-      "sha256": "c9e5284beb41128cfbd4e596571636193e11add6c27ed893763a8bd89f38f32a",
-      "bytes": 3007318,
+      "sha256": "83657c67ab2aee59f3523d1b5b8a1cee914604106de4f717f1c365c8f57c3588",
+      "bytes": 1721190,
       "variants": [
         {
           "asset": "editor-750w.webp",
           "width": 750,
           "height": 452,
-          "sha256": "355cb6f63e3e067961f2831f4b30fbf97e02f7fb97ba1840448800aae6b3e1f1",
-          "bytes": 233502
+          "sha256": "8fd3da0a10bde8d09a851dbe962cdde513b6a1a58dcd718294c73bd433f5ea84",
+          "bytes": 168070
         },
         {
           "asset": "editor-1500w.webp",
           "width": 1500,
           "height": 904,
-          "sha256": "9079e6c1ca1a875df664e94e25e3b0d45f603c403e9d11f241628981e943db5e",
-          "bytes": 837926
+          "sha256": "25d0920431c9a32e570e6f2f2051548ba55a300426ca9d9e1f64538e6f8b6b65",
+          "bytes": 536118
         },
         {
           "asset": "editor-3000w.webp",
           "width": 3000,
           "height": 1807,
-          "sha256": "320ccc4790e4c2621a90fb27b823645376eccb0dea96f58b2d0a2b457d514d4c",
-          "bytes": 2724482
+          "sha256": "e5105e0762ee6707e5a2ebfa09d98f75ee8827d56fb7097c0e1f0c9015cc2a8d",
+          "bytes": 1617936
         }
       ]
     },
     {
       "id": "crop-and-rotate",
-      "source": "13-fujifilm-x100vi-stone-church.RAF",
-      "subject": "stone church",
-      "sourceSha256": "7f19c7c5914542b91829ac2e41c8d4c10e414b28b0f7a793001e1a979c8c6056",
+      "source": "pexels-travel-with-lenses-734723610-30596980.jpg",
+      "subject": "Eiffel Tower and Paris skyline",
+      "sourceSha256": "895cc41ae88775154e177f8fa79a74fedb97bdec4594f9ef5498c4834ed8c447",
       "backend": "webgl",
-      "capturedAt": "2026-09-08T16:22:48.528860+00:00",
+      "capturedAt": "2026-09-10T02:03:20.801837+00:00",
       "nativeWindow": {
         "toolkit": "GTK/WebKitGTK",
         "display": "X11/Xvfb",
@@ -180,39 +181,39 @@
       "asset": "crop-and-rotate.webp",
       "width": 3320,
       "height": 2000,
-      "sha256": "6d28f1d0f6a340a0ec49ecd9eb98c1e47f1efcdf764fcf8ee89b847ba5c33a5d",
-      "bytes": 1804992,
+      "sha256": "9f7555ef0a7ef489d386799eb6a4d9a015393918fa4a613947b59ff191ccac6e",
+      "bytes": 3303366,
       "variants": [
         {
           "asset": "crop-and-rotate-750w.webp",
           "width": 750,
           "height": 452,
-          "sha256": "a1ea106b2bfcf9b0512f5448ba33dfdf31425b084bd0a5f64c9b9380241c6472",
-          "bytes": 140816
+          "sha256": "d3ba56562f9912f5da8b8373bf99ad8a44f3b9dde44f8c01ea11e1381982556a",
+          "bytes": 243390
         },
         {
           "asset": "crop-and-rotate-1500w.webp",
           "width": 1500,
           "height": 904,
-          "sha256": "91e311a88b8cf2d59323461b09936469e0e1fb2be4a548c6ef356db11570f6c5",
-          "bytes": 494808
+          "sha256": "7d66f2ab9d6a33a8d3cfa56394d2718cce5ef9d0b0178cb7d2319798028effd1",
+          "bytes": 879384
         },
         {
           "asset": "crop-and-rotate-3000w.webp",
           "width": 3000,
           "height": 1807,
-          "sha256": "727293cedaae8f36bc414cf7531009a8a1a62e60d8c609774a49b20de242a22e",
-          "bytes": 1672442
+          "sha256": "4f9e67bad80886a1fd801b9c5326688f4f166755de3e55835061bbb313a17214",
+          "bytes": 2981032
         }
       ]
     },
     {
       "id": "local-masks",
-      "source": "09-google-pixel-7-pro-succulents.DNG",
-      "subject": "succulent plants",
-      "sourceSha256": "6b921558944db5fdb4f1c63dc64919b6666ef700857a187e18500099c6e7c6c6",
+      "source": "pexels-reuben-hayfron-771751751-18868387.jpg",
+      "subject": "elephant surrounded by green foliage",
+      "sourceSha256": "b6a68b22b7bdc49c1a62d9cf7998aa29e565b1756961b437244c82b5ac01f9b3",
       "backend": "webgl",
-      "capturedAt": "2026-09-08T16:23:11.380422+00:00",
+      "capturedAt": "2026-09-10T02:03:41.960471+00:00",
       "nativeWindow": {
         "toolkit": "GTK/WebKitGTK",
         "display": "X11/Xvfb",
@@ -224,39 +225,39 @@
       "asset": "local-masks.webp",
       "width": 3320,
       "height": 2000,
-      "sha256": "af48c16302f5a4ea406a83c2b29790bc795c268b2249d8c2326d3fe0b18a64b5",
-      "bytes": 2045882,
+      "sha256": "220ab96b1b8b883924b9edf6975f5e39d05eb1bcb4325af793b46af068fed15c",
+      "bytes": 2488764,
       "variants": [
         {
           "asset": "local-masks-750w.webp",
           "width": 750,
           "height": 452,
-          "sha256": "df23f0227886ae936e5d9dac6fb30f83ef1866863faff78bf4374fe9de85619c",
-          "bytes": 205968
+          "sha256": "219313021f26ac99216ed8c33cffb4c3ae0aaf869950a9d56c4dbed311990432",
+          "bytes": 198066
         },
         {
           "asset": "local-masks-1500w.webp",
           "width": 1500,
           "height": 904,
-          "sha256": "ee078fd524c88fd2a27a7d1daca10ad4ff550eaa3dc7ae1b64bd0a4e9ee0d0d8",
-          "bytes": 675020
+          "sha256": "4b3d8b04078db9147442530dba11e58f7a1a73af616abb529fdb94ff20cce3b0",
+          "bytes": 676586
         },
         {
           "asset": "local-masks-3000w.webp",
           "width": 3000,
           "height": 1807,
-          "sha256": "0b7a7996b992fcd75f37f6e5d3caa49bcc2391f7a0828244b2fdb6cadfb1df80",
-          "bytes": 2053384
+          "sha256": "3e787d07da61b3aa49a580feebd9a76d5b123ba4c7b1f0d4548c4c964b749c99",
+          "bytes": 2202952
         }
       ]
     },
     {
       "id": "remove",
-      "source": "06-nikon-z6-still-life-toys.NEF",
-      "subject": "toy still life",
-      "sourceSha256": "f0ab08da469ee205f2bc08efd9005778c64cdcb064893cee03768e32e5da1a36",
+      "source": "pexels-alessandro-kelvin-1248577-2376272.jpg",
+      "subject": "sunlit rolling hills",
+      "sourceSha256": "b38a85b297ad2c02f4591cbb1068d68f72eda821e6cd6b818c0692011896feb2",
       "backend": "webgl",
-      "capturedAt": "2026-09-08T16:23:27.537667+00:00",
+      "capturedAt": "2026-09-10T02:03:55.877405+00:00",
       "nativeWindow": {
         "toolkit": "GTK/WebKitGTK",
         "display": "X11/Xvfb",
@@ -268,39 +269,39 @@
       "asset": "remove.webp",
       "width": 3320,
       "height": 2000,
-      "sha256": "02db57b8e8ff92b4eecd3ad6d75a610cbf1e121ca1b07cd39422035b256d105f",
-      "bytes": 1960306,
+      "sha256": "82ced17d7396bb651d48f729a71af2da546c41c3277d0ad12ec4da28241ddec2",
+      "bytes": 1429406,
       "variants": [
         {
           "asset": "remove-750w.webp",
           "width": 750,
           "height": 452,
-          "sha256": "85c4f1ea7d7fd3ab1c2d4187f5f2bb85dbb90cea588a64fa0a2ab7d81eb7b0ce",
-          "bytes": 191524
+          "sha256": "29f140354cfefa1040e3056869939abf06b275777e26527b710a28adc3f7ece0",
+          "bytes": 120994
         },
         {
           "asset": "remove-1500w.webp",
           "width": 1500,
           "height": 904,
-          "sha256": "eca52ecea6f68626bc7dc9d27488009a3483f1a84761effa41171c0d34a08b51",
-          "bytes": 624382
+          "sha256": "2bc4d4e6f982a81f61f88d5bbcb595ce077327ffbac6fa06974ccfb212a6641d",
+          "bytes": 404592
         },
         {
           "asset": "remove-3000w.webp",
           "width": 3000,
           "height": 1807,
-          "sha256": "ad77711eb4e4746cfbff4fc14ce1337a42ddbc97aa3b5475d9982ca5bd9be1ac",
-          "bytes": 1879278
+          "sha256": "e69ab9aa1fa34143fe311a228787ad747cde680f5e42f743acedf523f9b545ea",
+          "bytes": 1368718
         }
       ]
     },
     {
       "id": "lens-and-geometry",
-      "source": "04-ricoh-gr-iii-coastal-dunes.DNG",
-      "subject": "coastal dunes",
-      "sourceSha256": "05513ee72f7cac4165534c9f64995412084f414a033c80c473c79fd94154292e",
+      "source": "pexels-cristian-ortega-1063310314-39026284.jpg",
+      "subject": "layered cliffs and open countryside",
+      "sourceSha256": "4a62dbf69912d6efba37822f68bed13dc4e77174c99b6b1a2d4f54f7e43e94eb",
       "backend": "webgl",
-      "capturedAt": "2026-09-08T16:23:46.936758+00:00",
+      "capturedAt": "2026-09-10T02:04:20.440342+00:00",
       "nativeWindow": {
         "toolkit": "GTK/WebKitGTK",
         "display": "X11/Xvfb",
@@ -312,39 +313,39 @@
       "asset": "lens-and-geometry.webp",
       "width": 3320,
       "height": 2000,
-      "sha256": "6ba6dfb4c3c87cd2b528ab6def0262c8a8bb0904f56097d038b5f641c193aea4",
-      "bytes": 3498474,
+      "sha256": "0282c623bc1a385fb7a59d58975dcbb18555eb7a2b362e64acb5d53c0025570b",
+      "bytes": 3111198,
       "variants": [
         {
           "asset": "lens-and-geometry-750w.webp",
           "width": 750,
           "height": 452,
-          "sha256": "aefcd6d254335fb5b97c60e46dfca6e74712a14793efaf11b1eff1b0c50f118d",
-          "bytes": 251920
+          "sha256": "2d16cb00c4ff38272808d198e92c58b3e6f76c26c918bcd3c76ae5a7295b7bf1",
+          "bytes": 271010
         },
         {
           "asset": "lens-and-geometry-1500w.webp",
           "width": 1500,
           "height": 904,
-          "sha256": "5610a6f1c9c60e8f90edf3aebbf2974ccab84b58349521dc73960c196e8a6a11",
-          "bytes": 935588
+          "sha256": "d3c354881ca589cc32daf12fce98ea566a6c6c5aca54f7f357a3870ff60ba33d",
+          "bytes": 935182
         },
         {
           "asset": "lens-and-geometry-3000w.webp",
           "width": 3000,
           "height": 1807,
-          "sha256": "63dc17d340a62ee762f6539f9be11da9d48c96620802ea20524f928cc7b4d6c8",
-          "bytes": 3155046
+          "sha256": "e62abb3d7e9afe0bb28cfc25dd924b3010d59ac718ee676d71f48692afcd1c9b",
+          "bytes": 2871628
         }
       ]
     },
     {
       "id": "before-after",
-      "source": "07-sony-a7c-autumn-leaf.ARW",
-      "subject": "autumn leaf close-up",
-      "sourceSha256": "6bfac3286f0e931e949b23e1bb236b737bb9e4117b8b42fa09e36f40f0fa8408",
+      "source": "pexels-magda-ehlers-pexels-9775521.jpg",
+      "subject": "backlit antelope portrait",
+      "sourceSha256": "9873a26c9a71b8198a20b8f5a40ca31e896e17d10e8c82501df55de1fe616cf9",
       "backend": "webgl",
-      "capturedAt": "2026-09-08T16:24:08.926885+00:00",
+      "capturedAt": "2026-09-10T02:04:59.532774+00:00",
       "nativeWindow": {
         "toolkit": "GTK/WebKitGTK",
         "display": "X11/Xvfb",
@@ -356,39 +357,39 @@
       "asset": "before-after.webp",
       "width": 3320,
       "height": 2000,
-      "sha256": "ac4bf81f2532acd5d63abbe8fbaf6bc47eae48074414cec2498a01bbe0ccaf48",
-      "bytes": 3176588,
+      "sha256": "e81e3f15549e7a9ced3cd6750563bbc80fe5d66e573a1b73bc5c80ada222ef10",
+      "bytes": 2610034,
       "variants": [
         {
           "asset": "before-after-750w.webp",
           "width": 750,
           "height": 452,
-          "sha256": "4beca2a5da16bf89a10782911ece6fd32ca490814ce7fbb8154b792d68b6bbcd",
-          "bytes": 245756
+          "sha256": "a85b13cc41a91a9ebe038cbe228fe7a5f0adcb537893f41c8a0c2e114569250a",
+          "bytes": 215382
         },
         {
           "asset": "before-after-1500w.webp",
           "width": 1500,
           "height": 904,
-          "sha256": "cb900ec7006cc72d7821ba6e8e681f171fe3093b3a5116f59d0716be95ad1a01",
-          "bytes": 893896
+          "sha256": "81940281a1dd5b028ca6da1d5863c954b3ae15faca63042141417b8cc3093cf3",
+          "bytes": 751214
         },
         {
           "asset": "before-after-3000w.webp",
           "width": 3000,
           "height": 1807,
-          "sha256": "b80fe6cc97cdfb526615b5931d7ba0544d0b9336141a12f0978c7be05e790d2c",
-          "bytes": 2903466
+          "sha256": "3a024082dc9944f35d7c28671797670daf598fbf770169cdd2b38feb57efebf5",
+          "bytes": 2411604
         }
       ]
     },
     {
       "id": "photo-info",
-      "source": "16-dji-mavic-3-pro-aerial-castle.DNG",
-      "subject": "aerial castle",
-      "sourceSha256": "f33ddaf2a7fa70b395abced251faccea11100d2ab7e54ae0a6adbff043d72027",
+      "source": "pexels-weavehall-collective-746895245-18888497.jpg",
+      "subject": "painter in a colorful studio",
+      "sourceSha256": "b2a61b4c7201bbdedebb23e151af8c1b1cf84b4a29818fc9db5551ef94f82cff",
       "backend": "webgl",
-      "capturedAt": "2026-09-08T16:24:41.140239+00:00",
+      "capturedAt": "2026-09-10T02:05:13.393098+00:00",
       "nativeWindow": {
         "toolkit": "GTK/WebKitGTK",
         "display": "X11/Xvfb",
@@ -400,39 +401,39 @@
       "asset": "photo-info.webp",
       "width": 3320,
       "height": 2000,
-      "sha256": "0d41ade04ef92813aeb958ffdc725296fb14f95e5e1b05a1d0c7c1171a0b568c",
-      "bytes": 2089204,
+      "sha256": "9273335e508445dfea9fc407d6366c4b89c80c6f6deb17ba9896641daa382671",
+      "bytes": 1528510,
       "variants": [
         {
           "asset": "photo-info-750w.webp",
           "width": 750,
           "height": 452,
-          "sha256": "7c53bee787ce6cd94a91e5be5d88381deba4c4d72e54de1939fad3e04fc08420",
-          "bytes": 200760
+          "sha256": "d067b709a2bca9e2d9597eca95bf2d33a8603c28fbf7f8ddd2f052d86f2390e6",
+          "bytes": 146096
         },
         {
           "asset": "photo-info-1500w.webp",
           "width": 1500,
           "height": 904,
-          "sha256": "58e28510f4342dd053efc261950763f94914b9ddfafa3546138ba56358383b2d",
-          "bytes": 677930
+          "sha256": "3898a2245c074a56882a7965c5b4945322187342d0cbaf5e43747860220be46c",
+          "bytes": 455352
         },
         {
           "asset": "photo-info-3000w.webp",
           "width": 3000,
           "height": 1807,
-          "sha256": "5007ee987c2fe49606586abdd9fc4bcb3907eb5874633efa9ac0d7d1945291b6",
-          "bytes": 2078486
+          "sha256": "28eb622dc9d0f156dffef15c63c962bf90365cb974d328367623cda97383a2fa",
+          "bytes": 1446008
         }
       ]
     },
     {
       "id": "history",
-      "source": "01-canon-eos-80d-city-tree.CR2",
-      "subject": "city street and large tree",
-      "sourceSha256": "f9c5404b57248c21e9b269721aa0d721c3b1281c94ebdee3c50bf32db42613a8",
+      "source": "pexels-roman-odintsov-10158002.jpg",
+      "subject": "smiling portrait",
+      "sourceSha256": "03604d348e26bf458c48fb1b8b4928a6f329d01dd270da22bdb72c4149b8f0fb",
       "backend": "webgl",
-      "capturedAt": "2026-09-08T16:24:59.937780+00:00",
+      "capturedAt": "2026-09-10T02:05:32.479937+00:00",
       "nativeWindow": {
         "toolkit": "GTK/WebKitGTK",
         "display": "X11/Xvfb",
@@ -444,39 +445,39 @@
       "asset": "history.webp",
       "width": 3320,
       "height": 2000,
-      "sha256": "f937194d45d4399beeffc8da9787d588ad59894d9d05484f01df7d8fda223def",
-      "bytes": 3655416,
+      "sha256": "b30fd1b6c028c14a10d894f68654ed437ee10189e23fd418da6332c21867b93d",
+      "bytes": 2162002,
       "variants": [
         {
           "asset": "history-750w.webp",
           "width": 750,
           "height": 452,
-          "sha256": "37c0a9a152af9bfaf3f00985eebf75343b1283b8a5a6267ed6b7206c36f5ddeb",
-          "bytes": 286462
+          "sha256": "9448360b5048e523f7ccce431d661ba03ef68dbad9b8dafc76996a5adfe76ee9",
+          "bytes": 176882
         },
         {
           "asset": "history-1500w.webp",
           "width": 1500,
           "height": 904,
-          "sha256": "23db278b06de2a4232a5df4fd56945bb675e5307cf50b9bf067a3b09b9872a67",
-          "bytes": 1012020
+          "sha256": "4863710bfa18ef71d35759f50ff71ca2eb3abf145ba24ccaa93cfeea55c7d98a",
+          "bytes": 606582
         },
         {
           "asset": "history-3000w.webp",
           "width": 3000,
           "height": 1807,
-          "sha256": "b453ed07ad0934cfc298192bd02f1e3ffde41e98c35e0f9dbb303cee3d760e0f",
-          "bytes": 3259802
+          "sha256": "aeb98bc3be768352337823f5130ea977dac75ac668d7df5f1a0d0c7449945f7d",
+          "bytes": 2095894
         }
       ]
     },
     {
       "id": "export-workflow",
-      "source": "05-sony-rx100-vii-tropical-homestead.ARW",
-      "subject": "tropical homestead",
-      "sourceSha256": "815532f017b94e31990e8111791131647c95f6953aa28c571783c5e17eb36523",
+      "source": "pexels-ekrulila-20488730.jpg",
+      "subject": "warmly lit meal at a table",
+      "sourceSha256": "de594f4fd0abc5f22cbe7d30fb51fe5254e87419a35127827969a89a05923531",
       "backend": "webgl",
-      "capturedAt": "2026-09-08T16:25:26.518527+00:00",
+      "capturedAt": "2026-09-10T02:11:06.333472+00:00",
       "nativeWindow": {
         "toolkit": "GTK/WebKitGTK",
         "display": "X11/Xvfb",
@@ -488,29 +489,29 @@
       "asset": "export-workflow.webp",
       "width": 3320,
       "height": 2000,
-      "sha256": "32c95d92400fbb88537af8a2084e3d6e00e0a650aafd87a387d56ce0f5c8b27f",
-      "bytes": 826414,
+      "sha256": "3fe15f6b28e871659799c261f44a09360584eb626bac6283900fcc0c02e6eb96",
+      "bytes": 438740,
       "variants": [
         {
           "asset": "export-workflow-750w.webp",
           "width": 750,
           "height": 452,
-          "sha256": "e36b1cb9a97a3a9be17626954966598e1268f034f6ff2a4caaa657a81c0e6b5f",
-          "bytes": 109212
+          "sha256": "e4a75cd97c4c5306306993ab04e9981d59d321e9decb9734b9d07975a776d5a6",
+          "bytes": 63344
         },
         {
           "asset": "export-workflow-1500w.webp",
           "width": 1500,
           "height": 904,
-          "sha256": "b00c1fbc782ec52f7fe1760c6c5f24db52c24beb5f38e94fe94044372e13e625",
-          "bytes": 303844
+          "sha256": "f0985a4d7d9e42001b0568fcdd6a7016f0701c1d930ba8f4d98f42f4eaadf351",
+          "bytes": 166140
         },
         {
           "asset": "export-workflow-3000w.webp",
           "width": 3000,
           "height": 1807,
-          "sha256": "134b206b3d9bfca245360c04b50f831b2a87bf5982cc5510c402ad8028dcf1a4",
-          "bytes": 844138
+          "sha256": "9dc6ca0d2b107b57c83dc2a9bab635b77c6e5db060bb8c5162932f09f43a03bc",
+          "bytes": 449842
         }
       ]
     }

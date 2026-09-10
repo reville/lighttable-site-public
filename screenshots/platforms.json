@@ -699,7 +699,7 @@
         "detail-masks": {
           "src": "screenshots/linux/detail-masks.webp",
           "width": 632,
-          "height": 1096,
+          "height": 1364,
           "variants": []
         },
         "detail-export": {
@@ -711,7 +711,7 @@
         "detail-editor": {
           "src": "screenshots/linux/detail-editor.webp",
           "width": 632,
-          "height": 1088,
+          "height": 840,
           "variants": []
         },
         "detail-photo-info": {

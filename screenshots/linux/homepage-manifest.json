@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "appRevision": "624770ce309d51827071afda3ecf6a65f3b7cb49",
-  "sourceCapturedAt": "2026-09-08T16:25:26.518527+00:00",
+  "appRevision": "be537f2f3e2e431ae6b42af716c2a8b365f57bab",
+  "sourceCapturedAt": "2026-09-10T02:11:06.333472+00:00",
   "method": "Lossless crops of actual Linux windows at native 2x density; no upscaling",
-  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "license": "https://www.pexels.com/license/",
   "images": [
     {
       "id": "hero-film",
       "sourceShot": "film-controls",
       "sourceAsset": "film-controls.webp",
-      "sourceSha256": "dfed4a4f97d906ca65cf096282ee4eb6744b3ebc01ed07b821bc5d23fce31907",
+      "sourceSha256": "be9fca879c8822124b3782bb065242a016de84ba74fb665897785288fcf793c7",
       "viewportCrop": [
         0,
         0,
@@ -31,28 +31,28 @@
           "asset": "hero-film-750w.webp",
           "width": 750,
           "height": 904,
-          "sha256": "0a3fc53dfffdaa1bff495aa068fc7149d38bc6e905dad13ef6ff1e6809131078",
-          "bytes": 566990
+          "sha256": "28f33f5c3ab35d6f9b69ea4196d7527edfaee81e5d6cd9bb84e644b62d858fd1",
+          "bytes": 579506
         },
         {
           "asset": "hero-film-1500w.webp",
           "width": 1500,
           "height": 1807,
-          "sha256": "b73926aa379176f5123868952f650647cb9e2f62afa67f8ce1792063f2cb85a9",
-          "bytes": 1992546
+          "sha256": "4fa4236468c49fba7ce980c01ed29c234b1f34c5ac6f585e38ba175f802b60be",
+          "bytes": 1948870
         }
       ],
       "asset": "hero-film.webp",
       "width": 1660,
       "height": 2000,
-      "sha256": "f63879a27f916a5a1793f90cae217d7ae65c1d85b1025c2dcafab8d7ab16360e",
-      "bytes": 2270884
+      "sha256": "b6e4ff0a8c28f4fcaeab4dc693d1cf357635ff66d3fea0de4dbf1e7340ea61ef",
+      "bytes": 2222718
     },
     {
       "id": "detail-film",
       "sourceShot": "film-controls",
       "sourceAsset": "film-controls.webp",
-      "sourceSha256": "dfed4a4f97d906ca65cf096282ee4eb6744b3ebc01ed07b821bc5d23fce31907",
+      "sourceSha256": "be9fca879c8822124b3782bb065242a016de84ba74fb665897785288fcf793c7",
       "viewportCrop": [
         1288,
         94,
@@ -70,39 +70,39 @@
       "asset": "detail-film.webp",
       "width": 632,
       "height": 828,
-      "sha256": "c6b031357ffcfea14736fe10c537dfd9e22665eccce790d20426b608df8517ef",
-      "bytes": 12866
+      "sha256": "8d6f4e4067f51a670b06985c32f06d66871c726ffb06280b3c2a9d77ecdb825d",
+      "bytes": 13600
     },
     {
       "id": "detail-masks",
       "sourceShot": "local-masks",
       "sourceAsset": "local-masks.webp",
-      "sourceSha256": "af48c16302f5a4ea406a83c2b29790bc795c268b2249d8c2326d3fe0b18a64b5",
+      "sourceSha256": "220ab96b1b8b883924b9edf6975f5e39d05eb1bcb4325af793b46af068fed15c",
       "viewportCrop": [
         1288,
         152,
         316,
-        548
+        682
       ],
       "crop": [
         2576,
         304,
         632,
-        1096
+        1364
       ],
       "responsiveWidths": [],
       "variants": [],
       "asset": "detail-masks.webp",
       "width": 632,
-      "height": 1096,
-      "sha256": "a824183f8f215a111107e539a8dbd385dc893025e464eb316a0c32180a0ffe4e",
-      "bytes": 17898
+      "height": 1364,
+      "sha256": "28cb8c1d6565ab5971607dd27a763beb5e8688069eeee440f56731350048b8d7",
+      "bytes": 19088
     },
     {
       "id": "detail-export",
       "sourceShot": "export-workflow",
       "sourceAsset": "export-workflow.webp",
-      "sourceSha256": "32c95d92400fbb88537af8a2084e3d6e00e0a650aafd87a387d56ce0f5c8b27f",
+      "sourceSha256": "3fe15f6b28e871659799c261f44a09360584eb626bac6283900fcc0c02e6eb96",
       "viewportCrop": [
         554,
         139,
@@ -120,39 +120,39 @@
       "asset": "detail-export.webp",
       "width": 1104,
       "height": 1444,
-      "sha256": "45f82dabcf76ff741d075c333909347de9cbbe9a4b53c09ca43f46ab7b4c56b6",
-      "bytes": 53948
+      "sha256": "e3b9a8ba5ff65cde51d8c5a7b6fef3b206d387c87d6937bbee2ee07485839c74",
+      "bytes": 56774
     },
     {
       "id": "detail-editor",
       "sourceShot": "editor",
       "sourceAsset": "editor.webp",
-      "sourceSha256": "c9e5284beb41128cfbd4e596571636193e11add6c27ed893763a8bd89f38f32a",
+      "sourceSha256": "83657c67ab2aee59f3523d1b5b8a1cee914604106de4f717f1c365c8f57c3588",
       "viewportCrop": [
         1288,
         94,
         316,
-        544
+        420
       ],
       "crop": [
         2576,
         188,
         632,
-        1088
+        840
       ],
       "responsiveWidths": [],
       "variants": [],
       "asset": "detail-editor.webp",
       "width": 632,
-      "height": 1088,
-      "sha256": "3f77f5e2c7e31eea7dbedfbd6ecadf49b8370ccb46b41f1b370710fe3c24c0a9",
-      "bytes": 14512
+      "height": 840,
+      "sha256": "f9d3edb8b6613bb86ce3c5c2630c46d171e273c6e4f77b84be4d58bf1f410db7",
+      "bytes": 11638
     },
     {
       "id": "detail-photo-info",
       "sourceShot": "photo-info",
       "sourceAsset": "photo-info.webp",
-      "sourceSha256": "0d41ade04ef92813aeb958ffdc725296fb14f95e5e1b05a1d0c7c1171a0b568c",
+      "sourceSha256": "9273335e508445dfea9fc407d6366c4b89c80c6f6deb17ba9896641daa382671",
       "viewportCrop": [
         1288,
         112,
@@ -170,8 +170,8 @@
       "asset": "detail-photo-info.webp",
       "width": 632,
       "height": 840,
-      "sha256": "a8302ef1e3211bb973a032acc07800df2fe84ed40b03a86b29b1d1af514bfd29",
-      "bytes": 16276
+      "sha256": "975d86dd7ba56694cfb89e9179c5df07be9126891796ccfe28ea426347e8d7e0",
+      "bytes": 15576
     }
   ]
 }
