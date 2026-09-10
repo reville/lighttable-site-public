@@ -1,9 +1,9 @@
 {
-  "appRevision": "5bad45b4d313f2618328f7d495b6a8cbf046601f",
+  "appRevision": "e7cf278d603447fdb405aaf9fe1b18284d7be48a",
   "images": [
     {
       "asset": "hero-film.webp",
-      "bytes": 2870694,
+      "bytes": 2364730,
       "crop": [
         0,
         0,
@@ -16,23 +16,23 @@
         750,
         1500
       ],
-      "sha256": "0112aab9698da6c672507aefbc9125a95cfd0ff153c16ce2c752d502641d75f7",
+      "sha256": "ffcc54f506f630df8b4b238402a0cbc3c923f695d6b1924fab8965ce3c2527ea",
       "sourceAsset": "film-controls.webp",
-      "sourceSha256": "43d234d40b4d780848f4b7ea56a57ef6c79b472fec4132f9707a406600a913bd",
+      "sourceSha256": "4e9552b7d495f7bd58416fa4ba3752c333c969f826d9bfb331566bba2ff9f53c",
       "sourceShot": "film-controls",
       "variants": [
         {
           "asset": "hero-film-750w.webp",
-          "bytes": 560054,
+          "bytes": 534548,
           "height": 904,
-          "sha256": "4f04770cc82d5d9d2d1321f4843d5ca52a706a5ebf24f3860c7b7ee56f114d3a",
+          "sha256": "fc66e570735b32337bd52c5ce9045853dd9761ebb74d668d59e6ba50c939ef96",
           "width": 750
         },
         {
           "asset": "hero-film-1500w.webp",
-          "bytes": 2152158,
+          "bytes": 1827270,
           "height": 1808,
-          "sha256": "af95029b69233943ea3b649c3c877ee484afab49c3d73cb326ca6d04b98f4e56",
+          "sha256": "65aad0663e2be8e18ec7178f0b7852f5d167348768364b19dbf8c896cf22e508",
           "width": 1500
         }
       ],
@@ -46,57 +46,57 @@
     },
     {
       "asset": "detail-film.webp",
-      "bytes": 21780,
+      "bytes": 22976,
       "crop": [
         2576,
-        224,
+        188,
         632,
-        836
+        828
       ],
-      "height": 836,
+      "height": 828,
       "id": "detail-film",
       "responsiveWidths": [],
-      "sha256": "f557fdad27a1fc157a48e496ca281b8d229452014d07c0ebc6f72a24ac46fe47",
+      "sha256": "88a31967eea6e4a5021ff56680474f00be2cee5208b19179aa5647216899445e",
       "sourceAsset": "film-controls.webp",
-      "sourceSha256": "43d234d40b4d780848f4b7ea56a57ef6c79b472fec4132f9707a406600a913bd",
+      "sourceSha256": "4e9552b7d495f7bd58416fa4ba3752c333c969f826d9bfb331566bba2ff9f53c",
       "sourceShot": "film-controls",
       "variants": [],
       "viewportCrop": [
         1288,
-        112,
+        94,
         316,
-        418
+        414
       ],
       "width": 632
     },
     {
       "asset": "detail-masks.webp",
-      "bytes": 32480,
+      "bytes": 33478,
       "crop": [
         2576,
         304,
         632,
-        1096
+        1300
       ],
-      "height": 1096,
+      "height": 1300,
       "id": "detail-masks",
       "responsiveWidths": [],
-      "sha256": "0609fec9a3bad419f2a959cec15cebfd4c2e5d400a0860fbb6150291fd21f25b",
+      "sha256": "a7b763f2f1e895e62c2727ac815aa4cec3390f8a29aac01a413420ffe8a3e20f",
       "sourceAsset": "local-masks.webp",
-      "sourceSha256": "6048393e88653a0d5622cbe2975980bd738100c5f028861b1da1f24108395657",
+      "sourceSha256": "dc2f8a4204b2c6c7f04b0ee533d70207843e612b5532211e4c98cc4e791f282c",
       "sourceShot": "local-masks",
       "variants": [],
       "viewportCrop": [
         1288,
         152,
         316,
-        548
+        650
       ],
       "width": 632
     },
     {
       "asset": "detail-export.webp",
-      "bytes": 70214,
+      "bytes": 67332,
       "crop": [
         1108,
         278,
@@ -106,9 +106,9 @@
       "height": 1444,
       "id": "detail-export",
       "responsiveWidths": [],
-      "sha256": "891cf950afb7c7fcb9ed50f90b0bfe8b907ccad1398a25f645adc4a4e6c661c8",
+      "sha256": "0dd209b5cafba27444cea939c7ae63fcfb9ba8e8f8b34449d22d80f2fae9bb59",
       "sourceAsset": "export-workflow.webp",
-      "sourceSha256": "289c6348885140204146a1deb1128c5db3f2061271bae2e4079defb84f1aa7f6",
+      "sourceSha256": "333e39f2b50a6d56770c42b737c91e3249fb2c0d2db11b622f88e36f028580c1",
       "sourceShot": "export-workflow",
       "variants": [],
       "viewportCrop": [
@@ -121,57 +121,57 @@
     },
     {
       "asset": "detail-editor.webp",
-      "bytes": 48014,
+      "bytes": 35290,
       "crop": [
         2576,
-        224,
+        188,
         632,
-        996
+        840
       ],
-      "height": 996,
+      "height": 840,
       "id": "detail-editor",
       "responsiveWidths": [],
-      "sha256": "358ade4382609da18c8bc685a340da426101b6a971f098d4cd19136ad74eca87",
+      "sha256": "63a82641c7e49f68f6846e6dc292845ffaa46ad8fe0362ec51ccb137f95343ed",
       "sourceAsset": "editor.webp",
-      "sourceSha256": "340229a2ea3d3f6400297d56d3604a4e96ab407b3ac983196d796d797bd14ec8",
+      "sourceSha256": "3a409d0456d2337a502c69804bd2ab6354d1e35ffd3467ee43ae53fdd7e710eb",
       "sourceShot": "editor",
       "variants": [],
       "viewportCrop": [
         1288,
-        112,
+        94,
         316,
-        498
+        420
       ],
       "width": 632
     },
     {
       "asset": "detail-photo-info.webp",
-      "bytes": 20158,
+      "bytes": 23314,
       "crop": [
         2576,
         224,
         632,
-        724
+        840
       ],
-      "height": 724,
+      "height": 840,
       "id": "detail-photo-info",
       "responsiveWidths": [],
-      "sha256": "b07c33ac56aec9c8565f03ea30e8f97e901601259aec8e07d87f2f4f1bad7955",
+      "sha256": "e32e7a8679c47679fe9aa1aa072c725773b5fbac250a9aa988b60d43c4cc6993",
       "sourceAsset": "photo-info.webp",
-      "sourceSha256": "30972708a13b10c84546b72fab57cb7725efae0969969393c3756a34e834ae4b",
+      "sourceSha256": "760a246b3bd680a68cce7ea252da07afbf745f99457f605723a77915e0701452",
       "sourceShot": "photo-info",
       "variants": [],
       "viewportCrop": [
         1288,
         112,
         316,
-        362
+        420
       ],
       "width": 632
     }
   ],
-  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "license": "https://www.pexels.com/license/",
   "method": "Lossless crops of actual macOS windows at 2x Retina; viewport coordinates mapped to device pixels; no upscaling",
   "schema": 1,
-  "sourceCapturedAt": "2026-09-07T21:51:31.843861+00:00"
+  "sourceCapturedAt": "2026-09-10T01:50:12.357289+00:00"
 }

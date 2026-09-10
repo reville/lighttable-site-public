@@ -1,5 +1,5 @@
 {
-  "appRevision": "5bad45b4d313f2618328f7d495b6a8cbf046601f",
+  "appRevision": "e7cf278d603447fdb405aaf9fe1b18284d7be48a",
   "capture": {
     "count": 10,
     "deviceScaleFactor": 2,
@@ -16,15 +16,15 @@
     "width": 3320
   },
   "captureMethod": "Real macOS AppKit window with native Metal preview at 2x Retina; window-only capture, transparent rounded corners, no shadow; lossless WebP masters",
-  "capturedAt": "2026-09-07T21:51:31.843861+00:00",
-  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "capturedAt": "2026-09-10T01:50:12.357289+00:00",
+  "license": "https://www.pexels.com/license/",
   "schema": 2,
   "shotCount": 10,
   "shots": [
     {
       "asset": "film-controls.webp",
       "backend": "native-metal",
-      "bytes": 5167566,
+      "bytes": 4335302,
       "height": 2000,
       "id": "film-controls",
       "nativeWindow": {
@@ -36,29 +36,31 @@
         },
         "transparentCorners": true
       },
-      "sha256": "43d234d40b4d780848f4b7ea56a57ef6c79b472fec4132f9707a406600a913bd",
-      "source": "20-fujifilm-x-t30-iii-desert-rocks.RAF",
-      "subject": "desert rock formations",
+      "sha256": "4e9552b7d495f7bd58416fa4ba3752c333c969f826d9bfb331566bba2ff9f53c",
+      "source": "pexels-auspiciousajay-19848350.jpg",
+      "sourceSha256": "b768b0a48b4e9bd4c262841c92370f85859af1b001fdd860a7c9625ba21a123f",
+      "sourceUrl": "https://www.pexels.com/photo/19848350/",
+      "subject": "lantern-lit restaurant alley",
       "variants": [
         {
           "asset": "film-controls-750w.webp",
-          "bytes": 254776,
+          "bytes": 274938,
           "height": 452,
-          "sha256": "ef17aae28c00e1ea1102ea23e79d72480a47325cb7becd1a2541bff200b0df71",
+          "sha256": "f61e8c3d886c1eab67cb36fb025dd8b03afdfe99d590c6e809f108b2f5e43aaf",
           "width": 750
         },
         {
           "asset": "film-controls-1500w.webp",
-          "bytes": 1029736,
+          "bytes": 1003402,
           "height": 904,
-          "sha256": "8e0bba80115d5a01b37a28f95332556769bb71989e4594086b9ca6868de306c3",
+          "sha256": "09bd58e1833ba9986ca21360dec470ec9959fe0004f5a8b30862f49f5bb5051e",
           "width": 1500
         },
         {
           "asset": "film-controls-3000w.webp",
-          "bytes": 3950792,
+          "bytes": 3436676,
           "height": 1808,
-          "sha256": "98309ddedb353823a5e34281004ea2ecf2698daa4be11f90599353d9ce2d13b2",
+          "sha256": "fa7c9a9236ff1aa1572615b766fcd8c4169d6f12e8af056394790b9003e07947",
           "width": 3000
         }
       ],
@@ -67,7 +69,7 @@
     {
       "asset": "editor.webp",
       "backend": "native-metal",
-      "bytes": 3720894,
+      "bytes": 1837702,
       "height": 2000,
       "id": "editor",
       "nativeWindow": {
@@ -79,29 +81,31 @@
         },
         "transparentCorners": true
       },
-      "sha256": "340229a2ea3d3f6400297d56d3604a4e96ab407b3ac983196d796d797bd14ec8",
-      "source": "03-fujifilm-xq2-harbor-ferry.RAF",
-      "subject": "harbor ferry",
+      "sha256": "3a409d0456d2337a502c69804bd2ab6354d1e35ffd3467ee43ae53fdd7e710eb",
+      "source": "pexels-harry-cooke-6805929.jpg",
+      "sourceSha256": "2a4a3343dc740d0e0319479e4092675f82202e5a082027561a4c6e1a15d3cc1d",
+      "sourceUrl": "https://www.pexels.com/photo/6805929/",
+      "subject": "green fields beneath a pastel sky",
       "variants": [
         {
           "asset": "editor-750w.webp",
-          "bytes": 228554,
+          "bytes": 156680,
           "height": 452,
-          "sha256": "62e17204d0776bcdb5624e61b0ac7fdf9546dc5b45c9e0ebd0005bad55a522c8",
+          "sha256": "67485deba7f8612f73932c4be82cd23c15550a6acf22d92fda9ea4fe401438ee",
           "width": 750
         },
         {
           "asset": "editor-1500w.webp",
-          "bytes": 853334,
+          "bytes": 516416,
           "height": 904,
-          "sha256": "47038ff114b9206ec4192d00704b3f838b6677b2ee27f0268646e781bea22fe4",
+          "sha256": "52c0cfb6d4b1a1e908520c1036ac63669ad78701bffe63c2f82376dfb345ce1c",
           "width": 1500
         },
         {
           "asset": "editor-3000w.webp",
-          "bytes": 2987436,
+          "bytes": 1705416,
           "height": 1808,
-          "sha256": "e4dea45ee6bdd94668e8b97eb19cb26169acf54a30f9eaf8c8f8d8a78d126c67",
+          "sha256": "02aad24473796a58614a3c2d2fdde2f197db61f2031766b3b737e822f51877f6",
           "width": 3000
         }
       ],
@@ -110,7 +114,7 @@
     {
       "asset": "crop-and-rotate.webp",
       "backend": "native-metal",
-      "bytes": 2264542,
+      "bytes": 3358950,
       "height": 2000,
       "id": "crop-and-rotate",
       "nativeWindow": {
@@ -122,29 +126,31 @@
         },
         "transparentCorners": true
       },
-      "sha256": "3e2f27d2f9bd390406fc68c59f1c1af68997a4f13e837e304c3a2acf9bb54734",
-      "source": "13-fujifilm-x100vi-stone-church.RAF",
-      "subject": "stone church",
+      "sha256": "e46e8ae5cea307c919dc65b3373874fcc1204b1b419e2db520450800092280e7",
+      "source": "pexels-travel-with-lenses-734723610-30596980.jpg",
+      "sourceSha256": "895cc41ae88775154e177f8fa79a74fedb97bdec4594f9ef5498c4834ed8c447",
+      "sourceUrl": "https://www.pexels.com/photo/30596980/",
+      "subject": "Eiffel Tower and Paris skyline",
       "variants": [
         {
           "asset": "crop-and-rotate-750w.webp",
-          "bytes": 154246,
+          "bytes": 224124,
           "height": 452,
-          "sha256": "27452afd9540f0452c6ef92344770e6d4f3104fe16fa2c5eec75772ba8428e04",
+          "sha256": "eb43e32ea3fdf4932a17b9d21ee7f1b24129aba94f731670a0e1484a7db8259c",
           "width": 750
         },
         {
           "asset": "crop-and-rotate-1500w.webp",
-          "bytes": 555142,
+          "bytes": 820644,
           "height": 904,
-          "sha256": "7ef9c9d12f9df71f8056c2719ba86dfafb7cdb24388f92c5ae83406c556c24a3",
+          "sha256": "dd98fea31f0dc6ff0fc1ccdf726b94bba7f44d2afddbaec49053f82ca8a907f3",
           "width": 1500
         },
         {
           "asset": "crop-and-rotate-3000w.webp",
-          "bytes": 1942874,
+          "bytes": 2937436,
           "height": 1808,
-          "sha256": "c9efb1289fc4640310c6a78ee0b6b941ce53638183ddb13c1e48d9833c3b5f75",
+          "sha256": "b1a1048f3034252ec6c177440d2ed29000982cb6fbd13c2726a3b376a9e4bf93",
           "width": 3000
         }
       ],
@@ -153,7 +159,7 @@
     {
       "asset": "local-masks.webp",
       "backend": "native-metal",
-      "bytes": 2628140,
+      "bytes": 2456726,
       "height": 2000,
       "id": "local-masks",
       "nativeWindow": {
@@ -165,29 +171,31 @@
         },
         "transparentCorners": true
       },
-      "sha256": "6048393e88653a0d5622cbe2975980bd738100c5f028861b1da1f24108395657",
-      "source": "09-google-pixel-7-pro-succulents.DNG",
-      "subject": "succulent plants",
+      "sha256": "dc2f8a4204b2c6c7f04b0ee533d70207843e612b5532211e4c98cc4e791f282c",
+      "source": "pexels-reuben-hayfron-771751751-18868387.jpg",
+      "sourceSha256": "b6a68b22b7bdc49c1a62d9cf7998aa29e565b1756961b437244c82b5ac01f9b3",
+      "sourceUrl": "https://www.pexels.com/photo/18868387/",
+      "subject": "elephant surrounded by green foliage",
       "variants": [
         {
           "asset": "local-masks-750w.webp",
-          "bytes": 202246,
+          "bytes": 178372,
           "height": 452,
-          "sha256": "65c697b780abb70917321d60f2801aa2aae5ce250570c5ab2d4cc7e53abbc373",
+          "sha256": "1349225c7304d3a9e7ee9d5e8a9f7b25622c24144c84d513b361b2ed99d48d7c",
           "width": 750
         },
         {
           "asset": "local-masks-1500w.webp",
-          "bytes": 704576,
+          "bytes": 620884,
           "height": 904,
-          "sha256": "498c9d819e59de94e0d1f3b4828b81629ef3a9d23af061b19f8d31049e6b62c2",
+          "sha256": "f10738b8f9971dc16fe4fb1f19d7915ce756c255389d4bc61e28ff3794fd7097",
           "width": 1500
         },
         {
           "asset": "local-masks-3000w.webp",
-          "bytes": 2415514,
+          "bytes": 2040556,
           "height": 1808,
-          "sha256": "e5a11a55f7cff4645ec33e014e7d99f5a97d1489c79bf6800a155da909037e43",
+          "sha256": "4391fd9f9aa9459652b32d721dd851d89bd49e6182b16dbfcacb7df1a914e4d5",
           "width": 3000
         }
       ],
@@ -196,7 +204,7 @@
     {
       "asset": "remove.webp",
       "backend": "native-metal",
-      "bytes": 2032350,
+      "bytes": 1503590,
       "height": 2000,
       "id": "remove",
       "nativeWindow": {
@@ -208,29 +216,31 @@
         },
         "transparentCorners": true
       },
-      "sha256": "249fa6d2eedf67745655f7382a9b766ce38804c591e686d01858c1f5ee422f02",
-      "source": "06-nikon-z6-still-life-toys.NEF",
-      "subject": "toy still life",
+      "sha256": "ef63a13980c4555276d54ef10130fd073665a85a04f3f794feb1a563849045cf",
+      "source": "pexels-alessandro-kelvin-1248577-2376272.jpg",
+      "sourceSha256": "b38a85b297ad2c02f4591cbb1068d68f72eda821e6cd6b818c0692011896feb2",
+      "sourceUrl": "https://www.pexels.com/photo/2376272/",
+      "subject": "sunlit rolling hills",
       "variants": [
         {
           "asset": "remove-750w.webp",
-          "bytes": 183892,
+          "bytes": 112746,
           "height": 452,
-          "sha256": "6425fbb0e4b245f83c8b406d03c5362d50fc07e9d7cb79827133e7966463701d",
+          "sha256": "4c21925a5fc9e51d1ebb2660e0f637d9ce227188326255d2d85f649c5ab1497e",
           "width": 750
         },
         {
           "asset": "remove-1500w.webp",
-          "bytes": 605954,
+          "bytes": 387070,
           "height": 904,
-          "sha256": "4f6e780c18994ef805cc3d2288c52f47a4cc364c8f9ec9532a092bd2c995fb54",
+          "sha256": "47cf4778519db498e3d0a8a84c7d77ba65c91a48d66a12078d5cf17d26709b94",
           "width": 1500
         },
         {
           "asset": "remove-3000w.webp",
-          "bytes": 2024492,
+          "bytes": 1459636,
           "height": 1808,
-          "sha256": "11c8e1957b8afc0580dd4ec41c2b4223e0e407e5cdfb15faee1e784625cfbd6b",
+          "sha256": "7ac9381a7aaf028441cf5b169890dde8b691d79c1f7075256448340786b5156c",
           "width": 3000
         }
       ],
@@ -239,7 +249,7 @@
     {
       "asset": "lens-and-geometry.webp",
       "backend": "native-metal",
-      "bytes": 4491520,
+      "bytes": 3261892,
       "height": 2000,
       "id": "lens-and-geometry",
       "nativeWindow": {
@@ -251,29 +261,31 @@
         },
         "transparentCorners": true
       },
-      "sha256": "a4535aad4c6f02525179b9638ffbe53a8402873877099a6b39ba03c8d11d649a",
-      "source": "04-ricoh-gr-iii-coastal-dunes.DNG",
-      "subject": "coastal dunes",
+      "sha256": "837d090df52dac6f37606031d9b13ec69602ab0bfa597a92504151accff69b5b",
+      "source": "pexels-cristian-ortega-1063310314-39026284.jpg",
+      "sourceSha256": "4a62dbf69912d6efba37822f68bed13dc4e77174c99b6b1a2d4f54f7e43e94eb",
+      "sourceUrl": "https://www.pexels.com/photo/39026284/",
+      "subject": "layered cliffs and open countryside",
       "variants": [
         {
           "asset": "lens-and-geometry-750w.webp",
-          "bytes": 247586,
+          "bytes": 255926,
           "height": 452,
-          "sha256": "61859c1b62162a95bcdf693fe7c9c3f8bd5cc6e882611951408393e127abec57",
+          "sha256": "5509b61e18f988bec5713a96cbbe6c8a39cb240c112bf216747fc3c66263b496",
           "width": 750
         },
         {
           "asset": "lens-and-geometry-1500w.webp",
-          "bytes": 958966,
+          "bytes": 898506,
           "height": 904,
-          "sha256": "ab2112c7022d3cb4ea1ffca3771f9ae0cfb1fc498967937f2002ea14ee3ae720",
+          "sha256": "39216317aa1cd0140a24ca8e5c0a087e68afb75994c2359003319de9f0de1a0d",
           "width": 1500
         },
         {
           "asset": "lens-and-geometry-3000w.webp",
-          "bytes": 3566210,
+          "bytes": 2930606,
           "height": 1808,
-          "sha256": "84a9de105d4b7ad49e70c1d224811454ee5f8b57784eeab8bb339456d1eb84a5",
+          "sha256": "cb7b42c82d35645ae5f2d75d75ca2c84ba3eec21ac4c3789321bcf37eab14f5d",
           "width": 3000
         }
       ],
@@ -282,7 +294,7 @@
     {
       "asset": "before-after.webp",
       "backend": "native-metal",
-      "bytes": 3248050,
+      "bytes": 3048846,
       "height": 2000,
       "id": "before-after",
       "nativeWindow": {
@@ -294,29 +306,31 @@
         },
         "transparentCorners": true
       },
-      "sha256": "0feb9aebf1321020b535652b204aee3e43772a5d6c0acd8eb18607ecac8e0a1d",
-      "source": "07-sony-a7c-autumn-leaf.ARW",
-      "subject": "autumn leaf close-up",
+      "sha256": "d5f45263b0776ce400d5e789921d4f8e04afb09c7d681baa3ff1f6b1b1d77360",
+      "source": "pexels-magda-ehlers-pexels-9775521.jpg",
+      "sourceSha256": "9873a26c9a71b8198a20b8f5a40ca31e896e17d10e8c82501df55de1fe616cf9",
+      "sourceUrl": "https://www.pexels.com/photo/9775521/",
+      "subject": "backlit antelope portrait",
       "variants": [
         {
           "asset": "before-after-750w.webp",
-          "bytes": 218122,
+          "bytes": 200774,
           "height": 452,
-          "sha256": "959f37264bd05f093f72599d44d4e76423e8841845d81c6b1b175ed40f932ada",
+          "sha256": "3a10ec4fada61a01637596124437590bdf2201b742a2994c5e77c18881ae93f3",
           "width": 750
         },
         {
           "asset": "before-after-1500w.webp",
-          "bytes": 771840,
+          "bytes": 745408,
           "height": 904,
-          "sha256": "10218fd555c80567268b85ea96e31f7e651ea2aee569989c182ad158ecd494e5",
+          "sha256": "9f366dd571883425a2cc9609675c4bd9ae00d5368e05c3b8c7f7710c4ca18f8d",
           "width": 1500
         },
         {
           "asset": "before-after-3000w.webp",
-          "bytes": 2783624,
+          "bytes": 2569962,
           "height": 1808,
-          "sha256": "19b3193e5429233a2d7a75107652b7333c11f30a4133e233c006853dbe671f5e",
+          "sha256": "775b94c47dbfd188884f5c8423443821485f37ff6268dfae8bc97308cd25c7b5",
           "width": 3000
         }
       ],
@@ -325,7 +339,7 @@
     {
       "asset": "photo-info.webp",
       "backend": "native-metal",
-      "bytes": 2497910,
+      "bytes": 1496430,
       "height": 2000,
       "id": "photo-info",
       "nativeWindow": {
@@ -337,29 +351,31 @@
         },
         "transparentCorners": true
       },
-      "sha256": "30972708a13b10c84546b72fab57cb7725efae0969969393c3756a34e834ae4b",
-      "source": "16-dji-mavic-3-pro-aerial-castle.DNG",
-      "subject": "aerial castle",
+      "sha256": "760a246b3bd680a68cce7ea252da07afbf745f99457f605723a77915e0701452",
+      "source": "pexels-weavehall-collective-746895245-18888497.jpg",
+      "sourceSha256": "b2a61b4c7201bbdedebb23e151af8c1b1cf84b4a29818fc9db5551ef94f82cff",
+      "sourceUrl": "https://www.pexels.com/photo/18888497/",
+      "subject": "painter in a colorful studio",
       "variants": [
         {
           "asset": "photo-info-750w.webp",
-          "bytes": 194496,
+          "bytes": 134328,
           "height": 452,
-          "sha256": "1517e59f3946d5dbbf6ca4c17746fc9f1256bee386443c82ca4a102202e9bbc0",
+          "sha256": "5976dda8acdb7a6d9f455fc8a39a74c89976537c3f15489c33a241735d4482ad",
           "width": 750
         },
         {
           "asset": "photo-info-1500w.webp",
-          "bytes": 682884,
+          "bytes": 422264,
           "height": 904,
-          "sha256": "78593ca7b0d103b2486eb5050b21ee8368be48da500bda83c3857495b3bcb766",
+          "sha256": "1dbf658474aea449186f3d2a0c710add13f8b402772f2638657ccd00310e8629",
           "width": 1500
         },
         {
           "asset": "photo-info-3000w.webp",
-          "bytes": 2357676,
+          "bytes": 1416634,
           "height": 1808,
-          "sha256": "f914760a97d7b9de6b2826a08329d25f8755cff3cbd6b8fd350469adcb87cabd",
+          "sha256": "514adf0be2ff914f55d4d69f04b11eca7586584f99014e41a2cbb187f4855a06",
           "width": 3000
         }
       ],
@@ -368,7 +384,7 @@
     {
       "asset": "history.webp",
       "backend": "native-metal",
-      "bytes": 3920592,
+      "bytes": 2328086,
       "height": 2000,
       "id": "history",
       "nativeWindow": {
@@ -380,29 +396,31 @@
         },
         "transparentCorners": true
       },
-      "sha256": "c30a83c2c37f3f19ff8a4f08857706ae91efdd79cdb6db7f7aa9a07696957ac7",
-      "source": "01-canon-eos-80d-city-tree.CR2",
-      "subject": "city street and large tree",
+      "sha256": "969f4551d59ec2c217cdf110a11dc6295934f10540ddf36e7cc7553757feb4e2",
+      "source": "pexels-roman-odintsov-10158002.jpg",
+      "sourceSha256": "03604d348e26bf458c48fb1b8b4928a6f329d01dd270da22bdb72c4149b8f0fb",
+      "sourceUrl": "https://www.pexels.com/photo/10158002/",
+      "subject": "smiling portrait",
       "variants": [
         {
           "asset": "history-750w.webp",
-          "bytes": 276042,
+          "bytes": 163838,
           "height": 452,
-          "sha256": "e50800f925b3efd0231ce6f8d47dd1b424079c5dde761ef4f10935640d4ba428",
+          "sha256": "d97980b60cc529c864345b696eb48428927142726d823d33e54f69462c2e8a60",
           "width": 750
         },
         {
           "asset": "history-1500w.webp",
-          "bytes": 984970,
+          "bytes": 570702,
           "height": 904,
-          "sha256": "f811ac7ceae64cc6838e9405df8118fcfd1c799390a44625d92d91e614573c90",
+          "sha256": "af7f80ace2766d4232aa5157bf11456d442bcd78365a1520521253d9f7a58673",
           "width": 1500
         },
         {
           "asset": "history-3000w.webp",
-          "bytes": 3262678,
+          "bytes": 2074028,
           "height": 1808,
-          "sha256": "cdf4e99bf57f974abff2f7213e68c9aa64c82391d33ac53dedb0f8a67e92de09",
+          "sha256": "b0cec9cba935885d00ce8c9f0934a63606ba2b1f98e8bb9341bf61aaaff4e489",
           "width": 3000
         }
       ],
@@ -411,7 +429,7 @@
     {
       "asset": "export-workflow.webp",
       "backend": "native-metal",
-      "bytes": 684996,
+      "bytes": 457328,
       "height": 2000,
       "id": "export-workflow",
       "nativeWindow": {
@@ -423,35 +441,37 @@
         },
         "transparentCorners": true
       },
-      "sha256": "289c6348885140204146a1deb1128c5db3f2061271bae2e4079defb84f1aa7f6",
-      "source": "05-sony-rx100-vii-tropical-homestead.ARW",
-      "subject": "tropical homestead",
+      "sha256": "333e39f2b50a6d56770c42b737c91e3249fb2c0d2db11b622f88e36f028580c1",
+      "source": "pexels-ekrulila-20488730.jpg",
+      "sourceSha256": "de594f4fd0abc5f22cbe7d30fb51fe5254e87419a35127827969a89a05923531",
+      "sourceUrl": "https://www.pexels.com/photo/20488730/",
+      "subject": "warmly lit meal at a table",
       "variants": [
         {
           "asset": "export-workflow-750w.webp",
-          "bytes": 91138,
+          "bytes": 61268,
           "height": 452,
-          "sha256": "a15b91a73ce6bbd04daf350316072baffb95ef177290d9263fd5d355b08a211c",
+          "sha256": "c6963348291b7ef8f9a6d71057b0acfab947be3680c9fd26fd968707fa1e2e46",
           "width": 750
         },
         {
           "asset": "export-workflow-1500w.webp",
-          "bytes": 247754,
+          "bytes": 162058,
           "height": 904,
-          "sha256": "d46c420bd7ade843996d78ef26feed02710e6334552b0d4490d8fd87f7c0e909",
+          "sha256": "6058735ba844d2e1fcff0819e1bb6ed7b0ab1c79e8fa78310ed76a5d920c54d6",
           "width": 1500
         },
         {
           "asset": "export-workflow-3000w.webp",
-          "bytes": 748642,
+          "bytes": 505678,
           "height": 1808,
-          "sha256": "a4cfc3bd58417fb78ec3a705806fa5fc4afea8e47990e237d11e5bf3bce49164",
+          "sha256": "cfc79415dbc4aabf140a85c07523d8656f282aec33e59b71f11f6e8ed4f923e0",
           "width": 3000
         }
       ],
       "width": 3320
     }
   ],
-  "sourceCollection": "LightTable CC0 RAW demo collection",
+  "sourceCollection": "Pexels screenshot collection",
   "sourceDirty": false
 }

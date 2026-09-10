@@ -213,13 +213,13 @@
         "detail-film": {
           "src": "screenshots/detail-film.webp",
           "width": 632,
-          "height": 836,
+          "height": 828,
           "variants": []
         },
         "detail-masks": {
           "src": "screenshots/detail-masks.webp",
           "width": 632,
-          "height": 1096,
+          "height": 1300,
           "variants": []
         },
         "detail-export": {
@@ -231,13 +231,13 @@
         "detail-editor": {
           "src": "screenshots/detail-editor.webp",
           "width": 632,
-          "height": 996,
+          "height": 840,
           "variants": []
         },
         "detail-photo-info": {
           "src": "screenshots/detail-photo-info.webp",
           "width": 632,
-          "height": 724,
+          "height": 840,
           "variants": []
         }
       }
