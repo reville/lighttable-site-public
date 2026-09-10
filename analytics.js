@@ -59,7 +59,7 @@
   panel.className = 'analytics-choice';
   panel.setAttribute('aria-label', 'Website analytics preferences');
   panel.innerHTML = '<p>Allow website analytics? We use Google Analytics to understand visits and download clicks. <a href="/privacy.html">Privacy details</a></p><div><button type="button" data-analytics-choice="declined">No thanks</button><button type="button" data-analytics-choice="accepted">Allow analytics</button></div>';
-  panel.hidden = choice === 'accepted' || choice === 'declined';
+  panel.hidden = true;
   panel.addEventListener('click', (event) => {
     const button = event.target.closest('[data-analytics-choice]');
     if (button) save(button.dataset.analyticsChoice);
@@ -94,7 +94,7 @@
   window.addEventListener('storage', (event) => {
     if (event.key !== preferenceKey && event.key !== null) return;
     choice = event.newValue;
-    panel.hidden = choice === 'accepted' || choice === 'declined';
+    panel.hidden = true;
     if (choice === 'accepted') start();
     else {
       window['ga-disable-' + measurementId] = true;
