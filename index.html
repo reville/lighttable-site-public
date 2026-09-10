@@ -28,7 +28,7 @@
     <link rel="apple-touch-icon" href="app-icon.png?v=20260908-revised-icon" />
     <link rel="preload" href="assets/fonts/geist-latin-variable.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="assets/fonts/jetbrains-mono-latin-variable.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="stylesheet" href="homepage.css?v=20260909-mac-release-note" />
+    <link rel="stylesheet" href="homepage.css?v=20260910-homebrew-beta" />
     <title>LightTable - Highly performant digital darkroom</title>
   </head>
   <body>
@@ -82,7 +82,9 @@
             <p class="install-status mac-release-note" data-platform-only="macos" hidden>Signed download and Mac App Store versions coming soon.</p>
             <div class="install-option" data-platform-only="macos" hidden>
               <div class="install-command">
-                <code id="install-command">brew install --cask reville/lighttable/lighttable</code>
+                <code id="install-command">brew tap reville/lighttable
+brew trust --cask reville/lighttable/lighttable@beta
+brew install --cask reville/lighttable/lighttable@beta</code>
                 <button class="copy-command" type="button" aria-label="Copy Homebrew install command" aria-describedby="install-status" title="Copy command" hidden>
                   <svg class="copy-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
                     <rect x="7" y="7" width="9" height="10" rx="2" />
@@ -93,7 +95,7 @@
                   </svg>
                 </button>
               </div>
-              <p class="install-status" id="install-status" role="status"></p>
+              <p class="install-status" id="install-status" role="status">Homebrew 6+ · Apple silicon · macOS 14+. Unsigned beta; macOS may require “Open Anyway” on first launch.</p>
             </div>
             <p class="install-option" data-platform-copy="install-guide"><a href="https://github.com/reville/lighttable-digital-darkroom#readme">Installation instructions</a></p>
             <a class="button button-secondary" href="https://github.com/reville/lighttable-digital-darkroom">View on GitHub</a>
@@ -288,6 +290,6 @@
     </footer>
 
     <script type="module" src="screenshot-platforms.mjs?v=20260908-platform-text"></script>
-    <script type="module" src="script.js?v=20260909-intel-mac-note"></script>
+    <script type="module" src="script.js?v=20260910-homebrew-beta"></script>
   </body>
 </html>

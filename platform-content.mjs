@@ -13,7 +13,7 @@ const platformCopy = {
     "linux": "Beautiful native Linux app."
   },
   "install-guide": {
-    "macos": "",
+    "macos": "<a href=\"https://github.com/reville/homebrew-lighttable#readme\">Homebrew setup and first-launch instructions</a>",
     "windows": "<a href=\"windows.html\">Windows installation instructions</a>",
     "linux": "<a href=\"linux.html\">Linux installation instructions</a>"
   },

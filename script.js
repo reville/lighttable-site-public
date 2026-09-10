@@ -1,5 +1,5 @@
 import { platformLabels } from "./platform.mjs?v=20260908-text";
-import { applyPlatformContent } from "./platform-content.mjs?v=20260908-linux-install";
+import { applyPlatformContent } from "./platform-content.mjs?v=20260910-homebrew-beta";
 import { detectArchitecture, fetchReleases, selectDownload } from "./downloads.mjs";
 
 const platform = applyPlatformContent();
@@ -46,6 +46,10 @@ if (releaseButton) {
     releaseButton.href = 'linux.html';
     releaseButton.textContent = 'Install on Linux';
   } else if (platform) {
+    if (platform === 'macos') {
+      releaseButton.href = 'https://github.com/reville/lighttable-digital-darkroom/releases/tag/macos-v0.5.0-beta.1';
+      releaseButton.textContent = 'Download macOS beta';
+    }
     const architectureResult = detectArchitecture().then(architecture => {
       const compatibilityNote = document.querySelector('#mac-compatibility-note');
       if (platform === 'macos' && compatibilityNote) {
