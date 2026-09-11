@@ -27,6 +27,7 @@
         <a href="screenshots.html?platform=windows">Screenshots</a>
         <a href="features.html?platform=windows">Features</a>
         <a href="presets/">Presets</a>
+        <a href="platforms.html">Platforms</a>
         <a href="https://github.com/reville/lighttable-digital-darkroom">GitHub <span aria-hidden="true">↗</span></a>
       </nav>
     </header>
@@ -36,7 +37,7 @@
           <a class="back-link" href="./?platform=windows">← Back to LightTable</a>
           <h1 id="linux-title">LightTable for Windows</h1>
           <p>A free digital darkroom for Windows PCs. This first Windows release is experimental.</p>
-          <p class="linux-version"><!-- release:windows-version -->Windows 0.6.1 is available. Choose your processor below.<!-- /release:windows-version --></p>
+          <p class="linux-version"><!-- release:windows-version -->Windows 0.6.2 is available. Choose your processor below.<!-- /release:windows-version --></p>
           <a href="screenshots.html?platform=windows">See the Windows app →</a>
         </div>
         <a href="screenshots.html?platform=windows" aria-label="View real Windows app screenshots">
@@ -61,7 +62,7 @@
         </div>
         <ol><li>Save the installer and matching checksum file in the same folder.</li><li>Open the installer’s Properties → Digital Signatures. The release certificate identifies Nicholas Reville; the app publisher metadata is Chonkers LLC.</li><li>Run the installer, then open LightTable from the Start menu. It installs for your Windows user account.</li></ol>
         <p>The installer includes Microsoft WebView2. You do not need a separate Python or Node installation.</p>
-        <details><summary>Verify the download with PowerShell</summary><p>Open PowerShell in your Downloads folder and replace the filename below with the installer you downloaded. Compare the result with the SHA-256 beside your installer’s filename in the checksum file.</p><pre><code><!-- release:windows-checksum -->Get-FileHash .\LightTable-0.6.1-windows-x64-setup.exe -Algorithm SHA256<!-- /release:windows-checksum --></code></pre></details>
+        <details><summary>Verify the download with PowerShell</summary><p>Open PowerShell in your Downloads folder and replace the filename below with the installer you downloaded. Compare the result with the SHA-256 beside your installer’s filename in the checksum file.</p><pre><code><!-- release:windows-checksum -->Get-FileHash .\LightTable-0.6.2-windows-x64-setup.exe -Algorithm SHA256<!-- /release:windows-checksum --></code></pre></details>
       </section>
       <section class="linux-data" aria-labelledby="data-title">
         <h2 id="data-title">Your photos and saved edits</h2>
@@ -78,6 +79,6 @@
       </section>
     </main>
     <footer><a href="/">LightTable</a><span class="analytics-links"><a href="/privacy.html">Privacy</a><button type="button" class="analytics-settings" data-analytics-settings hidden>Analytics settings</button></span></footer>
-    <script type="module" src="windows-install.mjs?release=b1b5ae57f659d057"></script>
+    <script type="module" src="windows-install.mjs?release=6dc5feb0d2bd371d"></script>
   </body>
 </html>
