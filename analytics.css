@@ -1,10 +1,2 @@
 [hidden] { display: none !important; }
-.analytics-choice { position: fixed; z-index: 1000; bottom: 20px; left: 20px; right: 20px; width: min(560px, calc(100% - 40px)); box-sizing: border-box; margin: 0; padding: 20px; border: 1px solid #c9c9c9; background: #fff; color: #222; box-shadow: 0 4px 24px #0002; font: 14px/1.5 sans-serif; }
-.analytics-choice p { margin: 0 0 14px; }
-.analytics-choice a { text-decoration: underline; }
-.analytics-choice div { display: flex; flex-wrap: wrap; gap: 10px; }
-.analytics-choice button { background: #fff; color: #222; border: 1px solid #777; border-radius: 4px; padding: 9px 14px; font: inherit; cursor: pointer; }
-.analytics-choice button:hover { background: #eee; }
-.analytics-choice button:focus-visible, .analytics-settings:focus-visible { outline: 2px solid #222; outline-offset: 3px; }
 .analytics-links { display: flex; flex-wrap: wrap; align-items: baseline; gap: 14px; }
-.analytics-settings { color: inherit; font: inherit; border: 0; padding: 0; background: none; text-decoration: underline; cursor: pointer; }
