@@ -1,20 +1,67 @@
 <!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Website privacy — LightTable</title>
-<meta name="description" content="How website analytics works on lighttable.app.">
+<title>LightTable privacy</title>
+<meta name="description" content="The LightTable app doesn't collect your data. It has no analytics or tracking, and your photos stay on your computer.">
 <link rel="canonical" href="https://lighttable.app/privacy.html">
 <link rel="stylesheet" href="/homepage.css?v=20260908-presets">
   <link rel="stylesheet" href="/analytics.css?v=20260912">
   <script src="/analytics.js?v=20260912-default-on" defer></script>
+<style>
+.privacy-summary{border:1px solid currentColor;padding:4px 24px 8px;margin:28px 0 40px}
+.privacy-summary h2{margin-top:18px}
+.privacy-summary li{margin:10px 0}
+.privacy-page h2{margin-top:44px}
+.privacy-page .updated{opacity:.7}
+</style>
 </head><body>
 <header class="site-header"><a class="wordmark" href="/">LightTable</a><nav class="site-nav" aria-label="Main navigation"><a href="/features.html">Features</a><a href="/presets/">Presets</a><a href="/platforms.html">Platforms</a></nav></header>
-<main id="main" style="max-width:760px;margin:60px auto;padding:0 24px;line-height:1.7">
-<h1>Website privacy</h1>
+<main id="main" class="privacy-page" style="max-width:760px;margin:60px auto;padding:0 24px;line-height:1.7">
+<h1>Privacy</h1>
+<p class="updated">Effective September 12, 2026. LightTable is published by Chonkers LLC.</p>
+
+<section class="privacy-summary" aria-labelledby="short-version">
+<h2 id="short-version">The short version</h2>
+<ul>
+<li><strong>The app doesn't collect your data.</strong> LightTable has no analytics, no usage tracking and no crash reporting.</li>
+<li><strong>We don't have a server that receives anything from the app.</strong> There's no LightTable account and nothing to sign in to. The website, presets and downloads are static files hosted by GitHub.</li>
+<li><strong>Your photos stay on your computer.</strong> Editing, organizing, film simulation and face matching all run locally. Your photos, edits and catalog are never uploaded.</li>
+<li><strong>The app goes online only to fetch files.</strong> It checks for updates, downloads community presets you ask for, and downloads face-matching models if you turn on People. Each of these is described below.</li>
+<li><strong>The website uses Google Analytics.</strong> It tells us which pages on lighttable.app people visit and which downloads they click. None of it is in the app.</li>
+</ul>
+</section>
+
+<h2>What stays on your computer</h2>
+<p>LightTable reads the photos and folders you choose and does all of its image processing on your computer. Its catalog can hold file paths, camera details, capture dates, GPS coordinates already in your photos, keywords, ratings, edits and thumbnails. Preferences, logs and caches are stored there too. Exports and optional metadata sidecar files go wherever you save them.</p>
+<p>None of this is sent to us. If you keep photos or catalogs in a cloud-synced or network folder, that storage service handles those files under its own policies.</p>
+<p>Uninstalling LightTable leaves your photos, catalogs and preferences in place so you don't lose work by accident. Delete them yourself if you want them gone.</p>
+
+<h2>Face matching</h2>
+<p>People is off until you turn it on. When you do, LightTable downloads its face-analysis model files from GitHub. That download doesn't include your photos. Matching then runs on your computer and stores face thumbnails, numerical descriptions of faces, suggested groups and any names you enter in your local catalog.</p>
+<p>Face descriptions can be sensitive personal information. They stay on your computer and are never sent to us. Pausing People stops new matching but keeps existing face data. Use “Delete face data…” in People to clear it.</p>
+
+<h2>When the app connects to the internet</h2>
+<ul>
+<li><strong>Update checks.</strong> LightTable checks its signed update feed on GitHub for new versions and downloads an update when one is available. You can turn this off with “Automatically check for updates” in Settings. If you installed LightTable through an app store or package manager, that service may handle updates instead, under its own privacy policy.</li>
+<li><strong>Community presets.</strong> Opening the Community collection or downloading a preset fetches the preset list and files from lighttable.app.</li>
+<li><strong>Face-matching models.</strong> Downloaded from GitHub the first time you turn on People, as described above.</li>
+<li><strong>Maps.</strong> If you choose to open a photo's location on a map, LightTable opens Apple Maps in your browser with that photo's latitude and longitude in the link.</li>
+<li><strong>Links you open.</strong> Help, support, preset author and project links take you to those websites.</li>
+</ul>
+<p>These requests download files. They don't send your photos, edits or catalog. Like any internet request, they reveal ordinary connection information such as your IP address to the service that answers them, which is GitHub for updates, presets and models. GitHub may keep its own logs under the <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>. We don't receive visitor logs from GitHub. We can see the total download counts GitHub shows for release files, not who downloaded them.</p>
+<p>Your operating system, and components such as Microsoft WebView2 on Windows, have their own privacy settings and policies.</p>
+
+<h2>Contacting us and contributing</h2>
+<p>If you email <a href="mailto:hello@lighttable.app">hello@lighttable.app</a>, we receive what you send and use it to reply. Issues and preset submissions on GitHub are public. LightTable logs can contain file names and folder paths, so check a log before attaching it, and don't attach photos you don't want to share.</p>
+
+<h2>Website analytics</h2>
 <p>We use Google Analytics on lighttable.app to understand which pages people visit, how they find the site, and which app and preset download links they click.</p>
 <p>The site works the same if your browser or a content blocker prevents Google Analytics from loading.</p>
 <p>Google Analytics receives website interaction data, page addresses, referral information, and browser and device information. It uses cookies to distinguish visits. Our page-view configuration omits URL query strings and fragments, and we disable Google signals and advertising personalization. We do not send your name, email address, photos, or LightTable catalogs through this tracking.</p>
 <p>This tracking applies to the website. It does not add analytics to the LightTable desktop application.</p>
-<p>See <a href="https://policies.google.com/privacy">Google’s privacy policy</a> and <a href="https://policies.google.com/technologies/partner-sites">how Google uses data from partner sites</a>. Questions: <a href="mailto:hello@lighttable.app">hello@lighttable.app</a>.</p>
+<p>See <a href="https://policies.google.com/privacy">Google’s privacy policy</a> and <a href="https://policies.google.com/technologies/partner-sites">how Google uses data from partner sites</a>.</p>
+
+<h2>Changes and questions</h2>
+<p>If LightTable's data practices change, we'll update this page and its effective date. Questions: <a href="mailto:hello@lighttable.app">hello@lighttable.app</a>.</p>
 </main><footer><a href="/">LightTable</a><span class="analytics-links"><a href="/privacy.html">Privacy</a></span></footer>
 </body></html>
