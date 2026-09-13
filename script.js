@@ -1,8 +1,8 @@
 import { platformLabels } from "./platform.mjs?v=20260908-text";
-import { applyPlatformContent } from "./platform-content.mjs?release=66ab6c923d9e4133";
-import { detectArchitecture } from "./downloads.mjs?release=66ab6c923d9e4133";
+import { applyPlatformContent } from "./platform-content.mjs?release=a2bd1fb43aa824b1";
+import { detectArchitecture } from "./downloads.mjs?release=a2bd1fb43aa824b1";
 
-import { manifestDownload, releaseManifest } from "./release-downloads.mjs?release=66ab6c923d9e4133";
+import { manifestDownload, releaseManifest } from "./release-downloads.mjs?release=a2bd1fb43aa824b1";
 
 const platform = applyPlatformContent();
 
