@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Compare Pexels photographs with and without LightTable’s physically modelled film stocks, full frame and up close." />
+    <meta property="og:title" content="LightTable film samples" />
+    <meta property="og:description" content="The same photograph with film off and film on, full frame and up close." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lighttable.app/film.html" />
+    <meta property="og:image" content="https://lighttable.app/og.png?v=20260910-pexels" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://lighttable.app/og.png?v=20260910-pexels" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png?v=20260908-revised-icon" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png?v=20260908-revised-icon" />
+    <link rel="apple-touch-icon" href="app-icon.png?v=20260908-revised-icon" />
+    <link rel="preload" href="assets/fonts/geist-latin-variable.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="assets/fonts/jetbrains-mono-latin-variable.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="homepage.css?v=20260908-presets" />
+    <link rel="stylesheet" href="pages.css?v=20260907-macos" />
+    <link rel="stylesheet" href="film.css?v=20260912" />
+    <title>LightTable film samples</title>
+    <link rel="stylesheet" href="/analytics.css?v=20260910">
+    <script src="/analytics.js?v=20260910-settings-only" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="./" aria-label="LightTable home">
+        <img src="app-icon-64.png?v=20260908-revised-icon" alt="" width="30" height="30" />
+        <span>LightTable</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="screenshots.html">Screenshots</a>
+        <a href="film.html" aria-current="page">Film</a>
+        <a href="features.html">Features</a>
+        <a href="presets/">Presets</a>
+        <a href="platforms.html">Platforms</a>
+        <a href="https://github.com/reville/lighttable-digital-darkroom">GitHub <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main class="film-main" id="main">
+      <div class="gallery-intro film-intro">
+        <a class="back-link" href="./">← Back to LightTable</a>
+        <h1>Film, side by side.</h1>
+        <p class="gallery-summary">Each photograph is rendered twice by LightTable. Once as it is, and once through a physically modelled film stock and print. Nothing else is changed. Drag across a photo to compare, then look closer at the grain.</p>
+      </div>
+
+      <section class="film-viewer" data-film-viewer aria-label="Film comparison viewer" hidden>
+        <div class="film-picker" role="group" aria-label="Choose a sample photograph" data-picker></div>
+
+        <div class="film-stage-wrap">
+          <div class="film-stage" data-stage>
+            <div class="film-frame" data-frame>
+              <img class="film-layer film-after" data-after alt="" decoding="async" />
+              <img class="film-layer film-before" data-before alt="" decoding="async" />
+              <span class="film-label film-label-before" aria-hidden="true">Film off</span>
+              <span class="film-label film-label-after" aria-hidden="true" data-after-label></span>
+              <span class="film-divider" aria-hidden="true" data-divider><span class="film-handle"></span></span>
+              <span class="film-focus" aria-hidden="true" data-focus-marker></span>
+              <label class="sr-only" for="film-split">Compare film off and film on</label>
+              <input id="film-split" class="film-range" type="range" min="0" max="100" step="1" value="50" data-range />
+            </div>
+          </div>
+          <div class="film-toolbar">
+            <div class="film-modes" role="group" aria-label="Comparison style">
+              <button type="button" class="film-chip" data-mode="slide" aria-pressed="true">Slide</button>
+              <button type="button" class="film-chip" data-mode="flip" aria-pressed="false">Flip</button>
+            </div>
+            <p class="film-hint" data-hint>Drag to compare. Double-click a spot to inspect it below.</p>
+          </div>
+        </div>
+
+        <div class="film-detail-block">
+          <div class="film-detail-head">
+            <h2>Up close</h2>
+            <div class="film-zoom" role="group" aria-label="Detail magnification">
+              <button type="button" class="film-chip" data-zoom="1" aria-pressed="true">1×</button>
+              <button type="button" class="film-chip" data-zoom="2" aria-pressed="false">2×</button>
+            </div>
+          </div>
+          <div class="film-detail" data-detail tabindex="0" role="group" aria-label="Magnified detail. Drag or use the arrow keys to move around.">
+            <figure class="film-crop">
+              <div class="film-crop-window"><img data-crop-before alt="" decoding="async" /></div>
+              <figcaption>Film off</figcaption>
+            </figure>
+            <figure class="film-crop">
+              <div class="film-crop-window"><img data-crop-after alt="" decoding="async" /></div>
+              <figcaption data-crop-after-label></figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <dl class="film-facts" data-facts>
+          <div><dt>Stock</dt><dd data-fact="stock"></dd></div>
+          <div><dt>Print and scan</dt><dd data-fact="recipe"></dd></div>
+          <div><dt>Exposure</dt><dd data-fact="metering"></dd></div>
+          <div><dt>Photograph</dt><dd><a data-fact="credit" rel="noopener noreferrer">View on Pexels <span aria-hidden="true">↗</span></a></dd></div>
+        </dl>
+        <p class="sr-only" aria-live="polite" data-announce></p>
+      </section>
+
+      <!-- film-samples:start -->
+      <script type="application/json" id="film-samples-data">[{"id":"alley","title":"Lantern alley","alt":"A narrow restaurant alley at night, lit by paper lanterns, with diners at small tables","stock":"Kodak Ultramax 400","metering":"Automatic scene metering","recipe":"Neutral print scan, 35 mm","credit":"https://www.pexels.com/photo/19848350/","focus":[0.3,0.3],"width":2400,"height":1600,"before":"assets/film-samples/alley-original.webp","beforeMedium":"assets/film-samples/alley-original-1200w.webp","after":"assets/film-samples/alley-film.webp","afterMedium":"assets/film-samples/alley-film-1200w.webp","thumb":"assets/film-samples/alley-thumb.webp"},{"id":"kudu","title":"Backlit kudu","alt":"A young kudu facing the camera against a glowing, out-of-focus sunset","stock":"Kodak Gold 200","metering":"Automatic scene metering","recipe":"Neutral print scan, 35 mm","credit":"https://www.pexels.com/photo/9775521/","focus":[0.53,0.4],"width":2400,"height":1600,"before":"assets/film-samples/kudu-original.webp","beforeMedium":"assets/film-samples/kudu-original-1200w.webp","after":"assets/film-samples/kudu-film.webp","afterMedium":"assets/film-samples/kudu-film-1200w.webp","thumb":"assets/film-samples/kudu-thumb.webp"},{"id":"laugh","title":"Laughing portrait","alt":"A smiling woman with short hair in a white shirt, tilting her head toward the camera","stock":"Kodak Portra 400","metering":"Automatic scene metering","recipe":"Neutral print scan, 35 mm","credit":"https://www.pexels.com/photo/10158002/","focus":[0.42,0.36],"width":2400,"height":1600,"before":"assets/film-samples/laugh-original.webp","beforeMedium":"assets/film-samples/laugh-original-1200w.webp","after":"assets/film-samples/laugh-film.webp","afterMedium":"assets/film-samples/laugh-film-1200w.webp","thumb":"assets/film-samples/laugh-thumb.webp"},{"id":"window","title":"Window light","alt":"A woman with closed eyes in a hard beam of window light, a framed painting behind her","stock":"Kodak Portra 800","metering":"Automatic scene metering","recipe":"Neutral print scan, 35 mm","credit":"https://www.pexels.com/photo/28069997/","focus":[0.46,0.31],"width":1600,"height":2400,"before":"assets/film-samples/window-original.webp","beforeMedium":"assets/film-samples/window-original-1200w.webp","after":"assets/film-samples/window-film.webp","afterMedium":"assets/film-samples/window-film-1200w.webp","thumb":"assets/film-samples/window-thumb.webp"},{"id":"doorway","title":"Doorway","alt":"A smiling woman in a red sweater leaning out of a wooden doorway to pet a white dog","stock":"Fujifilm C200","metering":"Automatic scene metering","recipe":"Neutral print scan, 35 mm","credit":"https://www.pexels.com/photo/35045746/","focus":[0.46,0.19],"width":1582,"height":2400,"before":"assets/film-samples/doorway-original.webp","beforeMedium":"assets/film-samples/doorway-original-1200w.webp","after":"assets/film-samples/doorway-film.webp","afterMedium":"assets/film-samples/doorway-film-1200w.webp","thumb":"assets/film-samples/doorway-thumb.webp"},{"id":"elephant","title":"Elephant path","alt":"An elephant walking down a dirt path framed by bright green trees","stock":"Fujifilm Pro 400H","metering":"Automatic scene metering","recipe":"Neutral print scan, 35 mm","credit":"https://www.pexels.com/photo/18868387/","focus":[0.46,0.44],"width":1600,"height":2400,"before":"assets/film-samples/elephant-original.webp","beforeMedium":"assets/film-samples/elephant-original-1200w.webp","after":"assets/film-samples/elephant-film.webp","afterMedium":"assets/film-samples/elephant-film-1200w.webp","thumb":"assets/film-samples/elephant-thumb.webp"}]</script>
+      <noscript><ul class="film-fallback"><li><strong>Lantern alley</strong>, Kodak Ultramax 400: <a href="assets/film-samples/alley-original.webp">film off</a> · <a href="assets/film-samples/alley-film.webp">film on</a> · <a href="https://www.pexels.com/photo/19848350/" rel="noopener noreferrer">photo on Pexels</a></li><li><strong>Backlit kudu</strong>, Kodak Gold 200: <a href="assets/film-samples/kudu-original.webp">film off</a> · <a href="assets/film-samples/kudu-film.webp">film on</a> · <a href="https://www.pexels.com/photo/9775521/" rel="noopener noreferrer">photo on Pexels</a></li><li><strong>Laughing portrait</strong>, Kodak Portra 400: <a href="assets/film-samples/laugh-original.webp">film off</a> · <a href="assets/film-samples/laugh-film.webp">film on</a> · <a href="https://www.pexels.com/photo/10158002/" rel="noopener noreferrer">photo on Pexels</a></li><li><strong>Window light</strong>, Kodak Portra 800: <a href="assets/film-samples/window-original.webp">film off</a> · <a href="assets/film-samples/window-film.webp">film on</a> · <a href="https://www.pexels.com/photo/28069997/" rel="noopener noreferrer">photo on Pexels</a></li><li><strong>Doorway</strong>, Fujifilm C200: <a href="assets/film-samples/doorway-original.webp">film off</a> · <a href="assets/film-samples/doorway-film.webp">film on</a> · <a href="https://www.pexels.com/photo/35045746/" rel="noopener noreferrer">photo on Pexels</a></li><li><strong>Elephant path</strong>, Fujifilm Pro 400H: <a href="assets/film-samples/elephant-original.webp">film off</a> · <a href="assets/film-samples/elephant-film.webp">film on</a> · <a href="https://www.pexels.com/photo/18868387/" rel="noopener noreferrer">photo on Pexels</a></li></ul></noscript>
+      <!-- film-samples:end -->
+
+      <section class="film-about">
+        <p class="eyebrow">How these were made</p>
+        <p>Each render used LightTable’s film engine, built on <a href="https://github.com/andreavolpato/agx-emulsion">spektrafilm</a>, at 2400 pixels on the long edge. The film side models the negative’s dye couplers, halation, grain, and the print it was enlarged onto. Film off is the original photograph at the same size. Photographs are from Pexels and used under the <a href="https://www.pexels.com/license/">Pexels License</a>.</p>
+        <p><a class="text-link" href="./">Try it on your own photographs →</a></p>
+      </section>
+    </main>
+
+    <footer>
+      <span>LightTable</span>
+      <a class="text-link" href="https://github.com/reville/lighttable-digital-darkroom">View the project on GitHub <span aria-hidden="true">↗</span></a>
+    <span class="analytics-links"><a href="/privacy.html">Privacy</a><button type="button" class="analytics-settings" data-analytics-settings hidden>Analytics settings</button></span></footer>
+
+    <script type="module" src="film.js?v=20260912"></script>
+  </body>
+</html>
