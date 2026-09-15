@@ -1,10 +1,13 @@
 import { platformLabels } from "./platform.mjs?v=20260908-text";
-import { applyPlatformContent } from "./platform-content.mjs?release=a2bd1fb43aa824b1";
-import { detectArchitecture } from "./downloads.mjs?release=a2bd1fb43aa824b1";
+import { applyPlatformContent } from "./platform-content.mjs?release=0e02e3a6767c2c4f";
+import { detectArchitecture } from "./downloads.mjs?release=0e02e3a6767c2c4f";
 
-import { manifestDownload, releaseManifest } from "./release-downloads.mjs?release=a2bd1fb43aa824b1";
+import { manifestDownload, releaseManifest } from "./release-downloads.mjs?release=0e02e3a6767c2c4f";
 
 const platform = applyPlatformContent();
+if (platform === 'macos' && releaseManifest.platforms['macos-arm64'].signing === 'developer-id-notarized') {
+  document.querySelector('#mac-homebrew-install')?.setAttribute('hidden', '');
+}
 
 // Keep the extra Linux guide as a fallback only for unrecognized/mobile devices.
 document.querySelector('[data-linux-install-link]')?.toggleAttribute('hidden', Boolean(platform));
