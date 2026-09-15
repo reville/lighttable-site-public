@@ -1,5 +1,5 @@
-import { manifestReleases, releaseManifest } from "./release-downloads.mjs?release=0e02e3a6767c2c4f";
-import { detectArchitecture, selectDownload } from './downloads.mjs?release=0e02e3a6767c2c4f';
+import { manifestReleases, releaseManifest } from "./release-downloads.mjs?release=1da2e5ed6c3fb4bb";
+import { detectArchitecture, selectDownload } from './downloads.mjs?release=1da2e5ed6c3fb4bb';
 import { detectPlatform } from './platform.mjs';
 
 const listings = {

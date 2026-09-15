@@ -1,4 +1,4 @@
-import { releaseManifest } from './release-data.mjs?release=0e02e3a6767c2c4f';
+import { releaseManifest } from './release-data.mjs?release=1da2e5ed6c3fb4bb';
 import { selectedPlatform, requestedPlatform, platformLabels, platformLink } from './platform.mjs?v=20260908-text';
 
 // Trusted site copy only. Markup is limited to existing links and inline code.
@@ -15,7 +15,9 @@ const platformCopy = {
   },
   "install-guide": {
     "macos": releaseManifest.platforms['macos-arm64'].signing === 'developer-id-notarized'
-      ? "Unzip the download, drag <code>LightTable.app</code> to Applications, then open LightTable."
+      ? (releaseManifest.platforms['macos-arm64'].artifacts.some(artifact => artifact.name.endsWith('-macos-arm64-notarized.dmg'))
+        ? "Open the download, drag <code>LightTable.app</code> to Applications, then open LightTable."
+        : "Unzip the download, drag <code>LightTable.app</code> to Applications, then open LightTable.")
       : "<a href=\"https://github.com/reville/homebrew-lighttable#readme\">Homebrew setup and first-launch instructions</a>",
     "windows": "<a href=\"windows.html\">Windows installation instructions</a>",
     "linux": "<a href=\"linux.html\">Linux installation instructions</a>"

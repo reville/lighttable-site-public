@@ -1,4 +1,4 @@
-import { releaseManifest } from './release-data.mjs?release=0e02e3a6767c2c4f';
+import { releaseManifest } from './release-data.mjs?release=1da2e5ed6c3fb4bb';
 
 export function manifestReleases(manifest = releaseManifest) {
   return Object.entries(manifest.platforms).filter(([, entry]) => entry.state === 'published').map(([key, entry]) => ({
@@ -12,7 +12,9 @@ export function manifestDownload(platform, architecture, manifest = releaseManif
   const entry = key && manifest.platforms[key];
   if (!entry || entry.state !== 'published') return null;
   const endings = { linux: '-linux-x86_64.tar.gz', windows: '-windows-x64-setup.exe', macos: entry.signing === 'developer-id-notarized' ? '-macos-arm64.zip' : '-macos-arm64.dmg', arch: '-x86_64.pkg.tar.zst' };
-  const candidates = entry.artifacts.filter(artifact => artifact.name.endsWith(endings[platform]));
+  const preferredMacDmg = platform === 'macos' && entry.signing === 'developer-id-notarized'
+    ? entry.artifacts.filter(artifact => artifact.name.endsWith('-macos-arm64-notarized.dmg')) : [];
+  const candidates = preferredMacDmg.length ? preferredMacDmg : entry.artifacts.filter(artifact => artifact.name.endsWith(endings[platform]));
   if (platform === 'arch') candidates.sort((a, b) => Number(b.name.match(/-(\d+)-x86_64/)[1]) - Number(a.name.match(/-(\d+)-x86_64/)[1]));
   const artifact = candidates[0];
   if (!artifact) return null;
