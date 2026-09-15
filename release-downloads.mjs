@@ -1,4 +1,4 @@
-import { releaseManifest } from './release-data.mjs?release=1da2e5ed6c3fb4bb';
+import { releaseManifest } from './release-data.mjs?release=566e421992eedc4d';
 
 export function manifestReleases(manifest = releaseManifest) {
   return Object.entries(manifest.platforms).filter(([, entry]) => entry.state === 'published').map(([key, entry]) => ({
