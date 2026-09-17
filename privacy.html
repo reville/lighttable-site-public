@@ -2,7 +2,7 @@
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>LightTable privacy</title>
-<meta name="description" content="The LightTable app doesn't collect your data. It has no analytics or tracking, and your photos stay on your computer.">
+<meta name="description" content="The LightTable app doesn't collect your data. It has no analytics or tracking, crash reports are optional, and your photos stay on your computer.">
 <link rel="canonical" href="https://lighttable.app/privacy.html">
 <link rel="stylesheet" href="/homepage.css?v=20260908-presets">
   <link rel="stylesheet" href="/analytics.css?v=20260912">
@@ -18,15 +18,15 @@
 <header class="site-header"><a class="wordmark" href="/">LightTable</a><nav class="site-nav" aria-label="Main navigation"><a href="/film.html">Film</a><a href="/features.html">Features</a><a href="/presets/">Presets</a><a href="/platforms.html">Platforms</a></nav></header>
 <main id="main" class="privacy-page" style="max-width:760px;margin:60px auto;padding:0 24px;line-height:1.7">
 <h1>Privacy</h1>
-<p class="updated">Effective September 12, 2026. LightTable is published by Chonkers LLC.</p>
+<p class="updated">Effective September 17, 2026. LightTable is published by Chonkers LLC.</p>
 
 <section class="privacy-summary" aria-labelledby="short-version">
 <h2 id="short-version">The short version</h2>
 <ul>
-<li><strong>The app doesn't collect your data.</strong> LightTable has no analytics, no usage tracking and no crash reporting.</li>
-<li><strong>We don't have a server that receives anything from the app.</strong> There's no LightTable account and nothing to sign in to. The website, presets and downloads are static files hosted by GitHub.</li>
+<li><strong>The app doesn't collect your data.</strong> LightTable has no analytics and no usage tracking. It asks once whether it may send crash reports, and sends none unless you say yes.</li>
+<li><strong>A crash report you agreed to send is the only thing we receive from the app.</strong> There's no LightTable account and nothing to sign in to. The website, presets and downloads are static files hosted by GitHub.</li>
 <li><strong>Your photos stay on your computer.</strong> Editing, organizing, film simulation and face matching all run locally. Your photos, edits and catalog are never uploaded.</li>
-<li><strong>The app goes online only to fetch files.</strong> It checks for updates, downloads community presets you ask for, and downloads face-matching models if you turn on People. Each of these is described below.</li>
+<li><strong>The app goes online to fetch files.</strong> It checks for updates, downloads community presets you ask for, and downloads face-matching models if you turn on People. It also sends a crash report if you turned those on. Each of these is described below.</li>
 <li><strong>The website uses Google Analytics.</strong> It tells us which pages on lighttable.app people visit and which downloads they click. None of it is in the app.</li>
 </ul>
 </section>
@@ -40,15 +40,22 @@
 <p>People is off until you turn it on. When you do, LightTable downloads its face-analysis model files from GitHub. That download doesn't include your photos. Matching then runs on your computer and stores face thumbnails, numerical descriptions of faces, suggested groups and any names you enter in your local catalog.</p>
 <p>Face descriptions can be sensitive personal information. They stay on your computer and are never sent to us. Pausing People stops new matching but keeps existing face data. Use “Delete face data…” in People to clear it.</p>
 
+<h2>Crash reports</h2>
+<p>When a released LightTable first opens, it asks whether it may send crash reports to its developers. It sends nothing unless you choose <strong>Send Crash Reports</strong>. Closing the question without choosing asks again next time. You can change your answer whenever you like with <strong>Send crash reports</strong> in Settings → General; turning it off also discards any report that has not been sent.</p>
+<p>With reports on, LightTable sends a report the next time it starts after the app or its rendering engine crashed. A report holds only technical facts: the LightTable version and build, your operating system and its version, processor type and count, memory, and on a Mac the model identifier such as Mac16,10. It says which part crashed, how it ended, whether LightTable was decoding, rendering or exporting, and where in the program's own code the crash happened, meaning function names, file names of LightTable's code and line numbers. On a Mac it can include the stack that macOS recorded, with symbol and library names.</p>
+<p>A report never includes your photos, photo metadata, file or folder names, paths, catalog contents, log text or anything you typed, and it carries no identifier for you or your computer. You can read the same information locally: on a Mac, Help → Report a Problem… shows the full diagnostic report, which stays on your computer unless you email it yourself.</p>
+<p>Reports go to reports.lighttable.app, a small service we run on Cloudflare, which files them as issues in a private repository on GitHub so we can group and fix them. It doesn't store your IP address; it uses a salted, daily hash of it in memory to limit abuse, and keeps no request logs. Cloudflare and GitHub handle the traffic under their own policies (<a href="https://www.cloudflare.com/privacypolicy/">Cloudflare Privacy Policy</a>, <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>). A report that can't be sent waits on your computer and is discarded after two weeks.</p>
+
 <h2>When the app connects to the internet</h2>
 <ul>
 <li><strong>Update checks.</strong> LightTable checks its signed update feed on GitHub for new versions and downloads an update when one is available. You can turn this off with “Automatically check for updates” in Settings. If you installed LightTable through an app store or package manager, that service may handle updates instead, under its own privacy policy.</li>
 <li><strong>Community presets.</strong> Opening the Community collection or downloading a preset fetches the preset list and files from lighttable.app.</li>
 <li><strong>Face-matching models.</strong> Downloaded from GitHub the first time you turn on People, as described above.</li>
+<li><strong>Crash reports.</strong> Sent only if you turned them on, as described above.</li>
 <li><strong>Maps.</strong> If you choose to open a photo's location on a map, LightTable opens Apple Maps in your browser with that photo's latitude and longitude in the link.</li>
 <li><strong>Links you open.</strong> Help, support, preset author and project links take you to those websites.</li>
 </ul>
-<p>These requests download files. They don't send your photos, edits or catalog. Like any internet request, they reveal ordinary connection information such as your IP address to the service that answers them, which is GitHub for updates, presets and models. GitHub may keep its own logs under the <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>. We don't receive visitor logs from GitHub. We can see the total download counts GitHub shows for release files, not who downloaded them.</p>
+<p>Apart from a crash report you agreed to send, these requests only download files. None of them sends your photos, edits or catalog. Like any internet request, they reveal ordinary connection information such as your IP address to the service that answers them, which is GitHub for updates, presets and models. GitHub may keep its own logs under the <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>. We don't receive visitor logs from GitHub. We can see the total download counts GitHub shows for release files, not who downloaded them.</p>
 <p>Your operating system, and components such as Microsoft WebView2 on Windows, have their own privacy settings and policies.</p>
 
 <h2>Contacting us and contributing</h2>
