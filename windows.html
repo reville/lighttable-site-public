@@ -38,7 +38,7 @@
           <a class="back-link" href="./?platform=windows">← Back to LightTable</a>
           <h1 id="linux-title">LightTable for Windows</h1>
           <p>A free digital darkroom for Windows PCs. This first Windows release is experimental.</p>
-          <p class="linux-version"><!-- release:windows-version -->Windows 0.7.9 is available. Choose your processor below.<!-- /release:windows-version --></p>
+          <p class="linux-version"><!-- release:windows-version -->Windows 0.7.10 is available. Choose your processor below.<!-- /release:windows-version --></p>
           <a href="screenshots.html?platform=windows">See the Windows app →</a>
         </div>
         <a href="screenshots.html?platform=windows" aria-label="View real Windows app screenshots">
@@ -66,7 +66,7 @@
         <details><summary>Command-line installation on Windows x64</summary><p>With <a href="https://scoop.sh/">Scoop</a> installed:</p><pre><code>scoop bucket add lighttable https://github.com/reville/scoop-lighttable
 scoop install lighttable</code></pre><p>Use <code>scoop update lighttable</code> to update a Scoop installation.</p><p>With Node.js and npm installed:</p><pre><code>npm install -g lighttable-digital-darkroom
 lighttable install</code></pre><p>The npm command downloads and verifies the signed Windows installer. Installing the npm package alone does not install the desktop app. On Windows ARM, use the direct x64 installer above.</p></details>
-        <details><summary>Verify the download with PowerShell</summary><p>Open PowerShell in your Downloads folder and replace the filename below with the installer you downloaded. Compare the result with the SHA-256 beside your installer’s filename in the checksum file.</p><pre><code><!-- release:windows-checksum -->Get-FileHash .\LightTable-0.7.9-windows-x64-setup.exe -Algorithm SHA256<!-- /release:windows-checksum --></code></pre></details>
+        <details><summary>Verify the download with PowerShell</summary><p>Open PowerShell in your Downloads folder and replace the filename below with the installer you downloaded. Compare the result with the SHA-256 beside your installer’s filename in the checksum file.</p><pre><code><!-- release:windows-checksum -->Get-FileHash .\LightTable-0.7.10-windows-x64-setup.exe -Algorithm SHA256<!-- /release:windows-checksum --></code></pre></details>
       </section>
       <section class="linux-data" aria-labelledby="data-title">
         <h2 id="data-title">Your photos and saved edits</h2>
@@ -83,6 +83,6 @@ lighttable install</code></pre><p>The npm command downloads and verifies the sig
       </section>
     </main>
     <footer><a href="/">LightTable</a><span class="analytics-links"><a href="/privacy.html">Privacy</a></span></footer>
-    <script type="module" src="windows-install.mjs?release=4be69eb6937a70c4"></script>
+    <script type="module" src="windows-install.mjs?release=f54bd39f72d3c2aa"></script>
   </body>
 </html>
