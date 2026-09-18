@@ -1,8 +1,8 @@
 import { platformLabels } from "./platform.mjs?v=20260908-text";
-import { applyPlatformContent } from "./platform-content.mjs?release=3476e0fe9e33e9a8";
-import { detectArchitecture } from "./downloads.mjs?release=3476e0fe9e33e9a8";
+import { applyPlatformContent } from "./platform-content.mjs?release=4be69eb6937a70c4";
+import { detectArchitecture } from "./downloads.mjs?release=4be69eb6937a70c4";
 
-import { manifestDownload, releaseManifest } from "./release-downloads.mjs?release=3476e0fe9e33e9a8";
+import { manifestDownload, releaseManifest } from "./release-downloads.mjs?release=4be69eb6937a70c4";
 
 const platform = applyPlatformContent();
 if (platform === 'macos' && releaseManifest.platforms['macos-arm64'].signing === 'developer-id-notarized') {

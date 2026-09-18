@@ -1,5 +1,5 @@
-import { manifestReleases } from "./release-downloads.mjs?release=3476e0fe9e33e9a8";
-import { detectArchitecture, selectDownload } from './downloads.mjs?release=3476e0fe9e33e9a8';
+import { manifestReleases } from "./release-downloads.mjs?release=4be69eb6937a70c4";
+import { detectArchitecture, selectDownload } from './downloads.mjs?release=4be69eb6937a70c4';
 
 const choice = document.querySelector('#windows-architecture');
 const status = document.querySelector('#windows-release-status');
