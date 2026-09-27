@@ -56,7 +56,7 @@
         <a class="back-link" href="./">← Back to LightTable</a>
         <h1 id="platforms-title">Install LightTable</h1>
         <p>LightTable runs on macOS, Windows, and Linux. Every place you can install it today is listed below, with the steps for each. Everything is a free download from the project’s public releases.</p>
-        <p class="linux-version">macOS 0.7.6 · Windows 0.6.1 · Linux 0.6.1</p>
+        <p class="linux-version">macOS 0.7.6 signed (0.7.11 beta available) · Windows 0.7.11 · Linux 0.7.11</p>
       </section>
 
       <section class="platform-block" aria-labelledby="macos-title">
@@ -66,10 +66,20 @@
         <div class="platform-option">
           <h3>Direct download</h3>
           <p class="platform-requirements">macOS 14 Sonoma or later · Apple silicon · version 0.7.6</p>
-          <p>Download the disk image from the macOS release, open it, and drag LightTable to your Applications folder.</p>
+          <p>Download the signed and notarized disk image, open it, and drag LightTable to your Applications folder.</p>
           <div class="linux-download-actions">
             <a class="button button-primary" href="https://github.com/reville/lighttable-digital-darkroom/releases/download/v0.7.6/LightTable-0.7.6-macos-arm64-notarized.dmg">Download for Mac</a>
             <a href="https://github.com/reville/lighttable-digital-darkroom/releases">View published releases</a>
+          </div>
+        </div>
+
+        <div class="platform-option">
+          <h3>Newer Mac beta</h3>
+          <p class="platform-requirements">macOS 14 Sonoma or later · Apple silicon · version 0.7.11-beta.1</p>
+          <p>This separately released beta requires manual replacement. Homebrew users can update through the beta cask.</p>
+          <div class="linux-download-actions">
+            <a href="https://github.com/reville/lighttable-digital-darkroom/releases/tag/macos-v0.7.11-beta.1">View the Mac beta</a>
+            <a href="https://github.com/reville/homebrew-lighttable">Homebrew beta instructions</a>
           </div>
         </div>
       </section>
@@ -80,21 +90,28 @@
 
         <div class="platform-option">
           <h3>Installer</h3>
-          <p class="platform-requirements">Windows 10 or 11 · x64 · version 0.6.1</p>
+          <p class="platform-requirements">Windows 10 or 11 · x64 · version 0.7.11</p>
           <p>Download the signed installer, run it, and open LightTable from the Start menu. It installs for your Windows user account and includes Microsoft WebView2, so you do not need Python or Node.</p>
           <div class="linux-download-actions">
             <a class="button button-primary" href="windows.html">Windows installation</a>
-            <a href="https://github.com/reville/lighttable-digital-darkroom/releases/tag/v0.6.1">View the Windows release</a>
+            <a href="https://github.com/reville/lighttable-digital-darkroom/releases/tag/v0.7.11">View the Windows release</a>
           </div>
         </div>
 
         <div class="platform-option">
           <h3>Portable ZIP</h3>
-          <p class="platform-requirements">Windows 10 or 11 · x64 · version 0.6.1</p>
-          <p>Extract <code>LightTable-0.6.1-windows-x64.zip</code> and run the application from the extracted folder. Nothing is written to Program Files. Update a portable installation by replacing the extracted folder.</p>
+          <p class="platform-requirements">Windows 10 or 11 · x64 · version 0.7.11</p>
+          <p>Extract <code>LightTable-0.7.11-windows-x64.zip</code> and run the application from the extracted folder. Nothing is written to Program Files. Update a portable installation by replacing the extracted folder.</p>
           <div class="linux-download-actions">
             <a href="windows.html">Windows installation instructions</a>
           </div>
+        </div>
+
+        <div class="platform-option">
+          <h3>Microsoft Store and Scoop</h3>
+          <p>The <a href="https://apps.microsoft.com/store/detail/XPFFQMQSTK4XJD">Microsoft Store listing</a> is live. Store updates are reviewed separately and may trail the direct installer. Scoop installations are updated by Scoop:</p>
+          <pre><code>scoop bucket add lighttable https://github.com/reville/scoop-lighttable
+scoop install lighttable</code></pre>
         </div>
       </section>
 
@@ -104,11 +121,11 @@
 
         <div class="platform-option">
           <h3>Portable archive</h3>
-          <p class="platform-requirements">Ubuntu 24.04 or later, current Arch Linux, or Omarchy · x86_64 · version 0.6.1</p>
+          <p class="platform-requirements">Ubuntu 24.04 or later, current Arch Linux, or Omarchy · x86_64 · version 0.7.11</p>
           <p>The archive bundles LightTable, Python, and the film engines. The desktop libraries come from your distribution, so install GTK 3 and WebKitGTK 4.1 first. Extract the archive and run its <code>install.sh</code>, which adds a desktop launcher and commands in <code>~/.local/bin</code>.</p>
           <div class="linux-download-actions">
             <a class="button button-primary" href="linux.html">Linux installation</a>
-            <a href="https://github.com/reville/lighttable-digital-darkroom/releases/tag/v0.6.1">View the Linux release</a>
+            <a href="https://github.com/reville/lighttable-digital-darkroom/releases/tag/v0.7.11">View the Linux release</a>
           </div>
         </div>
 
@@ -131,7 +148,7 @@ sudo pacman -U lighttable-bin-0.6.0-1-x86_64.pkg.tar.zst</code></pre>
 
         <div class="platform-option">
           <h3>Install with npm</h3>
-          <p class="platform-requirements">Node.js 20 or later · installs the Windows x64 desktop release · package version 0.6.1</p>
+          <p class="platform-requirements">Node.js 20 or later · installs the Windows x64 desktop release · package version 0.7.11</p>
           <pre><code>npm install --global lighttable-digital-darkroom
 lighttable install</code></pre>
           <p>For a one-off installation without adding a global command:</p>
@@ -147,10 +164,8 @@ lighttable install</code></pre>
         <h2 id="pending-title">Not available yet</h2>
         <p>These channels are in preparation. They are listed here so you know they are coming, not because you can install from them today.</p>
         <ul class="platform-pending">
-          <li><strong>Homebrew</strong><span>A stable Homebrew cask is not published yet.</span></li>
-          <li><strong>Scoop</strong><span>A Windows bucket is prepared. It is not open to the public yet.</span></li>
+          <li><strong>Homebrew stable</strong><span>A stable cask is not published yet. The <a href="https://github.com/reville/homebrew-lighttable">beta cask</a> is available.</span></li>
           <li><strong>WinGet</strong><span>A submission for the Windows 0.6.1 release is open and awaiting review by the community maintainers.</span></li>
-          <li><strong>Microsoft Store</strong><span>Account verification is under review. The website installer is a separate download.</span></li>
           <li><strong>Mac App Store</strong><span>Not submitted. A Store build needs sandboxing and entitlements beyond a signed release.</span></li>
           <li><strong>Snap Store</strong><span>A candidate is uploaded and passed review checks, with one approval gate outstanding at Canonical.</span></li>
           <li><strong>AUR</strong><span>A recipe is prepared. Publication waits on account registration reopening.</span></li>

@@ -1,4 +1,4 @@
-import { releaseManifest } from './release-data.mjs?release=f54bd39f72d3c2aa';
+import { releaseManifest } from './release-data.mjs?release=505bdd53db9abf16';
 import { selectedPlatform, requestedPlatform, platformLabels, platformLink } from './platform.mjs?v=20260908-text';
 
 // Trusted site copy only. Markup is limited to existing links and inline code.
